@@ -1454,7 +1454,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &556747999
 Transform:
   m_ObjectHideFlags: 0
@@ -2396,12 +2396,12 @@ GameObject:
   - component: {fileID: 1018921054}
   - component: {fileID: 1018921053}
   m_Layer: 0
-  m_Name: Light 2D
+  m_Name: LuzLinterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1018921053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3854,6 +3854,7 @@ GameObject:
   - component: {fileID: 1992938270}
   - component: {fileID: 1992938269}
   - component: {fileID: 1992938272}
+  - component: {fileID: 1992938273}
   m_Layer: 0
   m_Name: Jugador Movimiento basico
   m_TagString: Player
@@ -4031,6 +4032,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac4fc04bc35595940a6e4b6a23e54928, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1992938273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992938265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9095d0ceaa48fb541a888750eb19bf03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LuzArea: {fileID: 556747998}
+  LuzLinterna: {fileID: 1018921052}
+  aceite: 100
 --- !u!1 &2012272661
 GameObject:
   m_ObjectHideFlags: 0
