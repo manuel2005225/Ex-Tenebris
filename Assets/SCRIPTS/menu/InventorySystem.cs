@@ -19,6 +19,7 @@ public class InventorySystem : MonoBehaviour
 
     // Diccionario para almacenar los objetos en el inventario por su ID
     private Dictionary<int, GameObject> inventoryItems = new Dictionary<int, GameObject>();
+    private bool isPaused = false;
 
     // Prefabs de los objetos que pueden estar en el inventario
     public GameObject[] itemPrefabs;
@@ -72,29 +73,30 @@ public class InventorySystem : MonoBehaviour
     // Mostrar u ocultar el inventario
 void ToggleInventory()
 {
-    if (inventoryPanel != null)
+    // Cambia el estado del panel
+    inventoryPanel.SetActive(!inventoryPanel.activeSelf);
+    
+    // Actualiza el estado de pausa
+    isPaused = inventoryPanel.activeSelf;
+    
+    // Controla el tiempo del juego
+    if (isPaused)
     {
-        bool currentState = inventoryPanel.activeSelf;
-
-        // Cambia el estado del inventario
-        inventoryPanel.SetActive(!currentState);
-
-        // PAUSAR / REANUDAR el juego
-        if (inventoryPanel.activeSelf)
-        {
-            Time.timeScale = 0; // Pausar el tiempo del juego
-            Debug.Log("Juego pausado. Solo se puede usar el inventario.");
-        }
-        else
-        {
-            Time.timeScale = 1; // Reanudar el tiempo del juego
-            Debug.Log("Juego reanudado.");
-        }
+        // Pausa el juego cuando el inventario está abierto
+        Time.timeScale = 0f;
+        Debug.Log("Juego pausado - Inventario abierto");
     }
     else
     {
-        Debug.LogError("No hay referencia al panel de inventario");
+        // Reanuda el juego cuando el inventario está cerrado
+        Time.timeScale = 1f;
+        Debug.Log("Juego reanudado - Inventario cerrado");
     }
+}
+void OnDisable()
+{
+    // Asegurarse de que el juego se reanude si el script se desactiva
+    Time.timeScale = 1f;
 }
 
     // Mover el selector entre slots
