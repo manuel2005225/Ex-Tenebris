@@ -70,19 +70,26 @@ public class InventorySystem : MonoBehaviour
     }
 
     // Mostrar u ocultar el inventario
-    void ToggleInventory()
+void ToggleInventory()
 {
-    // Comprueba que tenemos la referencia
     if (inventoryPanel != null)
     {
-        // Guarda el estado actual en una variable local
         bool currentState = inventoryPanel.activeSelf;
-        
-        // Cambia al estado opuesto
+
+        // Cambia el estado del inventario
         inventoryPanel.SetActive(!currentState);
-        
-        // Depuración
-        Debug.Log("Inventario cambiado de " + currentState + " a " + inventoryPanel.activeSelf);
+
+        // PAUSAR / REANUDAR el juego
+        if (inventoryPanel.activeSelf)
+        {
+            Time.timeScale = 0; // Pausar el tiempo del juego
+            Debug.Log("Juego pausado. Solo se puede usar el inventario.");
+        }
+        else
+        {
+            Time.timeScale = 1; // Reanudar el tiempo del juego
+            Debug.Log("Juego reanudado.");
+        }
     }
     else
     {

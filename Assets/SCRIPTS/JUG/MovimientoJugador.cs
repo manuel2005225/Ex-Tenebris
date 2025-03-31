@@ -8,7 +8,6 @@ public class MovimientoJugador : MonoBehaviour
 
     private float rotacion;
 
- 
 
     private Vector2 VectorMovimiento;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,6 +20,11 @@ public class MovimientoJugador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Time.timeScale == 0)
+        {
+            VectorMovimiento = Vector2.zero; // Detener el movimiento
+            return;
+        }
 
         if(rotacion >= 180 || rotacion < 0 ){
 
