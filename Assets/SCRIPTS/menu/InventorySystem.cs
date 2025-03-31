@@ -121,39 +121,53 @@ public class InventorySystem : MonoBehaviour
     }
 
     // Añadir un objeto al inventario por su ID
-    public void AddItem(int itemID)
+public void AddItem(int itemID)
+{
+    for (int i = 0; i < slots.Length; i++)
     {
-        // Buscar el primer slot vacío
-        for (int i = 0; i < slots.Length; i++)
+        if (!inventoryItems.ContainsKey(i))
         {
-            if (!inventoryItems.ContainsKey(i))
+            if (itemID >= 0 && itemID < itemPrefabs.Length)
             {
-                // Verificar que el ID del objeto sea válido
-                if (itemID >= 0 && itemID < itemPrefabs.Length)
+                // Instanciar el objeto en el slot
+                GameObject newItem = Instantiate(itemPrefabs[itemID], slots[i].transform);
+                newItem.transform.localPosition = Vector3.zero;
+                newItem.transform.localScale = Vector3.one;
+
+                // Obtener la imagen del objeto
+                InventoryItem itemComponent = newItem.GetComponent<InventoryItem>();
+                if (itemComponent != null)
                 {
-                    // Instanciar el objeto en el slot
-                    GameObject newItem = Instantiate(itemPrefabs[itemID], slots[i].transform);
-                    
-                    // Ajustar la posición y escala del objeto
-                    newItem.transform.localPosition = Vector3.zero;
-                    newItem.transform.localScale = Vector3.one;
-                    
-                    // Almacenar el objeto en el diccionario
-                    inventoryItems[i] = newItem;
-                    
-                    Debug.Log("Objeto con ID " + itemID + " añadido al inventario en el slot " + i);
-                    return;
+                    // Buscar el objeto `ItemImage` dentro del slot actual
+                    Transform itemImageTransform = slots[i].transform.Find("ItemImage");
+                    if (itemImageTransform != null)
+                    {
+                        Image itemImage = itemImageTransform.GetComponent<Image>();
+                        if (itemImage != null)
+                        {
+                            itemImage.sprite = itemComponent.itemSprite; // Asignar imagen del ítem
+                            itemImage.enabled = true; // Asegurar que la imagen se active
+                        }
+                    }
                 }
-                else
-                {
-                    Debug.LogError("ID de objeto no válido: " + itemID);
-                    return;
-                }
+
+                // Almacenar el objeto en el inventario
+                inventoryItems[i] = newItem;
+
+                Debug.Log("Objeto con ID " + itemID + " añadido al inventario en el slot " + (i + 1));
+                return;
+            }
+            else
+            {
+                Debug.LogError("ID de objeto no válido: " + itemID);
+                return;
             }
         }
-        
-        Debug.Log("Inventario lleno. No se puede añadir el objeto.");
     }
+
+    Debug.Log("Inventario lleno. No se puede añadir el objeto.");
+}
+
 
     // Usar el objeto seleccionado actualmente
     void UseCurrentItem()

@@ -1,46 +1,58 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ItemPickup : MonoBehaviour
 {
-    // ID del objeto que representa
-    public int itemID;
-    
-    // Referencia al sistema de inventario
+    private bool playerInRange = false;
     private InventorySystem inventory;
-    
+    private InventoryItem item; // Referencia al script del objeto
+
     void Start()
     {
-        // Buscar el sistema de inventario en la escena
         inventory = FindObjectOfType<InventorySystem>();
-        
+        item = GetComponent<InventoryItem>();
+
         if (inventory == null)
         {
-            Debug.LogError("¡No se encontró el sistema de inventario en la escena!");
+            Debug.LogError("No se encontró el InventorySystem en la escena.");
         }
-    }
-    
-    // Método para recoger el objeto
-    public void PickUp()
-    {
-        if (inventory != null)
+        if (item == null)
         {
-            // Añadir el objeto al inventario
-            inventory.AddItem(itemID);
-            
-            // Destruir el objeto del mundo
-            Destroy(gameObject);
+            Debug.LogError("El objeto no tiene un componente InventoryItem.");
         }
     }
-    
-    // Ejemplo de detección de interacción con el objeto
-    void OnTriggerEnter(Collider other)
+
+    void Update()
     {
-        // Verificar si es el jugador
-        if (other.CompareTag("Player"))
+        if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
             PickUp();
+        }
+    }
+
+    void PickUp()
+    {
+        if (inventory != null && item != null)
+        {
+            inventory.AddItem(item.itemID); // Envía el ID del objeto al inventario
+            Destroy(gameObject); // Elimina el objeto del mundo
+            Debug.Log("Item recogido: " + item.itemName);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInRange = true;
+            Debug.Log("Presiona E para recoger " + (item != null ? item.itemName : "Objeto"));
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInRange = false;
         }
     }
 }
