@@ -21,8 +21,14 @@ public class Desaparecer : MonoBehaviour
         // Verifica que la referencia sea válida antes de usarla
         if (Camascript != null)
         {
-            // Si ValorDiayNoche es false, desactiva el objeto. Si es true, lo activa.
-            this.gameObject.SetActive(Camascript.ValorDiayNoche);
+            // Si ValorDiayNoche es false, desactiva los hijos. Si es true, los activa.
+            bool shouldActivate = !Camascript.ValorDiayNoche;
+            
+            // Recorrer todos los hijos y activar/desactivar
+            foreach (Transform child in transform)
+            {
+                child.gameObject.SetActive(shouldActivate);
+            }
         }
     }
 }
