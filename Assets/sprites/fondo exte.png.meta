@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 074e34c083016414fba7e4377ab6f8e1
+guid: 0ad8206589241784f917de319dabaf61
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -896291038790242148
-    second: ForteaSPritedenuevo_0
-  - first:
-      213: 8993914140177831515
-    second: ForteaSPritedenuevo_1
-  - first:
-      213: -1287774737726805285
-    second: ForteaSPritedenuevo_2
+      213: -309979862294386389
+    second: fondo exte_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ForteaSPritedenuevo_0
+      name: fondo exte_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 51
-        height: 420
+        width: 1105
+        height: 496
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c90ba898c0cbf83f0800000000000000
-      internalID: -896291038790242148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ForteaSPritedenuevo_1
-      rect:
-        serializedVersion: 2
-        x: 116
-        y: 27
-        width: 216
-        height: 362
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5699a9324dc0dc70800000000000000
-      internalID: 8993914140177831515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ForteaSPritedenuevo_2
-      rect:
-        serializedVersion: 2
-        x: 373
-        y: 0
-        width: 47
-        height: 420
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bda621fe2b7e02ee0800000000000000
-      internalID: -1287774737726805285
+      spriteID: b292b6425fab2bbf0800000000000000
+      internalID: -309979862294386389
       vertices: []
       indices: 
       edges: []
@@ -184,10 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      ForteaSPritedenuevo_0: -896291038790242148
-      ForteaSPritedenuevo_1: 8993914140177831515
-      ForteaSPritedenuevo_2: -1287774737726805285
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
