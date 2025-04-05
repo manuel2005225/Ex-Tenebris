@@ -1,4 +1,4 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -27,6 +27,9 @@ public class InventorySystem : MonoBehaviour
     // Referencia al objeto jugador
     public Transform player;
 
+    public Text descriptionText;  // Referencia al texto que muestra la descripción
+
+
     void Start()
     {
         // Ocultar el inventario al inicio
@@ -48,9 +51,9 @@ public class InventorySystem : MonoBehaviour
         if (!isPaused)
         {
             // Aquí va la lógica normal de rotación del jugador
-            player.Rotate(Vector3.up * 50f * Time.deltaTime); // Ejemplo de rotación
+            player.Rotate(Vector3.up * 50f * Time.deltaTime); 
         }
-
+                    
         // Solo procesar entradas si el inventario está activo
         if (inventoryPanel.activeSelf)
         {
@@ -90,11 +93,21 @@ public class InventorySystem : MonoBehaviour
         {
             Time.timeScale = 0f;
             Debug.Log("Juego pausado - Inventario abierto");
+
+            if (descriptionText != null)
+            {
+                descriptionText.text = "Selecciona un ítem para ver su descripción.";
+            }
         }
         else
         {
             Time.timeScale = 1f;
             Debug.Log("Juego reanudado - Inventario cerrado");
+
+            if (descriptionText != null)
+            {
+                descriptionText.text = ""; // Limpiar descripción al cerrar inventario
+            }
         }
     }
 
@@ -116,6 +129,7 @@ public class InventorySystem : MonoBehaviour
         {
             currentSlotIndex = newIndex;
             UpdateSelectorPosition();
+            UpdateItemDescription();
         }
     }
 
@@ -167,6 +181,24 @@ public class InventorySystem : MonoBehaviour
         }
 
         Debug.Log("Inventario lleno. No se puede añadir el objeto.");
+    }
+   // Mostrar la descripción del ítem seleccionado
+    void UpdateItemDescription()
+    {
+        if (inventoryItems.ContainsKey(currentSlotIndex))
+        {
+            GameObject item = inventoryItems[currentSlotIndex];
+            InventoryItem itemComponent = item.GetComponent<InventoryItem>();
+
+            if (itemComponent != null)
+            {
+                descriptionText.text = itemComponent.itemDescription;
+            }
+        }
+        else
+        {
+            descriptionText.text = "Selecciona un ítem para ver su descripción.";
+        }
     }
 
     // Usar el objeto seleccionado actualmente
