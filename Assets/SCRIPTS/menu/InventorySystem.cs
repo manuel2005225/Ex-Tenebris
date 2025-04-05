@@ -29,6 +29,7 @@ public class InventorySystem : MonoBehaviour
 
     public Text descriptionText;  // Referencia al texto que muestra la descripción
 
+    public GameObject mapainve;  // Mini mapa que aparece solo con el inventario
 
     void Start()
     {
@@ -94,10 +95,11 @@ public class InventorySystem : MonoBehaviour
             Time.timeScale = 0f;
             Debug.Log("Juego pausado - Inventario abierto");
 
-            if (descriptionText != null)
-            {
-                descriptionText.text = "Selecciona un ítem para ver su descripción.";
-            }
+        if (descriptionText != null)
+            descriptionText.text = "Selecciona un ítem para ver su descripción.";
+
+        if (mapainve != null)
+            mapainve.SetActive(true); // Activar el mapa
         }
         else
         {
@@ -105,9 +107,10 @@ public class InventorySystem : MonoBehaviour
             Debug.Log("Juego reanudado - Inventario cerrado");
 
             if (descriptionText != null)
-            {
-                descriptionText.text = ""; // Limpiar descripción al cerrar inventario
-            }
+                descriptionText.text = "";
+
+            if (mapainve != null)
+              mapainve.SetActive(false); // Ocultar el mapa
         }
     }
 
