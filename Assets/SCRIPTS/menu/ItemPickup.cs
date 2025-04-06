@@ -8,8 +8,18 @@ public class ItemPickup : MonoBehaviour
 
     void Start()
     {
-        inventory = FindObjectOfType<InventorySystem>();
-        item = GetComponent<InventoryItem>();
+        
+    }
+
+    void Update()
+    {
+        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        {
+            PickUp();
+        }
+        if(inventory == null){inventory = FindObjectOfType<InventorySystem>();
+        item = GetComponent<InventoryItem>();}
+        
 
         if (inventory == null)
         {
@@ -18,14 +28,6 @@ public class ItemPickup : MonoBehaviour
         if (item == null)
         {
             Debug.LogError("El objeto no tiene un componente InventoryItem.");
-        }
-    }
-
-    void Update()
-    {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E))
-        {
-            PickUp();
         }
     }
 
