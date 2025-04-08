@@ -7,7 +7,7 @@ public class Desaparecer : MonoBehaviour
 
     void Start()
     {
-        // Obtener la referencia al script ControlDiaNoche
+        // Obtener la referencia al script ControlDiaNoche a
         Camascript = cama.GetComponent<ControlDiaNoche>();
 
         if (Camascript == null)
