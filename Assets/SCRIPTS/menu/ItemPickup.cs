@@ -8,7 +8,8 @@ public class ItemPickup : MonoBehaviour
 
     void Start()
     {
-        
+        inventory = FindObjectOfType<InventorySystem>();
+        item = GetComponent<InventoryItem>();
     }
 
     void Update()
@@ -17,9 +18,15 @@ public class ItemPickup : MonoBehaviour
         {
             PickUp();
         }
-        if(inventory == null){inventory = FindObjectOfType<InventorySystem>();
-        item = GetComponent<InventoryItem>();}
+        if (inventory == null)
+        {
+            inventory = FindObjectOfType<InventorySystem>();
+        }
         
+        if (item == null)
+        {
+            item = GetComponent<InventoryItem>();
+        }
 
         if (inventory == null)
         {
@@ -35,8 +42,15 @@ public class ItemPickup : MonoBehaviour
     {
         if (inventory != null && item != null)
         {
-            inventory.AddItem(item.itemID); // Envía el ID del objeto al inventario
-            Destroy(gameObject); // Elimina el objeto del mundo
+            inventory.AddItem(item.itemID);
+            
+            // Mostrar la notificación
+            if (NotificationManager.instance != null)
+            {
+                NotificationManager.instance.ShowNotification("Se ha recogido " + item.itemName + " del suelo");
+            }
+            
+            Destroy(gameObject);
             Debug.Log("Item recogido: " + item.itemName);
         }
     }
