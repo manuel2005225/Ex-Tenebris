@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: ec5e41e5606514848b2da7e897cc7937
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6296841244263709140
+    second: Medieval_Townfolk_Male_Baker_kneel_diag_0
+  - first:
+      213: -1667672225894834976
+    second: Medieval_Townfolk_Male_Baker_kneel_diag_1
+  - first:
+      213: 7793467212811509820
+    second: Medieval_Townfolk_Male_Baker_kneel_diag_2
+  - first:
+      213: -8758021533517514207
+    second: Medieval_Townfolk_Male_Baker_kneel_diag_3
+  - first:
+      213: 4554764636588182481
+    second: Medieval_Townfolk_Male_Baker_kneel_diag_4
+  - first:
+      213: -5745408692883347902
+    second: Medieval_Townfolk_Male_Baker_kneel_diag_5
+  - first:
+      213: 5974392896892974889
+    second: Medieval_Townfolk_Male_Baker_kneel_diag_6
+  - first:
+      213: 6661577330225942496
+    second: Medieval_Townfolk_Male_Baker_kneel_diag_7
+  - first:
+      213: -4955624599832135196
+    second: Medieval_Townfolk_Male_Baker_kneel_diag_8
+  - first:
+      213: -4948558505050304859
+    second: Medieval_Townfolk_Male_Baker_kneel_diag_9
+  - first:
+      213: 5448035431971995939
+    second: Medieval_Townfolk_Male_Baker_kneel_diag_10
+  - first:
+      213: -5604209194980509035
+    second: Medieval_Townfolk_Male_Baker_kneel_diag_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Male_Baker_kneel_diag_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 397
+        width: 61
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2602ac10402d98a0800000000000000
+      internalID: -6296841244263709140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Male_Baker_kneel_diag_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 393
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecd0cd32fc3bd8e0800000000000000
+      internalID: -1667672225894834976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Male_Baker_kneel_diag_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 395
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30a8447325f72c60800000000000000
+      internalID: 7793467212811509820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Male_Baker_kneel_diag_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 273
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a777731d1457680800000000000000
+      internalID: -8758021533517514207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Male_Baker_kneel_diag_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 270
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db89570e46c53f30800000000000000
+      internalID: 4554764636588182481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Male_Baker_kneel_diag_5
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 265
+        width: 45
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2462f3bfb353440b0800000000000000
+      internalID: -5745408692883347902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Male_Baker_kneel_diag_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 141
+        width: 42
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9273cef9fae49e250800000000000000
+      internalID: 5974392896892974889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Male_Baker_kneel_diag_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 147
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef89eb894da27c50800000000000000
+      internalID: 6661577330225942496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Male_Baker_kneel_diag_8
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 143
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e971d6bea51a3bb0800000000000000
+      internalID: -4955624599832135196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Male_Baker_kneel_diag_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 17
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae0d3c1240335bb0800000000000000
+      internalID: -4948558505050304859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Male_Baker_kneel_diag_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 12
+        width: 46
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321ce664c5f4b9b40800000000000000
+      internalID: 5448035431971995939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Male_Baker_kneel_diag_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 15
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a7536fd69d932b0800000000000000
+      internalID: -5604209194980509035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

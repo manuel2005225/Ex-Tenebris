@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: 47e6295aa34acdd4aabd658b9f6064fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5703094987697336055
+    second: Medieval_Townfolk_Female_Barkeep_dead_0
+  - first:
+      213: 4389443818569616078
+    second: Medieval_Townfolk_Female_Barkeep_dead_1
+  - first:
+      213: -4081569418323008258
+    second: Medieval_Townfolk_Female_Barkeep_dead_2
+  - first:
+      213: 7170157018081954808
+    second: Medieval_Townfolk_Female_Barkeep_dead_3
+  - first:
+      213: 8790267346512339105
+    second: Medieval_Townfolk_Female_Barkeep_dead_4
+  - first:
+      213: -1886957721588481018
+    second: Medieval_Townfolk_Female_Barkeep_dead_5
+  - first:
+      213: 1733578906773124496
+    second: Medieval_Townfolk_Female_Barkeep_dead_6
+  - first:
+      213: 824818490228212017
+    second: Medieval_Townfolk_Female_Barkeep_dead_7
+  - first:
+      213: -5686138510205527207
+    second: Medieval_Townfolk_Female_Barkeep_dead_8
+  - first:
+      213: 9020530242999527184
+    second: Medieval_Townfolk_Female_Barkeep_dead_9
+  - first:
+      213: 2390132158315260431
+    second: Medieval_Townfolk_Female_Barkeep_dead_10
+  - first:
+      213: 984262724477058365
+    second: Medieval_Townfolk_Female_Barkeep_dead_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Female_Barkeep_dead_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 399
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fea20ecca6752f40800000000000000
+      internalID: 5703094987697336055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Female_Barkeep_dead_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 390
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca406f85ef6aec30800000000000000
+      internalID: 4389443818569616078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Female_Barkeep_dead_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 396
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef462c63d3a5b57c0800000000000000
+      internalID: -4081569418323008258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Female_Barkeep_dead_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 274
+        width: 95
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb8c8e91d3818360800000000000000
+      internalID: 7170157018081954808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Female_Barkeep_dead_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 276
+        width: 98
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0659d249d4df970800000000000000
+      internalID: 8790267346512339105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Female_Barkeep_dead_5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 282
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604c98223fd20d5e0800000000000000
+      internalID: -1886957721588481018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Female_Barkeep_dead_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 139
+        width: 95
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0957250b4d8ee0810800000000000000
+      internalID: 1733578906773124496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Female_Barkeep_dead_7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 144
+        width: 98
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1310a3afb08527b00800000000000000
+      internalID: 824818490228212017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Female_Barkeep_dead_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 145
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bd783c627c611b0800000000000000
+      internalID: -5686138510205527207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Female_Barkeep_dead_9
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 7
+        width: 61
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017a7a3967c5f2d70800000000000000
+      internalID: 9020530242999527184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Female_Barkeep_dead_10
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 21
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a6e96d8847b2120800000000000000
+      internalID: 2390132158315260431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Townfolk_Female_Barkeep_dead_11
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 21
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3dfc1aabbdc8ad00800000000000000
+      internalID: 984262724477058365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
