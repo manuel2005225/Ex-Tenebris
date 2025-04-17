@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: 66c83a6548009d640a5d2939b8e1fc5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4063897243087996513
+    second: Medieval_Dungeons_Prisoner_1_prisoner_1_0
+  - first:
+      213: 7287215768429532397
+    second: Medieval_Dungeons_Prisoner_1_prisoner_1_1
+  - first:
+      213: -5928003058131176949
+    second: Medieval_Dungeons_Prisoner_1_prisoner_1_2
+  - first:
+      213: 7469535310377716197
+    second: Medieval_Dungeons_Prisoner_1_prisoner_1_3
+  - first:
+      213: 6050417226113105833
+    second: Medieval_Dungeons_Prisoner_1_prisoner_1_4
+  - first:
+      213: -1815861512046921068
+    second: Medieval_Dungeons_Prisoner_1_prisoner_1_5
+  - first:
+      213: -3762871607557887584
+    second: Medieval_Dungeons_Prisoner_1_prisoner_1_6
+  - first:
+      213: -5333112434745741682
+    second: Medieval_Dungeons_Prisoner_1_prisoner_1_7
+  - first:
+      213: -6510585012550181740
+    second: Medieval_Dungeons_Prisoner_1_prisoner_1_8
+  - first:
+      213: 3053931182201191379
+    second: Medieval_Dungeons_Prisoner_1_prisoner_1_9
+  - first:
+      213: -3420596030521985947
+    second: Medieval_Dungeons_Prisoner_1_prisoner_1_10
+  - first:
+      213: 1862309667331795736
+    second: Medieval_Dungeons_Prisoner_1_prisoner_1_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_Dungeons_Prisoner_1_prisoner_1_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 394
+        width: 60
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16603f9d20dd56830800000000000000
+      internalID: 4063897243087996513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Dungeons_Prisoner_1_prisoner_1_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 394
+        width: 60
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de41edec124612560800000000000000
+      internalID: 7287215768429532397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Dungeons_Prisoner_1_prisoner_1_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 393
+        width: 60
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0279a460a08bbda0800000000000000
+      internalID: -5928003058131176949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Dungeons_Prisoner_1_prisoner_1_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 257
+        width: 64
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e90d4c1ace19a760800000000000000
+      internalID: 7469535310377716197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Dungeons_Prisoner_1_prisoner_1_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 257
+        width: 64
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af3061296667f350800000000000000
+      internalID: 6050417226113105833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Dungeons_Prisoner_1_prisoner_1_5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 257
+        width: 64
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ab32d5393ccc6e0800000000000000
+      internalID: -1815861512046921068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Dungeons_Prisoner_1_prisoner_1_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 128
+        width: 52
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9eb10a53897cbc0800000000000000
+      internalID: -3762871607557887584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Dungeons_Prisoner_1_prisoner_1_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 128
+        width: 52
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ee2c32f7afcf5b0800000000000000
+      internalID: -5333112434745741682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Dungeons_Prisoner_1_prisoner_1_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 128
+        width: 52
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cd6f6fc61c5a5a0800000000000000
+      internalID: -6510585012550181740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Dungeons_Prisoner_1_prisoner_1_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 5
+        width: 63
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db3793da3eb16a20800000000000000
+      internalID: 3053931182201191379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Dungeons_Prisoner_1_prisoner_1_10
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 5
+        width: 63
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56430a8880a9780d0800000000000000
+      internalID: -3420596030521985947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Dungeons_Prisoner_1_prisoner_1_11
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 5
+        width: 63
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b661786c048d910800000000000000
+      internalID: 1862309667331795736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
