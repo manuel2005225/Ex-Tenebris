@@ -53,6 +53,8 @@ public class InteractableObjectWithDependency : MonoBehaviour
             NextPage();
         }
     }
+    
+    
 
     void AttemptInteraction()
     {
@@ -191,8 +193,15 @@ public class InteractableObjectWithDependency : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
+
+            // Ocultar la notificación al salir del trigger
+            if (NotificationManager.instance != null)
+            {
+                NotificationManager.instance.HideNotification();
+            }
         }
     }
+
 
     public void ForceCloseDescription()
     {

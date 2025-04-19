@@ -51,6 +51,14 @@ public class NotificationManager : MonoBehaviour
             StartCoroutine(HideNotificationAfterDelay());
         }
     }
+    public void HideNotification()
+    {
+        if (notificationPanel != null)
+        {
+            notificationPanel.SetActive(false);
+        }
+    }
+
 
     private IEnumerator HideNotificationAfterDelay()
     {
