@@ -1,16 +1,29 @@
 using UnityEngine;
+using Pathfinding;
 
-public class SimpleEnemy : MonoBehaviour
+public class LuzEvadeEnemy : MonoBehaviour
 {
     public Transform player;         // Referencia al jugador
-    public float moveSpeed = 3f;       // Velocidad de movimiento
-    public float checkRadius = 0.5f;   // Radio para comprobar si el jugador está iluminado
+    public float checkRadius = 0.5f; // Radio para comprobar si está iluminado
+
+    private AIPath aiPath;
+    private AIDestinationSetter destino;
+
+    void Start()
+    {
+        aiPath = GetComponent<AIPath>();
+        destino = GetComponent<AIDestinationSetter>();
+
+        // Inicialmente no lo sigue
+        destino.target = null;
+    }
 
     void Update()
     {
-        // Verifica si hay algún objeto con el tag "PlayerLight" alrededor del jugador
+        // Verifica si hay luz cerca del jugador
         Collider2D[] colliders = Physics2D.OverlapCircleAll(player.position, checkRadius);
         bool isIlluminated = false;
+
         foreach (Collider2D col in colliders)
         {
             if (col.CompareTag("PlayerLight"))
@@ -20,19 +33,25 @@ public class SimpleEnemy : MonoBehaviour
             }
         }
 
-        // Si el jugador NO está iluminado, el enemigo se mueve hacia él
         if (!isIlluminated)
         {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
+            // Comienza a perseguir
+            destino.target = player;
+            aiPath.canMove = true;
+        }
+        else
+        {
+            // Deja de moverse
+            destino.target = null;
+            aiPath.canMove = false;
         }
     }
 
-    // (Opcional) Para visualizar el área de comprobación en la escena
     private void OnDrawGizmosSelected()
     {
         if (player != null)
         {
-            Gizmos.color = Color.yellow;
+            Gizmos.color = Color.cyan;
             Gizmos.DrawWireSphere(player.position, checkRadius);
         }
     }
