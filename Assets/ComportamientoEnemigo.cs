@@ -6,7 +6,7 @@ public class EnemigoConLuz : MonoBehaviour
     public Transform jugador;
     public Transform[] puntosPatrulla;
     private int indiceActual = 0;
-    private bool enLuz = false;
+    public bool enLuz = false;
 
     private AIPath aiPath;
     private AIDestinationSetter destino;
