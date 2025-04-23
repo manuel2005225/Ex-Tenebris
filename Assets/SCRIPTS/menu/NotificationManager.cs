@@ -51,6 +51,24 @@ public class NotificationManager : MonoBehaviour
             StartCoroutine(HideNotificationAfterDelay());
         }
     }
+    // Mostrar una notificación con duración personalizada
+    public void ShowNotification(string message, float customDuration)
+    {
+        if (notificationPanel != null && notificationText != null)
+        {
+            StopAllCoroutines();
+            notificationText.text = message;
+            notificationPanel.SetActive(true);
+            StartCoroutine(HideNotificationAfterDelay(customDuration));
+        }
+    }
+
+    private IEnumerator HideNotificationAfterDelay(float duration)
+    {
+        yield return new WaitForSecondsRealtime(duration);
+        notificationPanel.SetActive(false);
+    }
+
     public void HideNotification()
     {
         if (notificationPanel != null)

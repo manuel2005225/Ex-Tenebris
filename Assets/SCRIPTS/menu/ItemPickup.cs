@@ -18,11 +18,12 @@ public class ItemPickup : MonoBehaviour
         {
             PickUp();
         }
+
         if (inventory == null)
         {
             inventory = FindObjectOfType<InventorySystem>();
         }
-        
+
         if (item == null)
         {
             item = GetComponent<InventoryItem>();
@@ -32,6 +33,7 @@ public class ItemPickup : MonoBehaviour
         {
             Debug.LogError("No se encontró el InventorySystem en la escena.");
         }
+
         if (item == null)
         {
             Debug.LogError("El objeto no tiene un componente InventoryItem.");
@@ -43,13 +45,13 @@ public class ItemPickup : MonoBehaviour
         if (inventory != null && item != null)
         {
             inventory.AddItem(item.itemID);
-            
-            // Mostrar la notificación
+
+            // Mostrar notificación de recogida durante 2.5 segundos
             if (NotificationManager.instance != null)
             {
-                NotificationManager.instance.ShowNotification("Se ha recogido " + item.itemName + " del suelo");
+                NotificationManager.instance.ShowNotification("Se ha recogido " + item.itemName + " del suelo", 2.5f);
             }
-            
+
             Destroy(gameObject);
             Debug.Log("Item recogido: " + item.itemName);
         }
@@ -60,6 +62,12 @@ public class ItemPickup : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = true;
+
+            if (NotificationManager.instance != null && item != null)
+            {
+                NotificationManager.instance.ShowNotification("Presiona E para recoger " + item.itemName);
+            }
+
             Debug.Log("Presiona E para recoger " + (item != null ? item.itemName : "Objeto"));
         }
     }
@@ -69,6 +77,12 @@ public class ItemPickup : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
+
+            // Ocultar notificación al alejarse
+            if (NotificationManager.instance != null)
+            {
+                NotificationManager.instance.HideNotification();
+            }
         }
     }
 }
