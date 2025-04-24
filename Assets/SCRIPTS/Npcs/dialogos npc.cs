@@ -135,7 +135,7 @@ public class NPCDialogueHandler : MonoBehaviour
         }
         else
         {
-            lines[i] = $"<color=#000000>{line}</color>"; // Negro (NPC)
+            lines[i] = $"<color=#ffffff>{line}</color>"; // Negro (NPC)
         }
     }
 
