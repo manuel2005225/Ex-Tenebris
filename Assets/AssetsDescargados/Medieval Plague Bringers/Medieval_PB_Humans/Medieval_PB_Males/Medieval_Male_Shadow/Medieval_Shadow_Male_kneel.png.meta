@@ -1,0 +1,805 @@
+fileFormatVersion: 2
+guid: f45c04f3b212309469a49a24cbdc9c79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7931649476332935001
+    second: Medieval_Shadow_Male_kneel_0
+  - first:
+      213: 7755700079109546411
+    second: Medieval_Shadow_Male_kneel_1
+  - first:
+      213: -5123118376367727689
+    second: Medieval_Shadow_Male_kneel_2
+  - first:
+      213: -8827415492571315927
+    second: Medieval_Shadow_Male_kneel_3
+  - first:
+      213: 1780311636585252375
+    second: Medieval_Shadow_Male_kneel_4
+  - first:
+      213: 5493614016740088593
+    second: Medieval_Shadow_Male_kneel_5
+  - first:
+      213: 8428953131094533123
+    second: Medieval_Shadow_Male_kneel_6
+  - first:
+      213: 1097966826387437829
+    second: Medieval_Shadow_Male_kneel_7
+  - first:
+      213: -378190087452012808
+    second: Medieval_Shadow_Male_kneel_8
+  - first:
+      213: 6632906125759771672
+    second: Medieval_Shadow_Male_kneel_9
+  - first:
+      213: 6484646652732455703
+    second: Medieval_Shadow_Male_kneel_10
+  - first:
+      213: -6637396619535970884
+    second: Medieval_Shadow_Male_kneel_11
+  - first:
+      213: -3952266348159638457
+    second: Medieval_Shadow_Male_kneel_12
+  - first:
+      213: 3073518102267419231
+    second: Medieval_Shadow_Male_kneel_13
+  - first:
+      213: -6275489345490012983
+    second: Medieval_Shadow_Male_kneel_14
+  - first:
+      213: 4493258455435355263
+    second: Medieval_Shadow_Male_kneel_15
+  - first:
+      213: -6604144300027047263
+    second: Medieval_Shadow_Male_kneel_16
+  - first:
+      213: 6327994268912196775
+    second: Medieval_Shadow_Male_kneel_17
+  - first:
+      213: 1365050255084130517
+    second: Medieval_Shadow_Male_kneel_18
+  - first:
+      213: -3141358708383475083
+    second: Medieval_Shadow_Male_kneel_19
+  - first:
+      213: 3663122628814467711
+    second: Medieval_Shadow_Male_kneel_20
+  - first:
+      213: -8936341785048414218
+    second: Medieval_Shadow_Male_kneel_21
+  - first:
+      213: -4451655705424776580
+    second: Medieval_Shadow_Male_kneel_22
+  - first:
+      213: -1156633349548451852
+    second: Medieval_Shadow_Male_kneel_23
+  - first:
+      213: 6337714704210263142
+    second: Medieval_Shadow_Male_kneel_24
+  - first:
+      213: 5777293515590990449
+    second: Medieval_Shadow_Male_kneel_25
+  - first:
+      213: -6422996408473112782
+    second: Medieval_Shadow_Male_kneel_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 412
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957dcbfcc21e21e60800000000000000
+      internalID: 7931649476332935001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 403
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba12bc76128c1ab60800000000000000
+      internalID: 7755700079109546411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 409
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb535aeaf607e8b0800000000000000
+      internalID: -5123118376367727689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 405
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921c1801168be7580800000000000000
+      internalID: -8827415492571315927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_4
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 397
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71688204000f4b810800000000000000
+      internalID: 1780311636585252375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_5
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 401
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b56e087dc3d3c40800000000000000
+      internalID: 5493614016740088593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_6
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 392
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3046e47d638a9f470800000000000000
+      internalID: 8428953131094533123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 272
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5097cf5e203cc3f00800000000000000
+      internalID: 1097966826387437829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_8
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 269
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe49d38e1660caf0800000000000000
+      internalID: -378190087452012808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_9
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 292
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8147c6e8af0dc0c50800000000000000
+      internalID: 6632906125759771672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 285
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b3b0606c71ef950800000000000000
+      internalID: 6484646652732455703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_11
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 273
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd0e23e0fa33e3a0800000000000000
+      internalID: -6637396619535970884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_12
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 280
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744e63442bab629c0800000000000000
+      internalID: -3952266348159638457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_13
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 280
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ad1680e6457aa20800000000000000
+      internalID: 3073518102267419231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_14
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 267
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4b15270bbf8e8a0800000000000000
+      internalID: -6275489345490012983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 144
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74ae3842c24b5e30800000000000000
+      internalID: 4493258455435355263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_16
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a29777dfbd5954a0800000000000000
+      internalID: -6604144300027047263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_17
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 148
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac183ba24d81d750800000000000000
+      internalID: 6327994268912196775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_18
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 138
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d098d289f1a1f210800000000000000
+      internalID: 1365050255084130517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_19
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 31
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a19baf5e6a764d0800000000000000
+      internalID: -3141358708383475083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_20
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 21
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f727e237f9606d230800000000000000
+      internalID: 3663122628814467711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_21
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 21
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f785b64e7cbbf380800000000000000
+      internalID: -8936341785048414218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_22
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 24
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72b0d7c8ba8832c0800000000000000
+      internalID: -4451655705424776580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_23
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 13
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f75bc0c810d2ffe0800000000000000
+      internalID: -1156633349548451852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_24
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cf830e1f514f750800000000000000
+      internalID: 6337714704210263142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_25
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 10
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17af7ffc7d11d2050800000000000000
+      internalID: 5777293515590990449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_kneel_26
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 6
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fa9570cceecd6a0800000000000000
+      internalID: -6422996408473112782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

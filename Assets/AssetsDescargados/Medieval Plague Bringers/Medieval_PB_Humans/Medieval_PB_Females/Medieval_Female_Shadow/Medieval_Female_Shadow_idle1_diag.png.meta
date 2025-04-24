@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 140b184d04968a34c894457347bc51dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3666086723942806022
+    second: Medieval_Female_Shadow_idle1_diag_0
+  - first:
+      213: -6180158779593776587
+    second: Medieval_Female_Shadow_idle1_diag_1
+  - first:
+      213: 4420670781626094131
+    second: Medieval_Female_Shadow_idle1_diag_2
+  - first:
+      213: -7776059373877544591
+    second: Medieval_Female_Shadow_idle1_diag_3
+  - first:
+      213: -7196321262830300729
+    second: Medieval_Female_Shadow_idle1_diag_4
+  - first:
+      213: 1457279423848996927
+    second: Medieval_Female_Shadow_idle1_diag_5
+  - first:
+      213: 5051587845569790098
+    second: Medieval_Female_Shadow_idle1_diag_6
+  - first:
+      213: -7871198783758289069
+    second: Medieval_Female_Shadow_idle1_diag_7
+  - first:
+      213: -1932536890143728761
+    second: Medieval_Female_Shadow_idle1_diag_8
+  - first:
+      213: 3238805425649653159
+    second: Medieval_Female_Shadow_idle1_diag_9
+  - first:
+      213: 8010473933122872943
+    second: Medieval_Female_Shadow_idle1_diag_10
+  - first:
+      213: -2425039002293459971
+    second: Medieval_Female_Shadow_idle1_diag_11
+  - first:
+      213: 3496775639939339742
+    second: Medieval_Female_Shadow_idle1_diag_12
+  - first:
+      213: 7289115299715259685
+    second: Medieval_Female_Shadow_idle1_diag_13
+  - first:
+      213: 8249595648590983607
+    second: Medieval_Female_Shadow_idle1_diag_14
+  - first:
+      213: 6717677576456886652
+    second: Medieval_Female_Shadow_idle1_diag_15
+  - first:
+      213: 4014394084118425132
+    second: Medieval_Female_Shadow_idle1_diag_16
+  - first:
+      213: 8564413677871657545
+    second: Medieval_Female_Shadow_idle1_diag_17
+  - first:
+      213: -8453124176915204053
+    second: Medieval_Female_Shadow_idle1_diag_18
+  - first:
+      213: 304955097930151810
+    second: Medieval_Female_Shadow_idle1_diag_19
+  - first:
+      213: 7578843963609819854
+    second: Medieval_Female_Shadow_idle1_diag_20
+  - first:
+      213: -3547870680005947770
+    second: Medieval_Female_Shadow_idle1_diag_21
+  - first:
+      213: -5558687511107889162
+    second: Medieval_Female_Shadow_idle1_diag_22
+  - first:
+      213: -6785562685013625430
+    second: Medieval_Female_Shadow_idle1_diag_23
+  - first:
+      213: -3045119339600657150
+    second: Medieval_Female_Shadow_idle1_diag_24
+  - first:
+      213: 200676664300827383
+    second: Medieval_Female_Shadow_idle1_diag_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 402
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd0d9f5c817f1dc0800000000000000
+      internalID: -3666086723942806022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 407
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5322dc6755aab3aa0800000000000000
+      internalID: -6180158779593776587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 402
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33295c777a0695d30800000000000000
+      internalID: 4420670781626094131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 407
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179bea3e233e51490800000000000000
+      internalID: -7776059373877544591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_4
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 402
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1d86f60f7812c90800000000000000
+      internalID: -7196321262830300729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 407
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30610d3aeb493410800000000000000
+      internalID: 1457279423848996927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 276
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2904ede8168da1640800000000000000
+      internalID: 5051587845569790098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 287
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357b999d862e3c290800000000000000
+      internalID: -7871198783758289069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 281
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b15abffef3e25e0800000000000000
+      internalID: -1932536890143728761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_9
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 273
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5947cef5c82fc20800000000000000
+      internalID: 3238805425649653159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 281
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66a052d99bea2f60800000000000000
+      internalID: 8010473933122872943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_11
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 276
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3a4d530e7885ed0800000000000000
+      internalID: -2425039002293459971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_12
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 287
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5d2d5faea078030800000000000000
+      internalID: 3496775639939339742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_13
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 281
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d9466eeb3282560800000000000000
+      internalID: 7289115299715259685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 146
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1bfdeb8837c7270800000000000000
+      internalID: 8249595648590983607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 155
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79d15cf92cf93d50800000000000000
+      internalID: 6717677576456886652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_16
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 146
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2eee4c762ef5b730800000000000000
+      internalID: 4014394084118425132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_17
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 155
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94279032dd8ead670800000000000000
+      internalID: 8564413677871657545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_18
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 146
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28f3b0095870ba80800000000000000
+      internalID: -8453124176915204053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_19
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 155
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287329cbb0b6b3400800000000000000
+      internalID: 304955097930151810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_20
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 31
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecaa3133e667d2960800000000000000
+      internalID: 7578843963609819854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 24
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ec839f96e63cec0800000000000000
+      internalID: -3547870680005947770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_22
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 26
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7930be8239bd2b0800000000000000
+      internalID: -5558687511107889162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_23
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 17
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5fd9e70b6d4d1a0800000000000000
+      internalID: -6785562685013625430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_24
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 31
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2054e6828109db5d0800000000000000
+      internalID: -3045119339600657150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_idle1_diag_25
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 24
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f27c5aec52f8c200800000000000000
+      internalID: 200676664300827383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

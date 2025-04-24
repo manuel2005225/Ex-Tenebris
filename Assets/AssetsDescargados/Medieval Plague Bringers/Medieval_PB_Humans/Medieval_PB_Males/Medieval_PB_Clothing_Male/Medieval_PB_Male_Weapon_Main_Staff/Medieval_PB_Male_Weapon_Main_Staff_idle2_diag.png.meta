@@ -1,0 +1,680 @@
+fileFormatVersion: 2
+guid: d1d09a8f0b5f8f74c84c5a2259b0ce8b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8252583694967464311
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_0
+  - first:
+      213: 3293465804414538341
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_1
+  - first:
+      213: 3034008370904245519
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_2
+  - first:
+      213: 926739659453577813
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_3
+  - first:
+      213: -3603542399886329201
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_4
+  - first:
+      213: 2325368599571655932
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_5
+  - first:
+      213: 2952481639045835301
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_6
+  - first:
+      213: -9116458720587425024
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_7
+  - first:
+      213: -6768996854872053938
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_8
+  - first:
+      213: 5566611242175466166
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_9
+  - first:
+      213: 2543065972773484481
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_10
+  - first:
+      213: 3119131590884770651
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_11
+  - first:
+      213: -8984748564490494217
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_12
+  - first:
+      213: -3687636479938767415
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_13
+  - first:
+      213: -9099558597663239784
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_14
+  - first:
+      213: -5588889378573602617
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_15
+  - first:
+      213: 685767861877413923
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_16
+  - first:
+      213: 7924077610929559609
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_17
+  - first:
+      213: -4108663938910443077
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_18
+  - first:
+      213: 5848455763178293077
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_19
+  - first:
+      213: -8865039495220315783
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_20
+  - first:
+      213: -7095215766803379753
+    second: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 468
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77167b18521178270800000000000000
+      internalID: 8252583694967464311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 467
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562560813bdb4bd20800000000000000
+      internalID: 3293465804414538341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_2
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 467
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f052f49d986fa1a20800000000000000
+      internalID: 3034008370904245519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_3
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 424
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a3ff86fc07cdc00800000000000000
+      internalID: 926739659453577813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_4
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 424
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a77b99745adfdc0800000000000000
+      internalID: -3603542399886329201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_5
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 425
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfce055cb6e554020800000000000000
+      internalID: 2325368599571655932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 293
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52aa035686259f820800000000000000
+      internalID: 2952481639045835301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 294
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bdfdd3815db7180800000000000000
+      internalID: -9116458720587425024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_8
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 320
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e476d936931bf02a0800000000000000
+      internalID: -6768996854872053938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_9
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 294
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba809c7e63904d40800000000000000
+      internalID: 5566611242175466166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 182
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7fb8b4709ca4320800000000000000
+      internalID: 2543065972773484481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 183
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53c262f7a1694b20800000000000000
+      internalID: 3119131590884770651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_12
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 182
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fed759a8c2cf4380800000000000000
+      internalID: -8984748564490494217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 151
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c55a70d822e2dcc0800000000000000
+      internalID: -3687636479938767415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 151
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8915e6dbaafd7b180800000000000000
+      internalID: -9099558597663239784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_15
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 151
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0ba2da8b64072b0800000000000000
+      internalID: -5588889378573602617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 28
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328159dac36548900800000000000000
+      internalID: 685767861877413923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_17
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 47
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93815148a9af7fd60800000000000000
+      internalID: 7924077610929559609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_18
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 28
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb929cb8ae71bf6c0800000000000000
+      internalID: -4108663938910443077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_19
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 47
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55704d8b783e92150800000000000000
+      internalID: 5848455763178293077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_20
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 28
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979b59f4c8d09f480800000000000000
+      internalID: -8865039495220315783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_idle2_diag_21
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 47
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d90fe62adab88d90800000000000000
+      internalID: -7095215766803379753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

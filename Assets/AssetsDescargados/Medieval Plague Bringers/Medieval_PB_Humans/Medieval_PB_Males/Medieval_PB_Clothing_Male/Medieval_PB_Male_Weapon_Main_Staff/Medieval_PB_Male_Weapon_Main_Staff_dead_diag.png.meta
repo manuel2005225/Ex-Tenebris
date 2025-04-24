@@ -1,0 +1,680 @@
+fileFormatVersion: 2
+guid: 0b55b2a3dee332f45bef936a17350f01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1647973605902008440
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_0
+  - first:
+      213: -8652813638108000077
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_1
+  - first:
+      213: -6252358605022428161
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_2
+  - first:
+      213: -3487945434604385743
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_3
+  - first:
+      213: -8520487183766009166
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_4
+  - first:
+      213: -2383611707791242938
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_5
+  - first:
+      213: 5699157175601693665
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_6
+  - first:
+      213: 7199207280032644872
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_7
+  - first:
+      213: 2104532040616423869
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_8
+  - first:
+      213: 2740927890977964968
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_9
+  - first:
+      213: -1810132838831947302
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_10
+  - first:
+      213: 2748925805121349916
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_11
+  - first:
+      213: 4159056922932481989
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_12
+  - first:
+      213: -8877358431565190662
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_13
+  - first:
+      213: 8910902188301377020
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_14
+  - first:
+      213: -5028422647557942617
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_15
+  - first:
+      213: 477101508461534841
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_16
+  - first:
+      213: 6725461510826756527
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_17
+  - first:
+      213: -3680460224371805550
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_18
+  - first:
+      213: 1298622904083943675
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_19
+  - first:
+      213: 379763359410217178
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_20
+  - first:
+      213: 3382863825320938160
+    second: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 435
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fbdfc9cb83129e0800000000000000
+      internalID: -1647973605902008440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_1
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 442
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0dae837d70be780800000000000000
+      internalID: -8652813638108000077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 435
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff30843a9f82b39a0800000000000000
+      internalID: -6252358605022428161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_3
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 410
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ac57e6b14589fc0800000000000000
+      internalID: -3487945434604385743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_4
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 396
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bacb52cc0621c980800000000000000
+      internalID: -8520487183766009166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 317
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64904aad7c5bbeed0800000000000000
+      internalID: -2383611707791242938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_6
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 296
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e38bda7149771f40800000000000000
+      internalID: 5699157175601693665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 304
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f70cec0e8b8e360800000000000000
+      internalID: 7199207280032644872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_8
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 264
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1be5b9dbcc43d10800000000000000
+      internalID: 2104532040616423869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_9
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 278
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3c3b0156bb90620800000000000000
+      internalID: 2740927890977964968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_10
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 266
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1072906cd11e6e0800000000000000
+      internalID: -1810132838831947302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 175
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19a9209475262620800000000000000
+      internalID: 2748925805121349916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_12
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 202
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf050c5c30f7b930800000000000000
+      internalID: 4159056922932481989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_13
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 140
+        width: 73
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9ecbe6a894dc480800000000000000
+      internalID: -8877358431565190662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_14
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 180
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd54f90452e9ab70800000000000000
+      internalID: 8910902188301377020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_15
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 155
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a297c76e34773ab0800000000000000
+      internalID: -5028422647557942617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_16
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 59
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e17ad4b410f9600800000000000000
+      internalID: 477101508461534841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 36
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9046f6c93a55d50800000000000000
+      internalID: 6725461510826756527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_18
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 22
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2923d540de06cecc0800000000000000
+      internalID: -3680460224371805550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_19
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 26
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf01c1f96a2a50210800000000000000
+      internalID: 1298622904083943675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_20
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 33
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0ea5863c0354500800000000000000
+      internalID: 379763359410217178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Staff_dead_diag_21
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 23
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba06c7d9b852fe20800000000000000
+      internalID: 3382863825320938160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: c1395f877c20de8479ef448b8d1e9a4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4087340064783636296
+    second: Medieval_PB_Female_Shield_1_ko_diag_0
+  - first:
+      213: -3825709943596498620
+    second: Medieval_PB_Female_Shield_1_ko_diag_1
+  - first:
+      213: 390836097067059427
+    second: Medieval_PB_Female_Shield_1_ko_diag_2
+  - first:
+      213: 2161491981342248852
+    second: Medieval_PB_Female_Shield_1_ko_diag_3
+  - first:
+      213: -842997236347911754
+    second: Medieval_PB_Female_Shield_1_ko_diag_4
+  - first:
+      213: 7666531276410007449
+    second: Medieval_PB_Female_Shield_1_ko_diag_5
+  - first:
+      213: 710074411401263178
+    second: Medieval_PB_Female_Shield_1_ko_diag_6
+  - first:
+      213: -9088405357384267205
+    second: Medieval_PB_Female_Shield_1_ko_diag_7
+  - first:
+      213: 8873226683858203619
+    second: Medieval_PB_Female_Shield_1_ko_diag_8
+  - first:
+      213: 576316632656566777
+    second: Medieval_PB_Female_Shield_1_ko_diag_9
+  - first:
+      213: -1209049191094401440
+    second: Medieval_PB_Female_Shield_1_ko_diag_10
+  - first:
+      213: -191560651264244691
+    second: Medieval_PB_Female_Shield_1_ko_diag_11
+  - first:
+      213: -7929698692354514792
+    second: Medieval_PB_Female_Shield_1_ko_diag_12
+  - first:
+      213: -125538122149170347
+    second: Medieval_PB_Female_Shield_1_ko_diag_13
+  - first:
+      213: 8008804071162990960
+    second: Medieval_PB_Female_Shield_1_ko_diag_14
+  - first:
+      213: 6701557084339691554
+    second: Medieval_PB_Female_Shield_1_ko_diag_15
+  - first:
+      213: 6800981888963729547
+    second: Medieval_PB_Female_Shield_1_ko_diag_16
+  - first:
+      213: -488601468002227999
+    second: Medieval_PB_Female_Shield_1_ko_diag_17
+  - first:
+      213: -8700968806652035642
+    second: Medieval_PB_Female_Shield_1_ko_diag_18
+  - first:
+      213: -8676481544287770636
+    second: Medieval_PB_Female_Shield_1_ko_diag_19
+  - first:
+      213: 7166523686113222930
+    second: Medieval_PB_Female_Shield_1_ko_diag_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 426
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b86952edd9d647c0800000000000000
+      internalID: -4087340064783636296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 428
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4414046631958eac0800000000000000
+      internalID: -3825709943596498620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_2
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 397
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8051b0c578c6500800000000000000
+      internalID: 390836097067059427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 291
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f82c441892ffd10800000000000000
+      internalID: 2161491981342248852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_4
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 290
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1c8dcda721d44f0800000000000000
+      internalID: -842997236347911754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_5
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 303
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f27dda39df46a60800000000000000
+      internalID: 7666531276410007449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_6
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 300
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48baaf3ae0bad900800000000000000
+      internalID: 710074411401263178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 271
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a8a5ada7f7fd180800000000000000
+      internalID: -9088405357384267205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 286
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3b2e618a8042b70800000000000000
+      internalID: 8873226683858203619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_9
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 224
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9d4a78cec7ff700800000000000000
+      internalID: 576316632656566777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 192
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06648d0aa28983fe0800000000000000
+      internalID: -1209049191094401440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 199
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24c3744a90775df0800000000000000
+      internalID: -191560651264244691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 190
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890645a7d0d04f190800000000000000
+      internalID: -7929698692354514792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_13
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 196
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55377873ebff14ef0800000000000000
+      internalID: -125538122149170347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 184
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0715f59cedcf42f60800000000000000
+      internalID: 8008804071162990960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 45
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220e11e69a6b00d50800000000000000
+      internalID: 6701557084339691554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_16
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 84
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b885c8faef0f16e50800000000000000
+      internalID: 6800981888963729547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_17
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 63
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e82ef6bd832839f0800000000000000
+      internalID: -488601468002227999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 67
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd30c558f2ff3780800000000000000
+      internalID: -8700968806652035642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_19
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 37
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7ae746102f69780800000000000000
+      internalID: -8676481544287770636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Shield_1_ko_diag_20
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 27
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211a339925b947360800000000000000
+      internalID: 7166523686113222930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

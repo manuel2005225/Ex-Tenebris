@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 5c890f83c6fcc324591e332d14bcd30b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8123742470239467114
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_0
+  - first:
+      213: -5523678306879072564
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_1
+  - first:
+      213: 3947226988965380204
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_2
+  - first:
+      213: 3181333254438571964
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_3
+  - first:
+      213: -8785986811743885313
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_4
+  - first:
+      213: 1246783238983687230
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_5
+  - first:
+      213: -59949274146983416
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_6
+  - first:
+      213: -5172385832919737970
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_7
+  - first:
+      213: -8950432989015679556
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_8
+  - first:
+      213: -4493255464828574547
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_9
+  - first:
+      213: -2739882656638566688
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_10
+  - first:
+      213: -5471331571362948474
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_11
+  - first:
+      213: 1612115773161585578
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_12
+  - first:
+      213: 177068807525136550
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_13
+  - first:
+      213: -5181714660174098334
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_14
+  - first:
+      213: -420463759591023937
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_15
+  - first:
+      213: -4250988774608561608
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_16
+  - first:
+      213: -7901059395217558324
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 54
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6994f96c34ba24f80800000000000000
+      internalID: -8123742470239467114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 37
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc611f878d3f753b0800000000000000
+      internalID: -5523678306879072564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 59
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60cd1d780e57c630800000000000000
+      internalID: 3947226988965380204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 54
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfc2fe4dbd562c20800000000000000
+      internalID: 3181333254438571964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 37
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff72dbc7b87e11680800000000000000
+      internalID: -8785986811743885313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_5
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 59
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c988700c67d4110800000000000000
+      internalID: 1246783238983687230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 54
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8023de9e3740b2ff0800000000000000
+      internalID: -59949274146983416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_7
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 37
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e895e8b4d7ef738b0800000000000000
+      internalID: -5172385832919737970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_8
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 59
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd58cf2e9ca9c380800000000000000
+      internalID: -8950432989015679556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_9
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 38
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da46fc506ffb4a1c0800000000000000
+      internalID: -4493255464828574547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 26
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eefdc48d3bf9f9d0800000000000000
+      internalID: -2739882656638566688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_11
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 35
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a18889cece114b0800000000000000
+      internalID: -5471331571362948474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_12
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 38
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabb91c11c26f5610800000000000000
+      internalID: 1612115773161585578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 26
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8765d6423157200800000000000000
+      internalID: 177068807525136550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_14
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 35
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26093e078f9d618b0800000000000000
+      internalID: -5181714660174098334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_15
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 38
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbad6a830763a2af0800000000000000
+      internalID: -420463759591023937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_16
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 26
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a98417b347105c0800000000000000
+      internalID: -4250988774608561608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_dead3_17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 35
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc47bc6775cc95290800000000000000
+      internalID: -7901059395217558324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

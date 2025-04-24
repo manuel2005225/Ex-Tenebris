@@ -1,0 +1,680 @@
+fileFormatVersion: 2
+guid: abdfe61e0e80a5b4d99a5cbfec7193df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7748271018830032648
+    second: Medieval_PB_Male_Hands_1_collapse_diag_0
+  - first:
+      213: -9111011796065206201
+    second: Medieval_PB_Male_Hands_1_collapse_diag_1
+  - first:
+      213: -5581623667104486833
+    second: Medieval_PB_Male_Hands_1_collapse_diag_2
+  - first:
+      213: 5352737216475755378
+    second: Medieval_PB_Male_Hands_1_collapse_diag_3
+  - first:
+      213: -8767025102784313476
+    second: Medieval_PB_Male_Hands_1_collapse_diag_4
+  - first:
+      213: 5873681167956072017
+    second: Medieval_PB_Male_Hands_1_collapse_diag_5
+  - first:
+      213: 4863575354415796555
+    second: Medieval_PB_Male_Hands_1_collapse_diag_6
+  - first:
+      213: 2630530182260296144
+    second: Medieval_PB_Male_Hands_1_collapse_diag_7
+  - first:
+      213: 7121142391781705226
+    second: Medieval_PB_Male_Hands_1_collapse_diag_8
+  - first:
+      213: -8009420891391898019
+    second: Medieval_PB_Male_Hands_1_collapse_diag_9
+  - first:
+      213: 8567378762656228910
+    second: Medieval_PB_Male_Hands_1_collapse_diag_10
+  - first:
+      213: 8466875934353740008
+    second: Medieval_PB_Male_Hands_1_collapse_diag_11
+  - first:
+      213: 1758525699053089712
+    second: Medieval_PB_Male_Hands_1_collapse_diag_12
+  - first:
+      213: 6577728851536468491
+    second: Medieval_PB_Male_Hands_1_collapse_diag_13
+  - first:
+      213: 6892499174356003940
+    second: Medieval_PB_Male_Hands_1_collapse_diag_14
+  - first:
+      213: -8939403997273761793
+    second: Medieval_PB_Male_Hands_1_collapse_diag_15
+  - first:
+      213: -5691825918998305636
+    second: Medieval_PB_Male_Hands_1_collapse_diag_16
+  - first:
+      213: 6733276714252664348
+    second: Medieval_PB_Male_Hands_1_collapse_diag_17
+  - first:
+      213: -4043730792067421067
+    second: Medieval_PB_Male_Hands_1_collapse_diag_18
+  - first:
+      213: -7369968587295696800
+    second: Medieval_PB_Male_Hands_1_collapse_diag_19
+  - first:
+      213: 1673596572247530788
+    second: Medieval_PB_Male_Hands_1_collapse_diag_20
+  - first:
+      213: -401785042995319312
+    second: Medieval_PB_Male_Hands_1_collapse_diag_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 446
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f09e2b7f8c987490800000000000000
+      internalID: -7748271018830032648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 430
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740c32f2b0f2f8180800000000000000
+      internalID: -9111011796065206201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 439
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ae254f8d61a82b0800000000000000
+      internalID: -5581623667104486833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 415
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273fc0c632eb84a40800000000000000
+      internalID: 5352737216475755378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_4
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 400
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77cb936e15455680800000000000000
+      internalID: -8767025102784313476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 301
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1565ce3f6e1838150800000000000000
+      internalID: 5873681167956072017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_6
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 318
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b415c4a3404ee7340800000000000000
+      internalID: 4863575354415796555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 306
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9819c7345818420800000000000000
+      internalID: 2630530182260296144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_8
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 291
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06cf11a64163d260800000000000000
+      internalID: 7121142391781705226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_9
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 295
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e4eff8222d8d090800000000000000
+      internalID: -8009420891391898019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_10
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 275
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26a95cb79175e670800000000000000
+      internalID: 8567378762656228910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_11
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 173
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e055788dc2608570800000000000000
+      internalID: 8466875934353740008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_12
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 190
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b374746ec9876810800000000000000
+      internalID: 1758525699053089712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 178
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a5ba84a89c84b50800000000000000
+      internalID: 6577728851536468491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_14
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 164
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ca9262b7317af50800000000000000
+      internalID: 6892499174356003940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_15
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 154
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff75ace6d6bd0f380800000000000000
+      internalID: -8939403997273761793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_16
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 62
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94aeb6bb729201b0800000000000000
+      internalID: -5691825918998305636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 46
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e70774f77617d50800000000000000
+      internalID: 6733276714252664348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_18
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 52
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c238be448c1e7c0800000000000000
+      internalID: -4043730792067421067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_19
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 37
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068d37c1e9c98b990800000000000000
+      internalID: -7369968587295696800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_20
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 35
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d1022273fc93710800000000000000
+      internalID: 1673596572247530788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Hands_1_collapse_diag_21
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 21
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fde234d1a29c6af0800000000000000
+      internalID: -401785042995319312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

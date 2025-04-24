@@ -1,0 +1,955 @@
+fileFormatVersion: 2
+guid: d81597f79b304214e9710aed75f4b183
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1151521948579354323
+    second: Medieval_Female_Shadow_collapse_0
+  - first:
+      213: 3873488170436912718
+    second: Medieval_Female_Shadow_collapse_1
+  - first:
+      213: 2413937756276171282
+    second: Medieval_Female_Shadow_collapse_2
+  - first:
+      213: 4191724670198795205
+    second: Medieval_Female_Shadow_collapse_3
+  - first:
+      213: 7825581908277279270
+    second: Medieval_Female_Shadow_collapse_4
+  - first:
+      213: 8259103535525033591
+    second: Medieval_Female_Shadow_collapse_5
+  - first:
+      213: -6458343968979105163
+    second: Medieval_Female_Shadow_collapse_6
+  - first:
+      213: -841280196444741395
+    second: Medieval_Female_Shadow_collapse_7
+  - first:
+      213: -1758152837845379773
+    second: Medieval_Female_Shadow_collapse_8
+  - first:
+      213: 3290493422372294066
+    second: Medieval_Female_Shadow_collapse_9
+  - first:
+      213: 7864932232070406030
+    second: Medieval_Female_Shadow_collapse_10
+  - first:
+      213: 4635685071944649808
+    second: Medieval_Female_Shadow_collapse_11
+  - first:
+      213: -6786866150303108413
+    second: Medieval_Female_Shadow_collapse_12
+  - first:
+      213: 885392379574599611
+    second: Medieval_Female_Shadow_collapse_13
+  - first:
+      213: 6799247890975553893
+    second: Medieval_Female_Shadow_collapse_14
+  - first:
+      213: 2223535899840133286
+    second: Medieval_Female_Shadow_collapse_15
+  - first:
+      213: 1615539937721445975
+    second: Medieval_Female_Shadow_collapse_16
+  - first:
+      213: 1061825576726801639
+    second: Medieval_Female_Shadow_collapse_17
+  - first:
+      213: -8667170823938102456
+    second: Medieval_Female_Shadow_collapse_18
+  - first:
+      213: 1219283496979360857
+    second: Medieval_Female_Shadow_collapse_19
+  - first:
+      213: 8909829584024044238
+    second: Medieval_Female_Shadow_collapse_20
+  - first:
+      213: -2799158632129127732
+    second: Medieval_Female_Shadow_collapse_21
+  - first:
+      213: -2729326573390929830
+    second: Medieval_Female_Shadow_collapse_22
+  - first:
+      213: 7830459749112171051
+    second: Medieval_Female_Shadow_collapse_23
+  - first:
+      213: -7310105783742720917
+    second: Medieval_Female_Shadow_collapse_24
+  - first:
+      213: -8193099367169375825
+    second: Medieval_Female_Shadow_collapse_25
+  - first:
+      213: 5307676283823966690
+    second: Medieval_Female_Shadow_collapse_26
+  - first:
+      213: 7928638654316792693
+    second: Medieval_Female_Shadow_collapse_27
+  - first:
+      213: 8585366739838099005
+    second: Medieval_Female_Shadow_collapse_28
+  - first:
+      213: 6579350324529014144
+    second: Medieval_Female_Shadow_collapse_29
+  - first:
+      213: -2928815291496842034
+    second: Medieval_Female_Shadow_collapse_30
+  - first:
+      213: -1761682078814630837
+    second: Medieval_Female_Shadow_collapse_31
+  - first:
+      213: 6807647248404239796
+    second: Medieval_Female_Shadow_collapse_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 403
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d653287c170bff00800000000000000
+      internalID: 1151521948579354323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 408
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46e198e7f461c530800000000000000
+      internalID: 3873488170436912718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 402
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212aeb88997008120800000000000000
+      internalID: 2413937756276171282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 402
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbc07bf06ffb2a30800000000000000
+      internalID: 4191724670198795205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 412
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a379ba84d0a9c60800000000000000
+      internalID: 7825581908277279270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_5
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 394
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776742e28ea3e9270800000000000000
+      internalID: 8259103535525033591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 275
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ac6b3c06a5f56a0800000000000000
+      internalID: -6458343968979105163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_7
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 286
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0275e5e1c2354f0800000000000000
+      internalID: -841280196444741395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 282
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345916f1f49c997e0800000000000000
+      internalID: -1758152837845379773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 288
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd8248755e2aad20800000000000000
+      internalID: 3290493422372294066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_10
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 292
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f9313e13ad52d60800000000000000
+      internalID: 7864932232070406030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 270
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c87d31303455040800000000000000
+      internalID: 4635685071944649808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_12
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 269
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c27f05d13530d1a0800000000000000
+      internalID: -6786866150303108413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_13
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 282
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfb16f9dab894c00800000000000000
+      internalID: 885392379574599611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_14
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 270
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569fb61dee7cb5e50800000000000000
+      internalID: 6799247890975553893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_15
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 267
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8bc4fbe169bde10800000000000000
+      internalID: 2223535899840133286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 149
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ee75c830d8b6610800000000000000
+      internalID: 1615539937721445975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_17
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 157
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eca93a7cbc5cbe00800000000000000
+      internalID: 1061825576726801639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_18
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 145
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b2a876e0608b780800000000000000
+      internalID: -8667170823938102456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_19
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 161
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c63f561e3cbe010800000000000000
+      internalID: 1219283496979360857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 157
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec20505ecc216ab70800000000000000
+      internalID: 8909829584024044238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_21
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 158
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca99fdfd046729d0800000000000000
+      internalID: -2799158632129127732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_22
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 144
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50effc21fb7f1ad0800000000000000
+      internalID: -2729326573390929830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_23
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 22
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a43dd77a16bac60800000000000000
+      internalID: 7830459749112171051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_24
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 56
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b649c7135894d8a90800000000000000
+      internalID: -7310105783742720917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_25
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 24
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa14462d8834c4e80800000000000000
+      internalID: -8193099367169375825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_26
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 53
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9c7187577a8a940800000000000000
+      internalID: 5307676283823966690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_27
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 21
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bcbfe29de280e60800000000000000
+      internalID: 7928638654316792693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_28
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 16
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ed08a0099552770800000000000000
+      internalID: 8585366739838099005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_29
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 20
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0852762e24c8e4b50800000000000000
+      internalID: 6579350324529014144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_30
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 15
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc39998202ca57d0800000000000000
+      internalID: -2928815291496842034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_31
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 21
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c051dab7f3d87e0800000000000000
+      internalID: -1761682078814630837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Female_Shadow_collapse_32
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 14
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5dc4d9a1f997e50800000000000000
+      internalID: 6807647248404239796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

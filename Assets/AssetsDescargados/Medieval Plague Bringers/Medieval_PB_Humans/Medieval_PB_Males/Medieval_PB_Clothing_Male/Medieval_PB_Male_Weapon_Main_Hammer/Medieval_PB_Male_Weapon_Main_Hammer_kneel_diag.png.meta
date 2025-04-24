@@ -1,0 +1,605 @@
+fileFormatVersion: 2
+guid: 10b724737fa44e945a7519ebe9c6a75c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4599524478113170673
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_0
+  - first:
+      213: 6609390538381118662
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_1
+  - first:
+      213: -6728215583762133346
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_2
+  - first:
+      213: -7015684802948395970
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_3
+  - first:
+      213: 2998747402692537995
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_4
+  - first:
+      213: -7264934283783824639
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_5
+  - first:
+      213: 6728368713316430348
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_6
+  - first:
+      213: 2670647992315164034
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_7
+  - first:
+      213: 8963451066796586140
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_8
+  - first:
+      213: -9141491749229175704
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_9
+  - first:
+      213: -3428102063203773139
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_10
+  - first:
+      213: -7536148839868556271
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_11
+  - first:
+      213: -4567308147623857162
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_12
+  - first:
+      213: 5445577122891554869
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_13
+  - first:
+      213: 1016230001792371446
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_14
+  - first:
+      213: -2271363247880705699
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_15
+  - first:
+      213: 2441727701985737403
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_16
+  - first:
+      213: -6091483633309875343
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_17
+  - first:
+      213: 4522171677696520126
+    second: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 429
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bb9524bd43b20c0800000000000000
+      internalID: -4599524478113170673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 419
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccc8063da549bb50800000000000000
+      internalID: 6609390538381118662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 422
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e4c9df29390a2a0800000000000000
+      internalID: -6728215583762133346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 338
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c8728a7d743ae90800000000000000
+      internalID: -7015684802948395970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_4
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 308
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e2d9cefd0bd9920800000000000000
+      internalID: 2998747402692537995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_5
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 313
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b128a92c4cd2b90800000000000000
+      internalID: -7264934283783824639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 320
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02f31342b7ff5d50800000000000000
+      internalID: 6728368713316430348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_7
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 309
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2853e06033c001520800000000000000
+      internalID: 2670647992315164034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 147
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94b10e3143946c70800000000000000
+      internalID: 8963451066796586140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_9
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 164
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86cd70210b5e22180800000000000000
+      internalID: -9141491749229175704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 164
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2594fc165fec60d0800000000000000
+      internalID: -3428102063203773139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_11
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 158
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c9921fe883a6790800000000000000
+      internalID: -7536148839868556271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_12
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 144
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3f1293079ad90c0800000000000000
+      internalID: -4567308147623857162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 43
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530e1f69a83929b40800000000000000
+      internalID: 5445577122891554869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_14
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 56
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6facdea6dcf5a1e00800000000000000
+      internalID: 1016230001792371446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_15
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 67
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d596136092f7a70e0800000000000000
+      internalID: -2271363247880705699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_16
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 47
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba371b7862c2e120800000000000000
+      internalID: 2441727701985737403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_17
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 37
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1738579d8e3b67ba0800000000000000
+      internalID: -6091483633309875343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_kneel_diag_18
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 32
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfee6e6e2bf1ce30800000000000000
+      internalID: 4522171677696520126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

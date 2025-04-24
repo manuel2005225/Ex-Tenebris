@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: d51040cf812fc7b4088315c35f802190
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2592540404660983068
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_0
+  - first:
+      213: 8532746413388087940
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_1
+  - first:
+      213: -898706661536967727
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_2
+  - first:
+      213: 20081747289551801
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_3
+  - first:
+      213: 516494283781134382
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_4
+  - first:
+      213: 7865237320859158580
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_5
+  - first:
+      213: 1851903131951664906
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_6
+  - first:
+      213: 6553767666126557116
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_7
+  - first:
+      213: 2420291434181781926
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_8
+  - first:
+      213: -611704341129073470
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_9
+  - first:
+      213: 4580046989151226308
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_10
+  - first:
+      213: 2163318184780467860
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_11
+  - first:
+      213: -2367367099285624560
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_12
+  - first:
+      213: 234336680141328806
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_13
+  - first:
+      213: -5269108578681444508
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_14
+  - first:
+      213: -2801329046101188881
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_15
+  - first:
+      213: 1971059635402567400
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_16
+  - first:
+      213: -294574212312197624
+    second: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 429
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eaa552ec32750cd0800000000000000
+      internalID: -2592540404660983068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 430
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4824c7097a76a6670800000000000000
+      internalID: 8532746413388087940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 431
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3dfc98d072783f0800000000000000
+      internalID: -898706661536967727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 338
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3b9a52e38574000800000000000000
+      internalID: 20081747289551801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 339
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e285b4980d4fa2700800000000000000
+      internalID: 516494283781134382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 340
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43884f7ebafe62d60800000000000000
+      internalID: 7865237320859158580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 313
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f8962361843b910800000000000000
+      internalID: 1851903131951664906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_7
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 313
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf0aef08f8a3fa50800000000000000
+      internalID: 6553767666126557116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_8
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 313
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a963537c3a969120800000000000000
+      internalID: 2420291434181781926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_9
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 147
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ccef67842ac287f0800000000000000
+      internalID: -611704341129073470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_10
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 147
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9c4f278789f8f30800000000000000
+      internalID: 4580046989151226308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_11
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 146
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e8bf36d66a50e10800000000000000
+      internalID: 2163318184780467860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 47
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01922228a2c652fd0800000000000000
+      internalID: -2367367099285624560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 43
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a11ba118f7804300800000000000000
+      internalID: 234336680141328806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_14
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 46
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467aab42aad50e6b0800000000000000
+      internalID: -5269108578681444508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 43
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee972c131eaf19d0800000000000000
+      internalID: -2801329046101188881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_16
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 47
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eee7479b4c9a5b10800000000000000
+      internalID: 1971059635402567400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_idle1_diag_17
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 44
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806142b805679ebf0800000000000000
+      internalID: -294574212312197624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

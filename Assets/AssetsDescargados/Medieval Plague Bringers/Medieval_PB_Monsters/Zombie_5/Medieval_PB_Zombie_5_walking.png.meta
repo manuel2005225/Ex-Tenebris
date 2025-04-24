@@ -1,0 +1,930 @@
+fileFormatVersion: 2
+guid: 8a3879776dbffe641a84540dc323af47
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4428840064423839255
+    second: Medieval_PB_Zombie_5_walking_0
+  - first:
+      213: 1602358446367120970
+    second: Medieval_PB_Zombie_5_walking_1
+  - first:
+      213: -4654000651233119773
+    second: Medieval_PB_Zombie_5_walking_2
+  - first:
+      213: 4975435181160156052
+    second: Medieval_PB_Zombie_5_walking_3
+  - first:
+      213: -5854983806354677211
+    second: Medieval_PB_Zombie_5_walking_4
+  - first:
+      213: -6123869830745232051
+    second: Medieval_PB_Zombie_5_walking_5
+  - first:
+      213: -419793308632334319
+    second: Medieval_PB_Zombie_5_walking_6
+  - first:
+      213: -3661099569090165459
+    second: Medieval_PB_Zombie_5_walking_7
+  - first:
+      213: -8131320002916970753
+    second: Medieval_PB_Zombie_5_walking_8
+  - first:
+      213: 769286623358704202
+    second: Medieval_PB_Zombie_5_walking_9
+  - first:
+      213: 1982873413407407666
+    second: Medieval_PB_Zombie_5_walking_10
+  - first:
+      213: 1049059533953306619
+    second: Medieval_PB_Zombie_5_walking_11
+  - first:
+      213: -8896264789765797655
+    second: Medieval_PB_Zombie_5_walking_12
+  - first:
+      213: 6787324706203379685
+    second: Medieval_PB_Zombie_5_walking_13
+  - first:
+      213: 5824919252371387213
+    second: Medieval_PB_Zombie_5_walking_14
+  - first:
+      213: 425983284762516933
+    second: Medieval_PB_Zombie_5_walking_15
+  - first:
+      213: 6617174499169565117
+    second: Medieval_PB_Zombie_5_walking_16
+  - first:
+      213: -1094778415987945035
+    second: Medieval_PB_Zombie_5_walking_17
+  - first:
+      213: -4711010948452341834
+    second: Medieval_PB_Zombie_5_walking_18
+  - first:
+      213: -4630188370054671076
+    second: Medieval_PB_Zombie_5_walking_19
+  - first:
+      213: -6556483389972307409
+    second: Medieval_PB_Zombie_5_walking_20
+  - first:
+      213: 8342466362943376289
+    second: Medieval_PB_Zombie_5_walking_21
+  - first:
+      213: -3150663981522357936
+    second: Medieval_PB_Zombie_5_walking_22
+  - first:
+      213: 8752948403269882267
+    second: Medieval_PB_Zombie_5_walking_23
+  - first:
+      213: 5139821291951962707
+    second: Medieval_PB_Zombie_5_walking_24
+  - first:
+      213: -907109802904039358
+    second: Medieval_PB_Zombie_5_walking_25
+  - first:
+      213: -2042189078416197399
+    second: Medieval_PB_Zombie_5_walking_26
+  - first:
+      213: -8372400313622948678
+    second: Medieval_PB_Zombie_5_walking_27
+  - first:
+      213: 5804939167384979279
+    second: Medieval_PB_Zombie_5_walking_28
+  - first:
+      213: -8219100283317119691
+    second: Medieval_PB_Zombie_5_walking_29
+  - first:
+      213: -6305188619761148515
+    second: Medieval_PB_Zombie_5_walking_30
+  - first:
+      213: 8862469171031916093
+    second: Medieval_PB_Zombie_5_walking_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 392
+        width: 48
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7164007d296667d30800000000000000
+      internalID: 4428840064423839255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 395
+        width: 49
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e1f8e6488bc3610800000000000000
+      internalID: 1602358446367120970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 402
+        width: 49
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e130dec01ba96fb0800000000000000
+      internalID: -4654000651233119773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_3
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 391
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b4800bfeb4c0540800000000000000
+      internalID: 4975435181160156052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_4
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 391
+        width: 49
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522a098cf3beebea0800000000000000
+      internalID: -5854983806354677211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_5
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 399
+        width: 48
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4de2b7a5d4a30ba0800000000000000
+      internalID: -6123869830745232051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_6
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 398
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11042efb5389c2af0800000000000000
+      internalID: -419793308632334319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_7
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 390
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d258b09d659213dc0800000000000000
+      internalID: -3661099569090165459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 275
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe0b17f98fb72f80800000000000000
+      internalID: -8131320002916970753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 276
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a51cbab1e0daa00800000000000000
+      internalID: 769286623358704202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 274
+        width: 40
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ef6b02dd4948b10800000000000000
+      internalID: 1982873413407407666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 274
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff068586120f8e00800000000000000
+      internalID: 1049059533953306619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_12
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 273
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8c132ee4e1a8480800000000000000
+      internalID: -8896264789765797655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_13
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 273
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e72c780cdb613e50800000000000000
+      internalID: 6787324706203379685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_14
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 274
+        width: 51
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d433ee2c23546d050800000000000000
+      internalID: 5824919252371387213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_15
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 274
+        width: 56
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd16806a8569e500800000000000000
+      internalID: 425983284762516933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 146
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db976cfc52de4db50800000000000000
+      internalID: 6617174499169565117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 144
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1164fb4d09ec0f0800000000000000
+      internalID: -1094778415987945035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_18
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 143
+        width: 58
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7a58c90802f9eb0800000000000000
+      internalID: -4711010948452341834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_19
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 146
+        width: 61
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c151fbf85344ebfb0800000000000000
+      internalID: -4630188370054671076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_20
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 146
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22a3f43811b205a0800000000000000
+      internalID: -6556483389972307409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_21
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 146
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab82e1f4f466c370800000000000000
+      internalID: 8342466362943376289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_22
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 144
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051fdbe3dc79644d0800000000000000
+      internalID: -3150663981522357936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_23
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 146
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91593a9238b87970800000000000000
+      internalID: 8752948403269882267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_24
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 5
+        width: 49
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a39cbab30545740800000000000000
+      internalID: 5139821291951962707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_25
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 6
+        width: 49
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24051a9b07c4963f0800000000000000
+      internalID: -907109802904039358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_26
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 11
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8f1d86adfa8a3e0800000000000000
+      internalID: -2042189078416197399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_27
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 13
+        width: 49
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4922d06424fcb80800000000000000
+      internalID: -8372400313622948678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_28
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 7
+        width: 49
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47cbb6ba694f8050800000000000000
+      internalID: 5804939167384979279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_29
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 8
+        width: 49
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5351297c6d3efed80800000000000000
+      internalID: -8219100283317119691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_30
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 14
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d1d4d4b587f78a0800000000000000
+      internalID: -6305188619761148515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Zombie_5_walking_31
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 8
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e353471c0ddfa70800000000000000
+      internalID: 8862469171031916093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

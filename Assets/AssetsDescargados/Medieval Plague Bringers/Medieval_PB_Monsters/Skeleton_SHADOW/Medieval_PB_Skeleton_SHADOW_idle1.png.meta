@@ -1,0 +1,805 @@
+fileFormatVersion: 2
+guid: b891d3a8488a2d4439225262bdf1b41a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6996861599466590735
+    second: Medieval_PB_Skeleton_SHADOW_idle1_0
+  - first:
+      213: -8158076828669675265
+    second: Medieval_PB_Skeleton_SHADOW_idle1_1
+  - first:
+      213: -6558937348363034556
+    second: Medieval_PB_Skeleton_SHADOW_idle1_2
+  - first:
+      213: 5454411087098514440
+    second: Medieval_PB_Skeleton_SHADOW_idle1_3
+  - first:
+      213: 1438856260702573814
+    second: Medieval_PB_Skeleton_SHADOW_idle1_4
+  - first:
+      213: 8362486309799573210
+    second: Medieval_PB_Skeleton_SHADOW_idle1_5
+  - first:
+      213: 1667312997574786322
+    second: Medieval_PB_Skeleton_SHADOW_idle1_6
+  - first:
+      213: 5048678969418923871
+    second: Medieval_PB_Skeleton_SHADOW_idle1_7
+  - first:
+      213: -4794980691474010538
+    second: Medieval_PB_Skeleton_SHADOW_idle1_8
+  - first:
+      213: -6001180931757526805
+    second: Medieval_PB_Skeleton_SHADOW_idle1_9
+  - first:
+      213: -6447322850358517520
+    second: Medieval_PB_Skeleton_SHADOW_idle1_10
+  - first:
+      213: -5448735012964968129
+    second: Medieval_PB_Skeleton_SHADOW_idle1_11
+  - first:
+      213: -3195378612793651054
+    second: Medieval_PB_Skeleton_SHADOW_idle1_12
+  - first:
+      213: -8151902366234118066
+    second: Medieval_PB_Skeleton_SHADOW_idle1_13
+  - first:
+      213: -595019664772802076
+    second: Medieval_PB_Skeleton_SHADOW_idle1_14
+  - first:
+      213: -142647496940322545
+    second: Medieval_PB_Skeleton_SHADOW_idle1_15
+  - first:
+      213: 4852105960331495492
+    second: Medieval_PB_Skeleton_SHADOW_idle1_16
+  - first:
+      213: -5671712985896930011
+    second: Medieval_PB_Skeleton_SHADOW_idle1_17
+  - first:
+      213: -3064077831217922874
+    second: Medieval_PB_Skeleton_SHADOW_idle1_18
+  - first:
+      213: -6655446721256097023
+    second: Medieval_PB_Skeleton_SHADOW_idle1_19
+  - first:
+      213: -764842763853668042
+    second: Medieval_PB_Skeleton_SHADOW_idle1_20
+  - first:
+      213: 4602462709327593820
+    second: Medieval_PB_Skeleton_SHADOW_idle1_21
+  - first:
+      213: 2497901299294214092
+    second: Medieval_PB_Skeleton_SHADOW_idle1_22
+  - first:
+      213: -8244988044487849839
+    second: Medieval_PB_Skeleton_SHADOW_idle1_23
+  - first:
+      213: -7962976607981213369
+    second: Medieval_PB_Skeleton_SHADOW_idle1_24
+  - first:
+      213: -6525802987050169909
+    second: Medieval_PB_Skeleton_SHADOW_idle1_25
+  - first:
+      213: -813653175742020875
+    second: Medieval_PB_Skeleton_SHADOW_idle1_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 407
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fde83d327726ee90800000000000000
+      internalID: -6996861599466590735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 427
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff87cc00950b8ce80800000000000000
+      internalID: -8158076828669675265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 407
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44067ce7b39f9f4a0800000000000000
+      internalID: -6558937348363034556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 401
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c85792cf5f1bb40800000000000000
+      internalID: 5454411087098514440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 427
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4160e4528d7f310800000000000000
+      internalID: 1438856260702573814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 410
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6bbae0ef48d0470800000000000000
+      internalID: 8362486309799573210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_6
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 404
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d36d5665c732710800000000000000
+      internalID: 1667312997574786322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_7
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 427
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f333d06c2801640800000000000000
+      internalID: 5048678969418923871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_8
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 408
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ea5db477ec47db0800000000000000
+      internalID: -4794980691474010538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 414
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0beb9fcb587bca0800000000000000
+      internalID: -6001180931757526805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 414
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f02f18e6028686a0800000000000000
+      internalID: -6447322850358517520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_11
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 273
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f395df4df543264b0800000000000000
+      internalID: -5448735012964968129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_12
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 273
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290dd8dd41cb7a3d0800000000000000
+      internalID: -3195378612793651054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 273
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48f2f01dff9ede80800000000000000
+      internalID: -8151902366234118066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_14
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 145
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e958d674c01eb7f0800000000000000
+      internalID: -595019664772802076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_15
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 145
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0106c87bd6350ef0800000000000000
+      internalID: -142647496940322545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 157
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4484d12d9a4265340800000000000000
+      internalID: 4852105960331495492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_17
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 145
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525b4afd6170a41b0800000000000000
+      internalID: -5671712985896930011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc3b1a52753a75d0800000000000000
+      internalID: -3064077831217922874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_19
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 22
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10bfdf5187a13a3a0800000000000000
+      internalID: -6655446721256097023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_20
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 22
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631697ffe8bb265f0800000000000000
+      internalID: -764842763853668042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_21
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 35
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c510471037b3fdf30800000000000000
+      internalID: 4602462709327593820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_22
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 23
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc71b6c4ff35aa220800000000000000
+      internalID: 2497901299294214092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_23
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 22
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19885feae0be39d80800000000000000
+      internalID: -8244988044487849839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_24
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 36
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749e886f6f2dd7190800000000000000
+      internalID: -7962976607981213369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_25
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 22
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc901ba22c0bf65a0800000000000000
+      internalID: -6525802987050169909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_idle1_26
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 22
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f247816fb255b4f0800000000000000
+      internalID: -813653175742020875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

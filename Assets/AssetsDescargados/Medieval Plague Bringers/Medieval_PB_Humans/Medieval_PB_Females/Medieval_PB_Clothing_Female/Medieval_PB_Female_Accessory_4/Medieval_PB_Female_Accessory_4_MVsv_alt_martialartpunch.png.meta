@@ -1,0 +1,530 @@
+fileFormatVersion: 2
+guid: b80de536877b5df47a24fc77672bb99e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7335957529605990524
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_0
+  - first:
+      213: -3435929279692243261
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_1
+  - first:
+      213: -1529901481281049524
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_2
+  - first:
+      213: -3785322190651527737
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_3
+  - first:
+      213: -5962726464024758497
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_4
+  - first:
+      213: 1507377750582763479
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_5
+  - first:
+      213: 719878405895559017
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_6
+  - first:
+      213: 707550669945940526
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_7
+  - first:
+      213: -5189119671497967863
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_8
+  - first:
+      213: 8433378711838503919
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_9
+  - first:
+      213: 422049236884099283
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_10
+  - first:
+      213: -3118389503922381262
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_11
+  - first:
+      213: -409339570484363731
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_12
+  - first:
+      213: -3565288308817673228
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_13
+  - first:
+      213: 8771637490509407125
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_14
+  - first:
+      213: 7112767598952596682
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 66
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4879b709e71713a90800000000000000
+      internalID: -7335957529605990524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 72
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce749246802150d0800000000000000
+      internalID: -3435929279692243261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 45
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c26e265b2b4cae0800000000000000
+      internalID: -1529901481281049524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 62
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdefc9e585d77bc0800000000000000
+      internalID: -3785322190651527737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_4
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 76
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17bbf27fd3204da0800000000000000
+      internalID: -5962726464024758497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_5
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 77
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df10d5e3184be410800000000000000
+      internalID: 1507377750582763479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 63
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96711e898958df900800000000000000
+      internalID: 719878405895559017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 44
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2aa7b6e599b1d900800000000000000
+      internalID: 707550669945940526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_8
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 57
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9073f53e62b8cf7b0800000000000000
+      internalID: -5189119671497967863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_9
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 42
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3b977a141690570800000000000000
+      internalID: 8433378711838503919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 21
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0933a7b8b6bd500800000000000000
+      internalID: 422049236884099283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_11
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 38
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e5663a44149b4d0800000000000000
+      internalID: -3118389503922381262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 21
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2eb4c454dbb15af0800000000000000
+      internalID: -409339570484363731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_13
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 39
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3c11f3c2d858ec0800000000000000
+      internalID: -3565288308817673228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_14
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 37
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593ef40d2dd1bb970800000000000000
+      internalID: 8771637490509407125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_martialartpunch_15
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 18
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac44a793270a5b260800000000000000
+      internalID: 7112767598952596682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: d61610f8c8cb0c04c920adbc6dea1c14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4534637935981254026
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_0
+  - first:
+      213: -87773156993787312
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_1
+  - first:
+      213: 6615797276810000583
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_2
+  - first:
+      213: -9075267501831377640
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_3
+  - first:
+      213: -3272532838205383556
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_4
+  - first:
+      213: 4492124643695623946
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_5
+  - first:
+      213: 6818798175644905641
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_6
+  - first:
+      213: 8807480159962059229
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_7
+  - first:
+      213: 855086759443283329
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_8
+  - first:
+      213: -6085800683512310981
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_9
+  - first:
+      213: 2737755023926726134
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_10
+  - first:
+      213: -4119518089013241556
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_11
+  - first:
+      213: 429708886516061917
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_12
+  - first:
+      213: -6186647965831810767
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_13
+  - first:
+      213: 5750578089453852972
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_14
+  - first:
+      213: 2713475186159451126
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_15
+  - first:
+      213: 1429559413227931747
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_16
+  - first:
+      213: -1262130515484720200
+    second: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67aa3d0a2dab111c0800000000000000
+      internalID: -4534637935981254026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 67
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a129c57ca28cef0800000000000000
+      internalID: -87773156993787312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 69
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8b14e329800db50800000000000000
+      internalID: 6615797276810000583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_3
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 74
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81da1b73a4c2e0280800000000000000
+      internalID: -9075267501831377640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_4
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 61
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c97f6e8b0a592d0800000000000000
+      internalID: -3272532838205383556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 67
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f714a209b375e30800000000000000
+      internalID: 4492124643695623946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_6
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 74
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0756e20dc31ae50800000000000000
+      internalID: 6818798175644905641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 62
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1d6dc9a847a3a70800000000000000
+      internalID: 8807480159962059229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18db1c490e0eddb00800000000000000
+      internalID: 855086759443283329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 42
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b335b65b584ea8ba0800000000000000
+      internalID: -6085800683512310981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 44
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd813360b57ef520800000000000000
+      internalID: 2737755023926726134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_11
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 44
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29d19acf1884d6c0800000000000000
+      internalID: -4119518089013241556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_12
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 39
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd65e91a4f1a6f500800000000000000
+      internalID: 429708886516061917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_13
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 15
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131b33e047c942aa0800000000000000
+      internalID: -6186647965831810767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_14
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 34
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c299a03fd482ecf40800000000000000
+      internalID: 5750578089453852972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 22
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbfed12e4338a520800000000000000
+      internalID: 2713475186159451126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_16
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 33
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36844c256b0d6d310800000000000000
+      internalID: 1429559413227931747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Accessory_4_MVsv_alt_victory5_17
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 23
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b34a54bbf20c7ee0800000000000000
+      internalID: -1262130515484720200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: 0f8002c3c943f5a4caffba709aff9517
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3454108614563758234
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_0
+  - first:
+      213: 6739293585315392141
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_1
+  - first:
+      213: -4751584668690930851
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_2
+  - first:
+      213: 3655142471815689203
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_3
+  - first:
+      213: -2595542926977745291
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_4
+  - first:
+      213: 1690503979842658855
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_5
+  - first:
+      213: 4503138198596163263
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_6
+  - first:
+      213: 7529121623296479009
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_7
+  - first:
+      213: 430513409803875659
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_8
+  - first:
+      213: 7224250579352381506
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_9
+  - first:
+      213: -2538945280841469222
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_10
+  - first:
+      213: -6713598020584528739
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_11
+  - first:
+      213: 7457029677013738780
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_12
+  - first:
+      213: 5550270202275485817
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_13
+  - first:
+      213: 3750748611886107820
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_14
+  - first:
+      213: 7704517346561164653
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_15
+  - first:
+      213: 6725469158122072618
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 39
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f7f45048a8010d0800000000000000
+      internalID: -3454108614563758234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 34
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8aeacd3fc7c68d50800000000000000
+      internalID: 6739293585315392141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 40
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d532c763beafe0eb0800000000000000
+      internalID: -4751584668690930851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 24
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3740c56bca9b230800000000000000
+      internalID: 3655142471815689203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 39
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57eb63ea577cafbd0800000000000000
+      internalID: -2595542926977745291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_5
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 35
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722e7e9b960e57710800000000000000
+      internalID: 1690503979842658855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 40
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb611dd355c5e7e30800000000000000
+      internalID: 4503138198596163263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 27
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f8c43b930dc7860800000000000000
+      internalID: 7529121623296479009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_8
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 34
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45f66e4aad79f500800000000000000
+      internalID: 430513409803875659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_9
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 40
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24865be40a1b14460800000000000000
+      internalID: 7224250579352381506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_10
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 24
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad23a4f08bad3ccd0800000000000000
+      internalID: -2538945280841469222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 45
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d942b42ab2284d2a0800000000000000
+      internalID: -6713598020584528739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 20
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1523f17bf0bc7760800000000000000
+      internalID: 7457029677013738780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_13
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 16
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978d016a755860d40800000000000000
+      internalID: 5550270202275485817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_14
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 20
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacc24d7df55d0430800000000000000
+      internalID: 3750748611886107820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_15
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 16
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d650d97d4b1fbea60800000000000000
+      internalID: 7704517346561164653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_critical2_16
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 16
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a26b5f09aa55d50800000000000000
+      internalID: 6725469158122072618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

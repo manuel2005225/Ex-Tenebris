@@ -1,0 +1,955 @@
+fileFormatVersion: 2
+guid: fab8e5e9886074643bd8addecc8c9c10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3351813361908317555
+    second: Medieval_Shadow_Male_collapse_0
+  - first:
+      213: -1839573902183695607
+    second: Medieval_Shadow_Male_collapse_1
+  - first:
+      213: 45737307016782911
+    second: Medieval_Shadow_Male_collapse_2
+  - first:
+      213: 1332678538511145383
+    second: Medieval_Shadow_Male_collapse_3
+  - first:
+      213: 957107890833452528
+    second: Medieval_Shadow_Male_collapse_4
+  - first:
+      213: 7407561172195744437
+    second: Medieval_Shadow_Male_collapse_5
+  - first:
+      213: 7182687181322173801
+    second: Medieval_Shadow_Male_collapse_6
+  - first:
+      213: 1922883305931408348
+    second: Medieval_Shadow_Male_collapse_7
+  - first:
+      213: 4907940736807713262
+    second: Medieval_Shadow_Male_collapse_8
+  - first:
+      213: -5258218784064471215
+    second: Medieval_Shadow_Male_collapse_9
+  - first:
+      213: 8312673029725466878
+    second: Medieval_Shadow_Male_collapse_10
+  - first:
+      213: 3891560540139866369
+    second: Medieval_Shadow_Male_collapse_11
+  - first:
+      213: 907025536252996805
+    second: Medieval_Shadow_Male_collapse_12
+  - first:
+      213: -7866761696996722722
+    second: Medieval_Shadow_Male_collapse_13
+  - first:
+      213: -7369415692604387175
+    second: Medieval_Shadow_Male_collapse_14
+  - first:
+      213: 3323040185587490711
+    second: Medieval_Shadow_Male_collapse_15
+  - first:
+      213: -3089467267960683610
+    second: Medieval_Shadow_Male_collapse_16
+  - first:
+      213: 2983314613594908838
+    second: Medieval_Shadow_Male_collapse_17
+  - first:
+      213: 5192042496645673592
+    second: Medieval_Shadow_Male_collapse_18
+  - first:
+      213: 4024555621159451642
+    second: Medieval_Shadow_Male_collapse_19
+  - first:
+      213: -6350451129471853091
+    second: Medieval_Shadow_Male_collapse_20
+  - first:
+      213: -8141065665269424605
+    second: Medieval_Shadow_Male_collapse_21
+  - first:
+      213: -144931772676313176
+    second: Medieval_Shadow_Male_collapse_22
+  - first:
+      213: 6191149028731219481
+    second: Medieval_Shadow_Male_collapse_23
+  - first:
+      213: 2591940291931189932
+    second: Medieval_Shadow_Male_collapse_24
+  - first:
+      213: 9131228217566545295
+    second: Medieval_Shadow_Male_collapse_25
+  - first:
+      213: -6836932668487404864
+    second: Medieval_Shadow_Male_collapse_26
+  - first:
+      213: 787548220914767433
+    second: Medieval_Shadow_Male_collapse_27
+  - first:
+      213: -5825679318161487296
+    second: Medieval_Shadow_Male_collapse_28
+  - first:
+      213: 4951492659706719489
+    second: Medieval_Shadow_Male_collapse_29
+  - first:
+      213: 8297321125977590208
+    second: Medieval_Shadow_Male_collapse_30
+  - first:
+      213: 1432504751210518155
+    second: Medieval_Shadow_Male_collapse_31
+  - first:
+      213: -4716986248261589774
+    second: Medieval_Shadow_Male_collapse_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 412
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d820c0a8187fb71d0800000000000000
+      internalID: -3351813361908317555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 403
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bf24e48458876e0800000000000000
+      internalID: -1839573902183695607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 409
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34e7b1a6dd72a000800000000000000
+      internalID: 45737307016782911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 401
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a95eb7e110ae7210800000000000000
+      internalID: 1332678538511145383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_4
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 410
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fde9d44e84584d00800000000000000
+      internalID: 957107890833452528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 393
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba14b0a3a1fcc660800000000000000
+      internalID: 7407561172195744437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_6
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 417
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96db5779fe70ea360800000000000000
+      internalID: 7182687181322173801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_7
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 407
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3029acd247faa10800000000000000
+      internalID: 1922883305931408348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 272
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9b714c8128c1440800000000000000
+      internalID: 4907940736807713262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 271
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ffc8800ed0707b0800000000000000
+      internalID: -5258218784064471215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_10
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 282
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0b1cef31c8c5370800000000000000
+      internalID: 8312673029725466878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_11
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 288
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109c6f061b9910630800000000000000
+      internalID: 3891560540139866369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_12
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 293
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc619a6be6669c00800000000000000
+      internalID: 907025536252996805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_13
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 265
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed77cdd9ae5a3d290800000000000000
+      internalID: -7866761696996722722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_14
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 282
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9905020f8739ab990800000000000000
+      internalID: -7369415692604387175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_15
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 268
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f5a4c417fcd1e20800000000000000
+      internalID: 3323040185587490711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_16
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 144
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3c10473e10025d0800000000000000
+      internalID: -3089467267960683610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 157
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a86e84b5dcd66920800000000000000
+      internalID: 2983314613594908838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_18
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 163
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8723c4f5427dd0840800000000000000
+      internalID: 5192042496645673592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_19
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 156
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbb202b3081ad730800000000000000
+      internalID: 4024555621159451642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_20
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 158
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd1a58085aaed7a0800000000000000
+      internalID: -6350451129471853091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_21
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 144
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e9c7029ef150f80800000000000000
+      internalID: -8141065665269424605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_22
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 143
+        width: 48
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afe5f412591dfdf0800000000000000
+      internalID: -144931772676313176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_23
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 21
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e67015d316be550800000000000000
+      internalID: 6191149028731219481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_24
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 21
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2b49b76fb68f320800000000000000
+      internalID: 2591940291931189932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_25
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 54
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85c31f3fa3a8be70800000000000000
+      internalID: 9131228217566545295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_26
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 31
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c27b8d26f55e11a0800000000000000
+      internalID: -6836932668487404864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_27
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 21
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9469d1f2feeedea00800000000000000
+      internalID: 787548220914767433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_28
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 15
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a05a1a687072fa0800000000000000
+      internalID: -5825679318161487296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_29
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 32
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10de5c1075c37b440800000000000000
+      internalID: 4951492659706719489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_30
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 24
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c90d3d5a91062370800000000000000
+      internalID: 8297321125977590208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_31
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 11
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8656f24b7741e310800000000000000
+      internalID: 1432504751210518155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_collapse_32
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 11
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f427f5bff5e98eb0800000000000000
+      internalID: -4716986248261589774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

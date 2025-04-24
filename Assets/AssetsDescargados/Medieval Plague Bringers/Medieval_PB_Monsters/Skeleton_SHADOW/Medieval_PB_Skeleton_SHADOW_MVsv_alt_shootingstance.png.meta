@@ -1,0 +1,505 @@
+fileFormatVersion: 2
+guid: ecdcd02f4078c2245aff2aefbccc3812
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4477602307660089977
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_0
+  - first:
+      213: -1312520588927401522
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_1
+  - first:
+      213: 8709043694712063501
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_2
+  - first:
+      213: -5095481304593087934
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_3
+  - first:
+      213: -3146589440458631116
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_4
+  - first:
+      213: -2558427563551497607
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_5
+  - first:
+      213: -2838630576428237721
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_6
+  - first:
+      213: -6516496200618138157
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_7
+  - first:
+      213: 7761024211793630990
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_8
+  - first:
+      213: -6136804992340311784
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_9
+  - first:
+      213: -8473290419546297903
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_10
+  - first:
+      213: -6534454756056557293
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_11
+  - first:
+      213: -3686610857040459244
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_12
+  - first:
+      213: -6710046356921939020
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_13
+  - first:
+      213: 5450349088328312728
+    second: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 49
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a8c815393a32e30800000000000000
+      internalID: 4477602307660089977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 53
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec188987a7df8cde0800000000000000
+      internalID: -1312520588927401522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 24
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d060bac091dbcd870800000000000000
+      internalID: 8709043694712063501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 49
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242c51020c63949b0800000000000000
+      internalID: -5095481304593087934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 53
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438d77343911554d0800000000000000
+      internalID: -3146589440458631116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_5
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 24
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972e1f2afa3ae7cd0800000000000000
+      internalID: -2558427563551497607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_6
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 49
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cbe6bc7882b98d0800000000000000
+      internalID: -2838630576428237721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_7
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 53
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d529fd3b31c095a0800000000000000
+      internalID: -6516496200618138157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_8
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 24
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e075a25a662b4bb60800000000000000
+      internalID: 7761024211793630990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 30
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81146b7af50b5daa0800000000000000
+      internalID: -6136804992340311784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9e830c143d86a80800000000000000
+      internalID: -8473290419546297903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 30
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31913683504f055a0800000000000000
+      internalID: -6534454756056557293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a410145f686dcc0800000000000000
+      internalID: -3686610857040459244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_13
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 30
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb8345c36021e2a0800000000000000
+      internalID: -6710046356921939020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Skeleton_SHADOW_MVsv_alt_shootingstance_14
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897eeaf5e9783ab40800000000000000
+      internalID: 5450349088328312728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: 6a3fba9fb75bf3f40bb8151727926b7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6542237899869966405
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_0
+  - first:
+      213: -1886606783561588619
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_1
+  - first:
+      213: 4797434656397886719
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_2
+  - first:
+      213: -7628151446296183707
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_3
+  - first:
+      213: -251066861149880879
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_4
+  - first:
+      213: -6770300598685096209
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_5
+  - first:
+      213: 3530883172430948272
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_6
+  - first:
+      213: 7565962982252396086
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_7
+  - first:
+      213: -6580396765697510866
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_8
+  - first:
+      213: -9038536777291145580
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_9
+  - first:
+      213: 5140655628786017712
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_10
+  - first:
+      213: -543676175565311481
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_11
+  - first:
+      213: -8762964243098082612
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_12
+  - first:
+      213: 3063362667056409552
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_13
+  - first:
+      213: 3849394510806118637
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_14
+  - first:
+      213: -2681048344824217868
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_15
+  - first:
+      213: -2686339057258805471
+    second: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 30
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540d8d925b2baca50800000000000000
+      internalID: 6542237899869966405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 67
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57028f2402d61d5e0800000000000000
+      internalID: -1886606783561588619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_2
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 67
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff48ebfe669e39240800000000000000
+      internalID: 4797434656397886719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 30
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c32aedcac532690800000000000000
+      internalID: -7628151446296183707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_4
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 65
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddf94e1508048cf0800000000000000
+      internalID: -251066861149880879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 30
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6a2c0e97f0b02a0800000000000000
+      internalID: -6770300598685096209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_6
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 66
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7a624b987300130800000000000000
+      internalID: 3530883172430948272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 65
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63eb8e40f33bff860800000000000000
+      internalID: 7565962982252396086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 34
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22787b810cbda4a0800000000000000
+      internalID: -6580396765697510866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 20
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ed14470baa09280800000000000000
+      internalID: -9038536777291145580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_10
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 22
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5276ade07475740800000000000000
+      internalID: 5140655628786017712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 34
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702369a16697478f0800000000000000
+      internalID: -543676175565311481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_12
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 20
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc260b6f272b36680800000000000000
+      internalID: -8762964243098082612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_13
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 22
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db27148d10438a20800000000000000
+      internalID: 3063362667056409552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_14
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 34
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0ffe0a9ebcb6530800000000000000
+      internalID: 3849394510806118637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_15
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 19
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe7a153cb00bcad0800000000000000
+      internalID: -2681048344824217868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Decal_1_MVsv_alt_critical1_16
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 22
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127c4d93cd438bad0800000000000000
+      internalID: -2686339057258805471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,930 @@
+fileFormatVersion: 2
+guid: 982d4841575cca1408596501c27b347e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8177444715915027723
+    second: Medieval_PB_Male_2_walking_0
+  - first:
+      213: 3154127871235762691
+    second: Medieval_PB_Male_2_walking_1
+  - first:
+      213: 779989773075605962
+    second: Medieval_PB_Male_2_walking_2
+  - first:
+      213: 1673005397055633836
+    second: Medieval_PB_Male_2_walking_3
+  - first:
+      213: -6372426532364167647
+    second: Medieval_PB_Male_2_walking_4
+  - first:
+      213: 4145628087669800105
+    second: Medieval_PB_Male_2_walking_5
+  - first:
+      213: -4560764277831048186
+    second: Medieval_PB_Male_2_walking_6
+  - first:
+      213: 3012501119964629628
+    second: Medieval_PB_Male_2_walking_7
+  - first:
+      213: -1864136295464558478
+    second: Medieval_PB_Male_2_walking_8
+  - first:
+      213: 1255719869333310974
+    second: Medieval_PB_Male_2_walking_9
+  - first:
+      213: -7411969615990897746
+    second: Medieval_PB_Male_2_walking_10
+  - first:
+      213: 6463708036310848807
+    second: Medieval_PB_Male_2_walking_11
+  - first:
+      213: 3737283928246006691
+    second: Medieval_PB_Male_2_walking_12
+  - first:
+      213: 8716786091056783060
+    second: Medieval_PB_Male_2_walking_13
+  - first:
+      213: 2466008866976136971
+    second: Medieval_PB_Male_2_walking_14
+  - first:
+      213: 4397700091756462209
+    second: Medieval_PB_Male_2_walking_15
+  - first:
+      213: 2903348049062793154
+    second: Medieval_PB_Male_2_walking_16
+  - first:
+      213: 2251522161874943680
+    second: Medieval_PB_Male_2_walking_17
+  - first:
+      213: -7336644386451703651
+    second: Medieval_PB_Male_2_walking_18
+  - first:
+      213: 950911772125990045
+    second: Medieval_PB_Male_2_walking_19
+  - first:
+      213: -628745418027470200
+    second: Medieval_PB_Male_2_walking_20
+  - first:
+      213: 476055563082234156
+    second: Medieval_PB_Male_2_walking_21
+  - first:
+      213: 4220869201162343630
+    second: Medieval_PB_Male_2_walking_22
+  - first:
+      213: 8495455082724106059
+    second: Medieval_PB_Male_2_walking_23
+  - first:
+      213: -311895918404388903
+    second: Medieval_PB_Male_2_walking_24
+  - first:
+      213: 3042411404856711943
+    second: Medieval_PB_Male_2_walking_25
+  - first:
+      213: -2154554028475465721
+    second: Medieval_PB_Male_2_walking_26
+  - first:
+      213: 1108748963857323063
+    second: Medieval_PB_Male_2_walking_27
+  - first:
+      213: 3949825739986545460
+    second: Medieval_PB_Male_2_walking_28
+  - first:
+      213: -1157294840062944927
+    second: Medieval_PB_Male_2_walking_29
+  - first:
+      213: 2943735240021985082
+    second: Medieval_PB_Male_2_walking_30
+  - first:
+      213: -2813810358657803909
+    second: Medieval_PB_Male_2_walking_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 392
+        width: 41
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05a286a4ae1c7170800000000000000
+      internalID: 8177444715915027723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 395
+        width: 41
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30aaa2d6696b5cb20800000000000000
+      internalID: 3154127871235762691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 402
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9eb98e09413da00800000000000000
+      internalID: 779989773075605962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 394
+        width: 41
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9ffce6b85b73710800000000000000
+      internalID: 1673005397055633836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_4
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 391
+        width: 39
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126d825d4d79097a0800000000000000
+      internalID: -6372426532364167647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 399
+        width: 38
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acb07008ca388930800000000000000
+      internalID: 4145628087669800105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_6
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 401
+        width: 35
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604e693ad09e4b0c0800000000000000
+      internalID: -4560764277831048186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_7
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 394
+        width: 37
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a45f4cecd8ec920800000000000000
+      internalID: 3012501119964629628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_8
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 277
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2702ce77ae14126e0800000000000000
+      internalID: -1864136295464558478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 281
+        width: 48
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd030d61963d6110800000000000000
+      internalID: 1255719869333310974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_10
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 277
+        width: 33
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3cfd097e4632990800000000000000
+      internalID: -7411969615990897746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_11
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 276
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725552c7634b3b950800000000000000
+      internalID: 6463708036310848807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_12
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 272
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a331e78eef7dd330800000000000000
+      internalID: 3737283928246006691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_13
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 273
+        width: 40
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de518c24ce38f870800000000000000
+      internalID: 8716786091056783060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_14
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 274
+        width: 39
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f7311cff5093220800000000000000
+      internalID: 2466008866976136971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_15
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 276
+        width: 53
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180c8d5fee4c70d30800000000000000
+      internalID: 4397700091756462209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_16
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 147
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf06b30ba3ca4820800000000000000
+      internalID: 2903348049062793154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 144
+        width: 47
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ceb9762a730f3f10800000000000000
+      internalID: 2251522161874943680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_18
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 144
+        width: 35
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98be2e3dc00f2a90800000000000000
+      internalID: -7336644386451703651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_19
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 146
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c8e46f731523d00800000000000000
+      internalID: 950911772125990045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_20
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 148
+        width: 51
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8827150af5f3647f0800000000000000
+      internalID: -628745418027470200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_21
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 149
+        width: 40
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c297dda230a4b9600800000000000000
+      internalID: 476055563082234156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_22
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 144
+        width: 38
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec41ba2ec2a839a30800000000000000
+      internalID: 4220869201162343630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_23
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 148
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f9e0b036be5e570800000000000000
+      internalID: 8495455082724106059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_24
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 9
+        width: 40
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7bc90905cebabf0800000000000000
+      internalID: -311895918404388903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_25
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 8
+        width: 39
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bd417ad01d83a20800000000000000
+      internalID: 3042411404856711943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_26
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 15
+        width: 38
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7004553c68c7912e0800000000000000
+      internalID: -2154554028475465721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_27
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 14
+        width: 37
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7345cc7ee41136f00800000000000000
+      internalID: 1108748963857323063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_28
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 9
+        width: 39
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ba79c559990d630800000000000000
+      internalID: 3949825739986545460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_29
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 12
+        width: 39
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169d7ad797670ffe0800000000000000
+      internalID: -1157294840062944927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_30
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 15
+        width: 37
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a374f4eaa9f3ad820800000000000000
+      internalID: 2943735240021985082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_2_walking_31
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 11
+        width: 39
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7913e2136653f8d0800000000000000
+      internalID: -2813810358657803909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

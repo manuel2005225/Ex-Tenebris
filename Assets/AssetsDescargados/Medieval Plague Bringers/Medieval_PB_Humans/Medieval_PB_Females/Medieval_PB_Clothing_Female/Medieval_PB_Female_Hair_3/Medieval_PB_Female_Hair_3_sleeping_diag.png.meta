@@ -1,0 +1,530 @@
+fileFormatVersion: 2
+guid: d9de2a3951f8f6b4aba7a37d45d8e530
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4212512113271253741
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_0
+  - first:
+      213: 4866345091187802321
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_1
+  - first:
+      213: -6068416337843133313
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_2
+  - first:
+      213: -5317776197098626170
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_3
+  - first:
+      213: 944736524957297205
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_4
+  - first:
+      213: -1181588904200240548
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_5
+  - first:
+      213: -2868842788106607887
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_6
+  - first:
+      213: -2090704273911135944
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_7
+  - first:
+      213: -3524189291588953788
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_8
+  - first:
+      213: 6583223878334556564
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_9
+  - first:
+      213: 2671210545481456488
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_10
+  - first:
+      213: -1355085015334920437
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_11
+  - first:
+      213: -6588431462404765689
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_12
+  - first:
+      213: -2669590929281819014
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_13
+  - first:
+      213: 4908820277378241354
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_14
+  - first:
+      213: -3842488662392401230
+    second: Medieval_PB_Female_Hair_3_sleeping_diag_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 449
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315df644d862a85c0800000000000000
+      internalID: -4212512113271253741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 445
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d007b2d31bb88340800000000000000
+      internalID: 4866345091187802321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 449
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74eea91e77a8cba0800000000000000
+      internalID: -6068416337843133313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 444
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683a8e839b67336b0800000000000000
+      internalID: -5317776197098626170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_4
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 450
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53aaa603dd06c1d00800000000000000
+      internalID: 944736524957297205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 444
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c520a96e6272a9fe0800000000000000
+      internalID: -1181588904200240548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 274
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2e67a1fa2df28d0800000000000000
+      internalID: -2868842788106607887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_7
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 273
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831c2273a835cf2e0800000000000000
+      internalID: -2090704273911135944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_8
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 273
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449da91e280971fc0800000000000000
+      internalID: -3524189291588953788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_9
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 189
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4992009ec3f4c5b50800000000000000
+      internalID: 6583223878334556564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 175
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b13b3a6db021520800000000000000
+      internalID: 2671210545481456488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_11
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 189
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fd18cab55c13de0800000000000000
+      internalID: -1355085015334920437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_12
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 175
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7084b50fd703194a0800000000000000
+      internalID: -6588431462404765689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 20
+        width: 39
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e5d84a135b3fad0800000000000000
+      internalID: -2669590929281819014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_14
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 20
+        width: 39
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a435d53c802af1440800000000000000
+      internalID: 4908820277378241354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hair_3_sleeping_diag_15
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 19
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b292a08becbcaac0800000000000000
+      internalID: -3842488662392401230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

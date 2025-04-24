@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: 17bb1378f465f0c40bf9ee79cf8a01cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1034861894231060060
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_0
+  - first:
+      213: 7389274698469479505
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_1
+  - first:
+      213: 2255525899755245105
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_2
+  - first:
+      213: -4988085380168874684
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_3
+  - first:
+      213: -7472611393565402540
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_4
+  - first:
+      213: -6544093210363379912
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_5
+  - first:
+      213: 2447640044002439436
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_6
+  - first:
+      213: 3540010924675348288
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_7
+  - first:
+      213: -4121272822817305441
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_8
+  - first:
+      213: 2954849103959619454
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_9
+  - first:
+      213: 8289570520913296459
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_10
+  - first:
+      213: 2225283881719307672
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_11
+  - first:
+      213: 2101310381622382005
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_12
+  - first:
+      213: 7675666981597062535
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_13
+  - first:
+      213: 8337251314519217230
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_14
+  - first:
+      213: 8984269211372100110
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_15
+  - first:
+      213: -7330456665521495229
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_16
+  - first:
+      213: 7834672661841005989
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_17
+  - first:
+      213: -3071391838206183902
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_18
+  - first:
+      213: -3443489609273042894
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_19
+  - first:
+      213: 2866584067074283345
+    second: Medieval_Shadow_Male_MVsv_alt_dead2_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 46
+        width: 54
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5eea3de8619c5e00800000000000000
+      internalID: 1034861894231060060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 51
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1541e0e203afb8660800000000000000
+      internalID: 7389274698469479505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 36
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13eca940bdc3d4f10800000000000000
+      internalID: 2255525899755245105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 46
+        width: 54
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44507b556c2c6cab0800000000000000
+      internalID: -4988085380168874684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 51
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a5ff57783fb4890800000000000000
+      internalID: -7472611393565402540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_5
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 36
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fbe33b5e5be25a0800000000000000
+      internalID: -6544093210363379912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 46
+        width: 54
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0179c0e6a3c7f120800000000000000
+      internalID: 2447640044002439436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_7
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 51
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047b6422e25a02130800000000000000
+      internalID: 3540010924675348288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 36
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9cc08df33c4ec6c0800000000000000
+      internalID: -4121272822817305441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 35
+        width: 45
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77f466ca9bb10920800000000000000
+      internalID: 2954849103959619454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 17
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c369ff7787a0370800000000000000
+      internalID: 8289570520913296459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_11
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 35
+        width: 45
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d184e76ebc1ee10800000000000000
+      internalID: 2225283881719307672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_12
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 17
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd417ba8aa592d10800000000000000
+      internalID: 2101310381622382005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_13
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 35
+        width: 45
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785a94cc372758a60800000000000000
+      internalID: 7675666981597062535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_14
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 17
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44931dd5edd3b370800000000000000
+      internalID: 8337251314519217230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 22
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a105e3f398eac70800000000000000
+      internalID: 8984269211372100110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_16
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 22
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343623a408cf44a90800000000000000
+      internalID: -7330456665521495229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_17
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 22
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad4f7ca6495abc60800000000000000
+      internalID: 7834672661841005989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_18
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 10
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226bfa565693065d0800000000000000
+      internalID: -3071391838206183902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_19
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 10
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238188bd1744630d0800000000000000
+      internalID: -3443489609273042894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_MVsv_alt_dead2_20
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 10
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157d1cc650728c720800000000000000
+      internalID: 2866584067074283345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

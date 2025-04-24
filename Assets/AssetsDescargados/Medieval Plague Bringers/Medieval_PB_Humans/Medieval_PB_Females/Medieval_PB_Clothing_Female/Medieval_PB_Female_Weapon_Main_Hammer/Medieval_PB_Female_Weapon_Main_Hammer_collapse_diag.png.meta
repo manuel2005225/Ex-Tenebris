@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: 912a6039808655542aec34e2b46b37eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -496145401938345771
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_0
+  - first:
+      213: 7821568485498434109
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_1
+  - first:
+      213: -5396362184584650567
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_2
+  - first:
+      213: 4474908394486505508
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_3
+  - first:
+      213: -3957609181979334124
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_4
+  - first:
+      213: -5162672292711331830
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_5
+  - first:
+      213: 8703681436550026810
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_6
+  - first:
+      213: 778117653380001197
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_7
+  - first:
+      213: 7465448761357256844
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_8
+  - first:
+      213: 6446007232736424036
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_9
+  - first:
+      213: 5493902013121022314
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_10
+  - first:
+      213: -7253946599741029865
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_11
+  - first:
+      213: -1290420910540468589
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_12
+  - first:
+      213: -1875276164091018610
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_13
+  - first:
+      213: -4443467552429061164
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_14
+  - first:
+      213: 7532361493110646404
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_15
+  - first:
+      213: -674402271189138621
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_16
+  - first:
+      213: -3658835527731210537
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_17
+  - first:
+      213: -6406595661403995995
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_18
+  - first:
+      213: -4909750697164134568
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_19
+  - first:
+      213: 1564005181348190914
+    second: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 427
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d08588b2665d19f0800000000000000
+      internalID: -496145401938345771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 423
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32368cd81bcb8c60800000000000000
+      internalID: 7821568485498434109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 439
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b02b7c2f254c15b0800000000000000
+      internalID: -5396362184584650567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_3
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 417
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42028c7c9711a1e30800000000000000
+      internalID: 4474908394486505508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 335
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a2c44da6fb319c0800000000000000
+      internalID: -3957609181979334124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 311
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08803d17e08a58b0800000000000000
+      internalID: -5162672292711331830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 286
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36d9b70720b9c870800000000000000
+      internalID: 8703681436550026810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_7
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 304
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadec2312ed6cca00800000000000000
+      internalID: 778117653380001197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_8
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 284
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c884495481a9a9760800000000000000
+      internalID: 7465448761357256844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_9
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 180
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4607adefc61d47950800000000000000
+      internalID: 6446007232736424036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 146
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69c1e2e5c24e3c40800000000000000
+      internalID: 5493902013121022314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_11
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 168
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71288c6200ec45b90800000000000000
+      internalID: -7253946599741029865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_12
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 143
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ecf70d401871ee0800000000000000
+      internalID: -1290420910540468589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_13
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 158
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82099fa34ea9f5e0800000000000000
+      internalID: -1875276164091018610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_14
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 131
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbcd76bdc1a552c0800000000000000
+      internalID: -4443467552429061164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 46
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486e0bcaed2588860800000000000000
+      internalID: 7532361493110646404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 42
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3430e0e15ba04a6f0800000000000000
+      internalID: -674402271189138621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_17
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 41
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6900e0974393dc0800000000000000
+      internalID: -3658835527731210537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_18
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 21
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0c47680333717a0800000000000000
+      internalID: -6406595661403995995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_19
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 21
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8572ecff0cf0ddbb0800000000000000
+      internalID: -4909750697164134568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_collapse_diag_20
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 17
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca112d0d6674b510800000000000000
+      internalID: 1564005181348190914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,930 @@
+fileFormatVersion: 2
+guid: b56505f286504ff42ac832a44ca1a90c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4295079680890145734
+    second: Medieval_PB_Necromancer_walking_0
+  - first:
+      213: -6235361935245262757
+    second: Medieval_PB_Necromancer_walking_1
+  - first:
+      213: -8605483618783957503
+    second: Medieval_PB_Necromancer_walking_2
+  - first:
+      213: -7653709575980694120
+    second: Medieval_PB_Necromancer_walking_3
+  - first:
+      213: -7096890088565896569
+    second: Medieval_PB_Necromancer_walking_4
+  - first:
+      213: 2980410007295840889
+    second: Medieval_PB_Necromancer_walking_5
+  - first:
+      213: 7050690987608481304
+    second: Medieval_PB_Necromancer_walking_6
+  - first:
+      213: 5466111408672387116
+    second: Medieval_PB_Necromancer_walking_7
+  - first:
+      213: 3486589233483396498
+    second: Medieval_PB_Necromancer_walking_8
+  - first:
+      213: -8774601927552925793
+    second: Medieval_PB_Necromancer_walking_9
+  - first:
+      213: 6071848840651702113
+    second: Medieval_PB_Necromancer_walking_10
+  - first:
+      213: 4522832008184339237
+    second: Medieval_PB_Necromancer_walking_11
+  - first:
+      213: 2784008423748982388
+    second: Medieval_PB_Necromancer_walking_12
+  - first:
+      213: 5766740323643549053
+    second: Medieval_PB_Necromancer_walking_13
+  - first:
+      213: -319426292498523685
+    second: Medieval_PB_Necromancer_walking_14
+  - first:
+      213: 4493009388369643180
+    second: Medieval_PB_Necromancer_walking_15
+  - first:
+      213: -862201558581266401
+    second: Medieval_PB_Necromancer_walking_16
+  - first:
+      213: -5540314543623731374
+    second: Medieval_PB_Necromancer_walking_17
+  - first:
+      213: -7166161750784279358
+    second: Medieval_PB_Necromancer_walking_18
+  - first:
+      213: 2099954234871420165
+    second: Medieval_PB_Necromancer_walking_19
+  - first:
+      213: 3422610041922715133
+    second: Medieval_PB_Necromancer_walking_20
+  - first:
+      213: 7855297418857437832
+    second: Medieval_PB_Necromancer_walking_21
+  - first:
+      213: -422694021267862881
+    second: Medieval_PB_Necromancer_walking_22
+  - first:
+      213: -4638186206127603580
+    second: Medieval_PB_Necromancer_walking_23
+  - first:
+      213: -6122871879228313611
+    second: Medieval_PB_Necromancer_walking_24
+  - first:
+      213: 1651788651407843749
+    second: Medieval_PB_Necromancer_walking_25
+  - first:
+      213: 3490989100366740959
+    second: Medieval_PB_Necromancer_walking_26
+  - first:
+      213: -8879574311476052947
+    second: Medieval_PB_Necromancer_walking_27
+  - first:
+      213: -3757163126183170528
+    second: Medieval_PB_Necromancer_walking_28
+  - first:
+      213: 3547295534081582926
+    second: Medieval_PB_Necromancer_walking_29
+  - first:
+      213: 6819990539692293373
+    second: Medieval_PB_Necromancer_walking_30
+  - first:
+      213: -6664228461111569361
+    second: Medieval_PB_Necromancer_walking_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 390
+        width: 53
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a347b8a59cfc464c0800000000000000
+      internalID: -4295079680890145734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 393
+        width: 53
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50c6b33b5b8779a0800000000000000
+      internalID: -6235361935245262757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 400
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e60f51e3e239880800000000000000
+      internalID: -8605483618783957503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 390
+        width: 53
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8954aa511bf88c590800000000000000
+      internalID: -7653709575980694120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_4
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 389
+        width: 53
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a0a0db018c28d90800000000000000
+      internalID: -7096890088565896569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 397
+        width: 55
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97253e95c1b8c5920800000000000000
+      internalID: 2980410007295840889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_6
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 399
+        width: 52
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e9379d81619d160800000000000000
+      internalID: 7050690987608481304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_7
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 389
+        width: 53
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20b0a09d578bdb40800000000000000
+      internalID: 5466111408672387116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 276
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295ba736f6ad26030800000000000000
+      internalID: 3486589233483396498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 276
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fffb6690a5a3680800000000000000
+      internalID: -8774601927552925793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 275
+        width: 42
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f79ecb95a834450800000000000000
+      internalID: 6071848840651702113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_11
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 273
+        width: 58
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b189a9fb354ce30800000000000000
+      internalID: 4522832008184339237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_12
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 271
+        width: 54
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476d04d39e8c2a620800000000000000
+      internalID: 2784008423748982388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_13
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 272
+        width: 46
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75e1b655c3970050800000000000000
+      internalID: 5766740323643549053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_14
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 274
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd994b7ba7b219bf0800000000000000
+      internalID: -319426292498523685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_15
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 275
+        width: 58
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca68446db306a5e30800000000000000
+      internalID: 4493009388369643180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 145
+        width: 61
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18b9f72048d804f0800000000000000
+      internalID: -862201558581266401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 143
+        width: 61
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2578063c649dc13b0800000000000000
+      internalID: -5540314543623731374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_18
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 143
+        width: 53
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ccf2890bddac8c90800000000000000
+      internalID: -7166161750784279358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_19
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 145
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50596162049842d10800000000000000
+      internalID: 2099954234871420165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_20
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 146
+        width: 60
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdfc7903bd8f7f20800000000000000
+      internalID: 3422610041922715133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_21
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 147
+        width: 58
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a5a00226f930d60800000000000000
+      internalID: 7855297418857437832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_22
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 143
+        width: 49
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ac5a5f60a422af0800000000000000
+      internalID: -422694021267862881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_23
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 145
+        width: 57
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480c5ad383ad1afb0800000000000000
+      internalID: -4638186206127603580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_24
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 4
+        width: 56
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff2e595770370ba0800000000000000
+      internalID: -6122871879228313611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_25
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 5
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1af23e6055ce610800000000000000
+      internalID: 1651788651407843749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_26
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 10
+        width: 53
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fddbe1a371c727030800000000000000
+      internalID: 3490989100366740959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_27
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 12
+        width: 53
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c39cfa53a65c480800000000000000
+      internalID: -8879574311476052947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_28
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 6
+        width: 52
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ee7a40b00ebdbc0800000000000000
+      internalID: -3757163126183170528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_29
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 7
+        width: 52
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47234e6e768a3130800000000000000
+      internalID: 3547295534081582926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_30
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 13
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc32e1134975ae50800000000000000
+      internalID: 6819990539692293373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Necromancer_walking_31
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 8
+        width: 52
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f249561f587e383a0800000000000000
+      internalID: -6664228461111569361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

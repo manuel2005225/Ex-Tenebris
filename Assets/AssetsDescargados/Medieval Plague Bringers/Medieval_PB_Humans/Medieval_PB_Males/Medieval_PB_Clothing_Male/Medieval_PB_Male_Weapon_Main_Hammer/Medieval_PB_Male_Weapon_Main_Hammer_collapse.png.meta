@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: f9ca4f6a8c408c04d8c5d16a45a1a0cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1067447760268610502
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_0
+  - first:
+      213: -8745623933735717051
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_1
+  - first:
+      213: -5304283157552803032
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_2
+  - first:
+      213: 668760122919843358
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_3
+  - first:
+      213: -4074780388693894203
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_4
+  - first:
+      213: -9037404899157901239
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_5
+  - first:
+      213: 9007112688734532363
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_6
+  - first:
+      213: -601272358765464641
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_7
+  - first:
+      213: -4513050480657252469
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_8
+  - first:
+      213: 2850576697725694362
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_9
+  - first:
+      213: 8596048685427726275
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_10
+  - first:
+      213: 7981328453284555139
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_11
+  - first:
+      213: -1974482301189451349
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_12
+  - first:
+      213: 8342324594485976448
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_13
+  - first:
+      213: 7197806418185806272
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_14
+  - first:
+      213: 214828832025072151
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_15
+  - first:
+      213: -1839292454642098171
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_16
+  - first:
+      213: -385282037555414205
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_17
+  - first:
+      213: 1722116118095628839
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_18
+  - first:
+      213: 2647301908607109256
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_19
+  - first:
+      213: 524574856485730511
+    second: Medieval_PB_Male_Weapon_Main_Hammer_collapse_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 412
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3437e8eae9af21f0800000000000000
+      internalID: -1067447760268610502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 420
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547378a5e5d41a680800000000000000
+      internalID: -8745623933735717051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_2
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 405
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8235afd42966366b0800000000000000
+      internalID: -5304283157552803032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 319
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16759ed9c9e74900800000000000000
+      internalID: 668760122919843358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 322
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb1c2a53d87377c0800000000000000
+      internalID: -4074780388693894203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 304
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940815e5020b49280800000000000000
+      internalID: -9037404899157901239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 317
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b037fe7c441bffc70800000000000000
+      internalID: 9007112688734532363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 312
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3f582b9f9d7a7f0800000000000000
+      internalID: -601272358765464641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_8
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 307
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fb40fbf7c6e51c0800000000000000
+      internalID: -4513050480657252469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 288
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9132f057684f8720800000000000000
+      internalID: 2850576697725694362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c712ee4cbc4b4770800000000000000
+      internalID: 8596048685427726275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 153
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3896ebdf0ff53ce60800000000000000
+      internalID: 7981328453284555139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 167
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba19e4eeeca3994e0800000000000000
+      internalID: -1974482301189451349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_13
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 142
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d5757e404e5c370800000000000000
+      internalID: 8342324594485976448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_14
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 133
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1edfd3dceb3e360800000000000000
+      internalID: 7197806418185806272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 49
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712dd5c3fa93bf200800000000000000
+      internalID: 214828832025072151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 60
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500600be1458976e0800000000000000
+      internalID: -1839292454642098171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_17
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 34
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bbb25370437aaf0800000000000000
+      internalID: -385282037555414205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_18
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 47
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a80193c7f26e710800000000000000
+      internalID: 1722116118095628839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_19
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 35
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8888db35f0b1db420800000000000000
+      internalID: 2647301908607109256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Weapon_Main_Hammer_collapse_20
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 24
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8feea7d0aa74700800000000000000
+      internalID: 524574856485730511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

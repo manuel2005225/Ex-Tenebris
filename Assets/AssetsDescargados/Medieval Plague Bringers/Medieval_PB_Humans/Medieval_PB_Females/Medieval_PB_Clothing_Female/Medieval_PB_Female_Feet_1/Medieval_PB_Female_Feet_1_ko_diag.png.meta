@@ -1,0 +1,605 @@
+fileFormatVersion: 2
+guid: f50791145a8215249b4555847eb0ed8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7011955521395682431
+    second: Medieval_PB_Female_Feet_1_ko_diag_0
+  - first:
+      213: 8938842354845490324
+    second: Medieval_PB_Female_Feet_1_ko_diag_1
+  - first:
+      213: -5296530997395522494
+    second: Medieval_PB_Female_Feet_1_ko_diag_2
+  - first:
+      213: 5195800174070111242
+    second: Medieval_PB_Female_Feet_1_ko_diag_3
+  - first:
+      213: 2320640919797690126
+    second: Medieval_PB_Female_Feet_1_ko_diag_4
+  - first:
+      213: 2760592452587521301
+    second: Medieval_PB_Female_Feet_1_ko_diag_5
+  - first:
+      213: 6390925873940930570
+    second: Medieval_PB_Female_Feet_1_ko_diag_6
+  - first:
+      213: -7351764624400887785
+    second: Medieval_PB_Female_Feet_1_ko_diag_7
+  - first:
+      213: 9222475562164828501
+    second: Medieval_PB_Female_Feet_1_ko_diag_8
+  - first:
+      213: 2211015115714077247
+    second: Medieval_PB_Female_Feet_1_ko_diag_9
+  - first:
+      213: 1459962593188993338
+    second: Medieval_PB_Female_Feet_1_ko_diag_10
+  - first:
+      213: -1312692353467074048
+    second: Medieval_PB_Female_Feet_1_ko_diag_11
+  - first:
+      213: 1010467830817300468
+    second: Medieval_PB_Female_Feet_1_ko_diag_12
+  - first:
+      213: -7420882753984179665
+    second: Medieval_PB_Female_Feet_1_ko_diag_13
+  - first:
+      213: -8824324272412836080
+    second: Medieval_PB_Female_Feet_1_ko_diag_14
+  - first:
+      213: -2657561977057829712
+    second: Medieval_PB_Female_Feet_1_ko_diag_15
+  - first:
+      213: 9074658449631271442
+    second: Medieval_PB_Female_Feet_1_ko_diag_16
+  - first:
+      213: 6624584918338302094
+    second: Medieval_PB_Female_Feet_1_ko_diag_17
+  - first:
+      213: 7510433096346350965
+    second: Medieval_PB_Female_Feet_1_ko_diag_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 396
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ce0a155687f4160800000000000000
+      internalID: 7011955521395682431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 410
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c18cff2c52d0c70800000000000000
+      internalID: 8938842354845490324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 400
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cf46ebe11fe76b0800000000000000
+      internalID: -5296530997395522494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_3
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 408
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c9c53dab03b1840800000000000000
+      internalID: 5195800174070111242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_4
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 392
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fe6cb0f92943020800000000000000
+      internalID: 2320640919797690126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 311
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5158a1a95389f4620800000000000000
+      internalID: 2760592452587521301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_6
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 305
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a002a16c83121b850800000000000000
+      internalID: 6390925873940930570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_7
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 319
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7105d42860949f990800000000000000
+      internalID: -7351764624400887785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 272
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5593e8839a0dcff70800000000000000
+      internalID: 9222475562164828501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_9
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 291
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f322825888a1fae10800000000000000
+      internalID: 2211015115714077247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_10
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 140
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3953684e34d24410800000000000000
+      internalID: 1459962593188993338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_11
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 147
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a393c624168cde0800000000000000
+      internalID: -1312692353467074048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_12
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 137
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff13d07327e50e00800000000000000
+      internalID: 1010467830817300468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 144
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2253f8e37ab30990800000000000000
+      internalID: -7420882753984179665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_14
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 34
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fb9f7d3d3b98580800000000000000
+      internalID: -8824324272412836080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_15
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 51
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc12e456717e1bd0800000000000000
+      internalID: -2657561977057829712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_16
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 57
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ad444c7c9afed70800000000000000
+      internalID: 9074658449631271442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_17
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 46
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80f6f972e04feb50800000000000000
+      internalID: 6624584918338302094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Feet_1_ko_diag_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 16
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575bf01fb1b6a3860800000000000000
+      internalID: 7510433096346350965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

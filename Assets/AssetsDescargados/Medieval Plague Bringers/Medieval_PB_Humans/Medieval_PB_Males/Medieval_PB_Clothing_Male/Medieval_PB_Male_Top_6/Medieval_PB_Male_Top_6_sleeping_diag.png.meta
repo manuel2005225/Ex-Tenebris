@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 0d2fa79e49c35b74bb4671c0aee2c79c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3290602317109321500
+    second: Medieval_PB_Male_Top_6_sleeping_diag_0
+  - first:
+      213: 5550766013819991939
+    second: Medieval_PB_Male_Top_6_sleeping_diag_1
+  - first:
+      213: 8460848676005327610
+    second: Medieval_PB_Male_Top_6_sleeping_diag_2
+  - first:
+      213: -8441849683961356950
+    second: Medieval_PB_Male_Top_6_sleeping_diag_3
+  - first:
+      213: 8101262495664536927
+    second: Medieval_PB_Male_Top_6_sleeping_diag_4
+  - first:
+      213: -5179920926675839547
+    second: Medieval_PB_Male_Top_6_sleeping_diag_5
+  - first:
+      213: -6641781543567476199
+    second: Medieval_PB_Male_Top_6_sleeping_diag_6
+  - first:
+      213: -2608804597239099009
+    second: Medieval_PB_Male_Top_6_sleeping_diag_7
+  - first:
+      213: 6208461760749552024
+    second: Medieval_PB_Male_Top_6_sleeping_diag_8
+  - first:
+      213: -5035605135223861036
+    second: Medieval_PB_Male_Top_6_sleeping_diag_9
+  - first:
+      213: 1314450116522165931
+    second: Medieval_PB_Male_Top_6_sleeping_diag_10
+  - first:
+      213: 9061107564631556551
+    second: Medieval_PB_Male_Top_6_sleeping_diag_11
+  - first:
+      213: 9093148392729297601
+    second: Medieval_PB_Male_Top_6_sleeping_diag_12
+  - first:
+      213: 1212126234816106924
+    second: Medieval_PB_Male_Top_6_sleeping_diag_13
+  - first:
+      213: -4845664286070865419
+    second: Medieval_PB_Male_Top_6_sleeping_diag_14
+  - first:
+      213: 6547626698740174817
+    second: Medieval_PB_Male_Top_6_sleeping_diag_15
+  - first:
+      213: 6224714282511663367
+    second: Medieval_PB_Male_Top_6_sleeping_diag_16
+  - first:
+      213: -797725809292079554
+    second: Medieval_PB_Male_Top_6_sleeping_diag_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 431
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fd0608f519aad20800000000000000
+      internalID: 3290602317109321500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 434
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3873d05c748480d40800000000000000
+      internalID: 5550766013819991939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 431
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2b1a71b09fa6570800000000000000
+      internalID: 8460848676005327610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 434
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d5d34707688da80800000000000000
+      internalID: -8441849683961356950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 431
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d774641577d6070800000000000000
+      internalID: 8101262495664536927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 434
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5dfd09c593d18b0800000000000000
+      internalID: -5179920926675839547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 276
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a3ae330e6a3d3a0800000000000000
+      internalID: -6641781543567476199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 276
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7158257a0aabcbd0800000000000000
+      internalID: -2608804597239099009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 276
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891c21bd313e82650800000000000000
+      internalID: 6208461760749552024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 176
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d059dd2fcfed1ab0800000000000000
+      internalID: -5035605135223861036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_10
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 180
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6464eaa6ddd3210800000000000000
+      internalID: 1314450116522165931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_11
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 179
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1087d72558fbd70800000000000000
+      internalID: 9061107564631556551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 176
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c24b8e194a513e70800000000000000
+      internalID: 9093148392729297601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_13
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 179
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca15521736652d010800000000000000
+      internalID: 1212126234816106924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_14
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 176
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f103f7510eb0ccb0800000000000000
+      internalID: -4845664286070865419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 20
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef854caac7ddda50800000000000000
+      internalID: 6547626698740174817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_16
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 20
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7018865f8a0a26650800000000000000
+      internalID: 6224714282511663367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Top_6_sleeping_diag_17
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 20
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e0cfc5a98ede4f0800000000000000
+      internalID: -797725809292079554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

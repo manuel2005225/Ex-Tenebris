@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: 9a95b4321a1ffee4ba19036743cd99a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7601880995747235044
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_0
+  - first:
+      213: 4916434222741705293
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_1
+  - first:
+      213: -6852972250595520817
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_2
+  - first:
+      213: 6940991723974605153
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_3
+  - first:
+      213: 6192697644063204363
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_4
+  - first:
+      213: 7757231474132228356
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_5
+  - first:
+      213: -1351872864532145265
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_6
+  - first:
+      213: 2651750791440717633
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_7
+  - first:
+      213: -5980028754120180684
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_8
+  - first:
+      213: -3472920898584784227
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_9
+  - first:
+      213: 3534397894121293608
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_10
+  - first:
+      213: -8341080820612427969
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_11
+  - first:
+      213: -881409065963394120
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_12
+  - first:
+      213: -225740731586444709
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_13
+  - first:
+      213: -8287710810312051101
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_14
+  - first:
+      213: -7391372093507030792
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_15
+  - first:
+      213: -4443090471523417097
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_16
+  - first:
+      213: -9115451528382122842
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_17
+  - first:
+      213: 7223784904079486644
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_18
+  - first:
+      213: 9093035630554037085
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_19
+  - first:
+      213: -7762927359785565956
+    second: Medieval_PB_Female_Weapon_Main_Staff_ko_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 442
+        width: 9
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e48e483d7e4f7960800000000000000
+      internalID: 7601880995747235044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 432
+        width: 19
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42d71090eeaa3440800000000000000
+      internalID: 4916434222741705293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 411
+        width: 17
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce05a3fb0a55e0a0800000000000000
+      internalID: -6852972250595520817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 405
+        width: 10
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169be60b23b535060800000000000000
+      internalID: 6940991723974605153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_4
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 344
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0429cb62b1e0f550800000000000000
+      internalID: 6192697644063204363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 346
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40991281de837ab60800000000000000
+      internalID: 7757231474132228356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_6
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 345
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b5210dace2d3de0800000000000000
+      internalID: -1351872864532145265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_7
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 312
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1475fa49b49ecc420800000000000000
+      internalID: 2651750791440717633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 324
+        width: 46
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c7b0c188ba20da0800000000000000
+      internalID: -5980028754120180684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_9
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 309
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92d2d2d7d4bdcfc0800000000000000
+      internalID: -3472920898584784227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_10
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 285
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8270dfd9824bc0130800000000000000
+      internalID: 3534397894121293608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_11
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 293
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f8294cf278e3c80800000000000000
+      internalID: -8341080820612427969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 173
+        width: 50
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb6179df1b94c3f0800000000000000
+      internalID: -881409065963394120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 164
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52047a20020edcf0800000000000000
+      internalID: -225740731586444709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 157
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3667f2e9de22cfc80800000000000000
+      internalID: -8287710810312051101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_15
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 126
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f037cbfd329c6990800000000000000
+      internalID: -7391372093507030792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_16
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 62
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f38ce3b1c8f652c0800000000000000
+      internalID: -4443090471523417097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_17
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 77
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4fd7371296f7180800000000000000
+      internalID: -9115451528382122842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_18
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 48
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4beac75d81a004460800000000000000
+      internalID: 7223784904079486644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_19
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 34
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bb421aab3f03e70800000000000000
+      internalID: 9093035630554037085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Staff_ko_20
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 0
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf002de22ba844490800000000000000
+      internalID: -7762927359785565956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

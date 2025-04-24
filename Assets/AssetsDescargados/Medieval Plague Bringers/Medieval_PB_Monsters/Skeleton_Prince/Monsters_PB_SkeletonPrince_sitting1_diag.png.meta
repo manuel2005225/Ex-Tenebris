@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: 40523bca7b62b1c479c5a6f9c6536d34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8736807828741991333
+    second: Monsters_PB_SkeletonPrince_sitting1_diag_0
+  - first:
+      213: -886897087388139074
+    second: Monsters_PB_SkeletonPrince_sitting1_diag_1
+  - first:
+      213: -4342268339057681914
+    second: Monsters_PB_SkeletonPrince_sitting1_diag_2
+  - first:
+      213: -8648377022138074573
+    second: Monsters_PB_SkeletonPrince_sitting1_diag_3
+  - first:
+      213: -3527190412735980660
+    second: Monsters_PB_SkeletonPrince_sitting1_diag_4
+  - first:
+      213: -8551442955895123176
+    second: Monsters_PB_SkeletonPrince_sitting1_diag_5
+  - first:
+      213: -872455422629489630
+    second: Monsters_PB_SkeletonPrince_sitting1_diag_6
+  - first:
+      213: -1732194848092486413
+    second: Monsters_PB_SkeletonPrince_sitting1_diag_7
+  - first:
+      213: -2377026595920730786
+    second: Monsters_PB_SkeletonPrince_sitting1_diag_8
+  - first:
+      213: -8542970711196707284
+    second: Monsters_PB_SkeletonPrince_sitting1_diag_9
+  - first:
+      213: 7293077983899923608
+    second: Monsters_PB_SkeletonPrince_sitting1_diag_10
+  - first:
+      213: -5743484134593522739
+    second: Monsters_PB_SkeletonPrince_sitting1_diag_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monsters_PB_SkeletonPrince_sitting1_diag_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 795
+        width: 120
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aba40f3e606f3970800000000000000
+      internalID: 8736807828741991333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsters_PB_SkeletonPrince_sitting1_diag_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 795
+        width: 120
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1c6e94ccb11b3f0800000000000000
+      internalID: -886897087388139074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsters_PB_SkeletonPrince_sitting1_diag_2
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 795
+        width: 120
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a9a03b3f92db3c0800000000000000
+      internalID: -4342268339057681914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsters_PB_SkeletonPrince_sitting1_diag_3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 574
+        width: 126
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a3fcf5beacaf780800000000000000
+      internalID: -8648377022138074573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsters_PB_SkeletonPrince_sitting1_diag_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 574
+        width: 126
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b55b9e107ec0fc0800000000000000
+      internalID: -3527190412735980660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsters_PB_SkeletonPrince_sitting1_diag_5
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 574
+        width: 126
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813dad860fb235980800000000000000
+      internalID: -8551442955895123176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsters_PB_SkeletonPrince_sitting1_diag_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 281
+        width: 126
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2245ec36a6a64e3f0800000000000000
+      internalID: -872455422629489630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsters_PB_SkeletonPrince_sitting1_diag_7
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 281
+        width: 126
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f48fa596f106f7e0800000000000000
+      internalID: -1732194848092486413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsters_PB_SkeletonPrince_sitting1_diag_8
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 281
+        width: 126
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e552d70b7ea130fd0800000000000000
+      internalID: -2377026595920730786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsters_PB_SkeletonPrince_sitting1_diag_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 61
+        width: 120
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26dd889665417980800000000000000
+      internalID: -8542970711196707284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsters_PB_SkeletonPrince_sitting1_diag_10
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 61
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894b39539c7363560800000000000000
+      internalID: 7293077983899923608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsters_PB_SkeletonPrince_sitting1_diag_11
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 61
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc316702c9b0b40b0800000000000000
+      internalID: -5743484134593522739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

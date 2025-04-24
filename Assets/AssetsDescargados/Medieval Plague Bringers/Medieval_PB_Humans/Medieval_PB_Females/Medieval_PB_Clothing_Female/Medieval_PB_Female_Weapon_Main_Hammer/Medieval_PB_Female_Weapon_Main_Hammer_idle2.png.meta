@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: cc4960771221eb34db509acd51edeb11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5026024442214837756
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_0
+  - first:
+      213: 7437988650620785120
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_1
+  - first:
+      213: -8202162731629757845
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_2
+  - first:
+      213: 1785086292282243958
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_3
+  - first:
+      213: -7101706547956642847
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_4
+  - first:
+      213: -2640351179834709899
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_5
+  - first:
+      213: -6619503355109506855
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_6
+  - first:
+      213: 5880641780157725199
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_7
+  - first:
+      213: 6261879948791605781
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_8
+  - first:
+      213: 7580167123125384957
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_9
+  - first:
+      213: -751528725041009003
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_10
+  - first:
+      213: -7103841669845876199
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_11
+  - first:
+      213: 27763700348392814
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_12
+  - first:
+      213: 2570595126434606385
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_13
+  - first:
+      213: 4197709098850108029
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_14
+  - first:
+      213: -4079825095659516462
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_15
+  - first:
+      213: -1760567705402950475
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_16
+  - first:
+      213: 5380458498554592134
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_17
+  - first:
+      213: 5804763098234803653
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_18
+  - first:
+      213: 3760589894405533231
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_19
+  - first:
+      213: 693098545279196255
+    second: Medieval_PB_Female_Weapon_Main_Hammer_idle2_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 410
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4029a591669ff3ab0800000000000000
+      internalID: -5026024442214837756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 410
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e193a3054b093760800000000000000
+      internalID: 7437988650620785120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 411
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ab247d3701c2e80800000000000000
+      internalID: -8202162731629757845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 441
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bf6e86686e5c810800000000000000
+      internalID: 1785086292282243958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 318
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb8af5658ba17d90800000000000000
+      internalID: -7101706547956642847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 321
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5782ba357969b5bd0800000000000000
+      internalID: -2640351179834709899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_6
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 318
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0013925ccc224a0800000000000000
+      internalID: -6619503355109506855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_7
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 322
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a3f95ca8c3c9150800000000000000
+      internalID: 5880641780157725199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 319
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a6dd5f2aaa6e650800000000000000
+      internalID: 6261879948791605781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_9
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 322
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6bbf746d9223960800000000000000
+      internalID: 7580167123125384957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 174
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ead693b980295f0800000000000000
+      internalID: -751528725041009003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_11
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 153
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912083893a51a6d90800000000000000
+      internalID: -7103841669845876199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_12
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 174
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e659ae830f2a26000800000000000000
+      internalID: 27763700348392814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_13
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 153
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d2c7cd5a69ca320800000000000000
+      internalID: 2570595126434606385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_14
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 174
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72c26b5f22414a30800000000000000
+      internalID: 4197709098850108029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_15
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 152
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd8d7bf0bc8167c0800000000000000
+      internalID: -4079825095659516462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_16
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 43
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcbe64fff43197e0800000000000000
+      internalID: -1760567705402950475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_17
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 44
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bf31f5f7a3baa40800000000000000
+      internalID: 5380458498554592134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 54
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5d49b6849ae8050800000000000000
+      internalID: 5804763098234803653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_19
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 44
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e27f1a59c403430800000000000000
+      internalID: 3760589894405533231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Weapon_Main_Hammer_idle2_20
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 53
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cd4b964716e9900800000000000000
+      internalID: 693098545279196255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

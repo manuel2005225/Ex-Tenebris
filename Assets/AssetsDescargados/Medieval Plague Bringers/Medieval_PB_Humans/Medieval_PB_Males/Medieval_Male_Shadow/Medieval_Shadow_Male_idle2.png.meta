@@ -1,0 +1,855 @@
+fileFormatVersion: 2
+guid: 970f6e9d2551be74587e3406edd8bb2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3039899325267352300
+    second: Medieval_Shadow_Male_idle2_0
+  - first:
+      213: 1436692096837553526
+    second: Medieval_Shadow_Male_idle2_1
+  - first:
+      213: -6282611271917722849
+    second: Medieval_Shadow_Male_idle2_2
+  - first:
+      213: 2357599112307623650
+    second: Medieval_Shadow_Male_idle2_3
+  - first:
+      213: 8065122901692024386
+    second: Medieval_Shadow_Male_idle2_4
+  - first:
+      213: 1217096180778114475
+    second: Medieval_Shadow_Male_idle2_5
+  - first:
+      213: 5200792205476990962
+    second: Medieval_Shadow_Male_idle2_6
+  - first:
+      213: 288833819398377317
+    second: Medieval_Shadow_Male_idle2_7
+  - first:
+      213: -5547713585314684735
+    second: Medieval_Shadow_Male_idle2_8
+  - first:
+      213: -7674109199227943412
+    second: Medieval_Shadow_Male_idle2_9
+  - first:
+      213: 8800180802617131030
+    second: Medieval_Shadow_Male_idle2_10
+  - first:
+      213: -8112180599152946665
+    second: Medieval_Shadow_Male_idle2_11
+  - first:
+      213: 2348282497679892870
+    second: Medieval_Shadow_Male_idle2_12
+  - first:
+      213: 8208768191201332954
+    second: Medieval_Shadow_Male_idle2_13
+  - first:
+      213: -3400248879967905522
+    second: Medieval_Shadow_Male_idle2_14
+  - first:
+      213: 4012384105826523159
+    second: Medieval_Shadow_Male_idle2_15
+  - first:
+      213: -3166729269882057352
+    second: Medieval_Shadow_Male_idle2_16
+  - first:
+      213: 5666315150110559629
+    second: Medieval_Shadow_Male_idle2_17
+  - first:
+      213: 6231561013569544859
+    second: Medieval_Shadow_Male_idle2_18
+  - first:
+      213: -8478619423204135291
+    second: Medieval_Shadow_Male_idle2_19
+  - first:
+      213: -7995801212377592110
+    second: Medieval_Shadow_Male_idle2_20
+  - first:
+      213: 616781322848507172
+    second: Medieval_Shadow_Male_idle2_21
+  - first:
+      213: -971771353257987671
+    second: Medieval_Shadow_Male_idle2_22
+  - first:
+      213: -623330903668802592
+    second: Medieval_Shadow_Male_idle2_23
+  - first:
+      213: 8763788847497554322
+    second: Medieval_Shadow_Male_idle2_24
+  - first:
+      213: -1478943699380024156
+    second: Medieval_Shadow_Male_idle2_25
+  - first:
+      213: 6374993003839550305
+    second: Medieval_Shadow_Male_idle2_26
+  - first:
+      213: 541938602075771235
+    second: Medieval_Shadow_Male_idle2_27
+  - first:
+      213: -6038993159792440578
+    second: Medieval_Shadow_Male_idle2_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 417
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea928b8454ef2a20800000000000000
+      internalID: 3039899325267352300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 411
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d0d93a9d720f310800000000000000
+      internalID: 1436692096837553526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 427
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13aa7bb55eafc8a0800000000000000
+      internalID: -6282611271917722849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 404
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e64fdbc6efd7b020800000000000000
+      internalID: 2357599112307623650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 417
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24688395c821def60800000000000000
+      internalID: 8065122901692024386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 403
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad93c8278ef3e010800000000000000
+      internalID: 1217096180778114475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 402
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff8316b4fcec2840800000000000000
+      internalID: 5200792205476990962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_7
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 417
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f0c5414d4220400800000000000000
+      internalID: 288833819398377317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_8
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 403
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0a5bf13ef8203b0800000000000000
+      internalID: -5547713585314684735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_9
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 402
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06067ca756108590800000000000000
+      internalID: -7674109199227943412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_10
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 403
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610c43b80d5802a70800000000000000
+      internalID: 8800180802617131030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 272
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7125ca9a9bebb6f80800000000000000
+      internalID: -8112180599152946665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 272
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6812a7a6d76c69020800000000000000
+      internalID: 2348282497679892870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_13
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 272
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adec4109d276be170800000000000000
+      internalID: 8208768191201332954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_14
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 141
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09d791b8a3efc0d0800000000000000
+      internalID: -3400248879967905522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 161
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7189632f51adea730800000000000000
+      internalID: 4012384105826523159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_16
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 141
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d09d0d1848d04d0800000000000000
+      internalID: -3166729269882057352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_17
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 161
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d01cb8b9bc2ae40800000000000000
+      internalID: 5666315150110559629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_18
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 141
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b926cf1c9b3fa7650800000000000000
+      internalID: 6231561013569544859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_19
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 161
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ea0366e84e55a80800000000000000
+      internalID: -8478619423204135291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_20
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 18
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de88913925390190800000000000000
+      internalID: -7995801212377592110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_21
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 42
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4251b74685f3f8800800000000000000
+      internalID: 616781322848507172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_22
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 24
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a138265a139382f0800000000000000
+      internalID: -971771353257987671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_23
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 18
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb3c4d78db7957f0800000000000000
+      internalID: -623330903668802592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_24
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 43
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2992f95368b3f9970800000000000000
+      internalID: 8763788847497554322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_25
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 24
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acc6ab8a8cb97be0800000000000000
+      internalID: -1478943699380024156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_26
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 18
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163f47f5c56887850800000000000000
+      internalID: 6374993003839550305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_27
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 43
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3615cca894a558700800000000000000
+      internalID: 541938602075771235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_Shadow_Male_idle2_28
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 24
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eface8597bf213ca0800000000000000
+      internalID: -6038993159792440578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

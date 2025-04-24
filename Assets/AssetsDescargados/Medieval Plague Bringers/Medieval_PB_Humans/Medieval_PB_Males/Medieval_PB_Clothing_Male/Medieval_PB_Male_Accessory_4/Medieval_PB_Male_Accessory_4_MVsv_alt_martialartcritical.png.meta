@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: c2102fdc7ab35634982bc4131ebf6e0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4380378261830079854
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_0
+  - first:
+      213: 2991260961906269843
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_1
+  - first:
+      213: -3508749067212120222
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_2
+  - first:
+      213: -798182893069241586
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_3
+  - first:
+      213: -6315308207784286870
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_4
+  - first:
+      213: -6949123975709113651
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_5
+  - first:
+      213: 992779340333875595
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_6
+  - first:
+      213: 615387097844619852
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_7
+  - first:
+      213: -7758584315555274760
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_8
+  - first:
+      213: -9148223006714800279
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_9
+  - first:
+      213: 4852851910429476666
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_10
+  - first:
+      213: 4187320163187637937
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_11
+  - first:
+      213: -5189173705225346786
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_12
+  - first:
+      213: 6118800692571312507
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_13
+  - first:
+      213: -8394201337083185175
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_14
+  - first:
+      213: 4685584871846290725
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_15
+  - first:
+      213: -5697158110021337770
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_16
+  - first:
+      213: 3451033050742346092
+    second: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 76
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65993622da3acc30800000000000000
+      internalID: 4380378261830079854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 68
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e9ae81ff7138920800000000000000
+      internalID: 2991260961906269843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 75
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f96d2405b6e4fc0800000000000000
+      internalID: -3508749067212120222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 67
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0370d043e84ce4f0800000000000000
+      internalID: -798182893069241586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_4
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 76
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65a8eb15a48b58a0800000000000000
+      internalID: -6315308207784286870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_5
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 68
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc245b7ef80cf8f90800000000000000
+      internalID: -6949123975709113651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 42
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8182f0dc8f07cd00800000000000000
+      internalID: 992779340333875595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_7
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 50
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a13661e4b4a8800800000000000000
+      internalID: 615387097844619852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 40
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff1967fba8f35490800000000000000
+      internalID: -7758584315555274760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_9
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 42
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96755be05abfa0180800000000000000
+      internalID: -9148223006714800279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_10
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 49
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3789bcd91bc85340800000000000000
+      internalID: 4852851910429476666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_11
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 39
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be31a7c0895c1a30800000000000000
+      internalID: 4187320163187637937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_12
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 42
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11ee3e220a5cf7b0800000000000000
+      internalID: -5189173705225346786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_13
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 50
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b719024afc85ae450800000000000000
+      internalID: 6118800692571312507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_14
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 40
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e73c0abb5ec18b80800000000000000
+      internalID: -8394201337083185175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_15
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 18
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525a75b9d9a860140800000000000000
+      internalID: 4685584871846290725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_16
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 18
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d31fe32e0afe0b0800000000000000
+      internalID: -5697158110021337770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Male_Accessory_4_MVsv_alt_martialartcritical_17
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 18
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6151a9764884ef20800000000000000
+      internalID: 3451033050742346092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

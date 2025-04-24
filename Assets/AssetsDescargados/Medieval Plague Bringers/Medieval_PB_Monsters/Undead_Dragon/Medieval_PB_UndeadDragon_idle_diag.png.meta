@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: 5c2e6090717c0654fa8e4a29cdf5a1f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7040428156579731792
+    second: Medieval_PB_UndeadDragon_idle_diag_0
+  - first:
+      213: 7316895753990198190
+    second: Medieval_PB_UndeadDragon_idle_diag_1
+  - first:
+      213: 3415354035173697816
+    second: Medieval_PB_UndeadDragon_idle_diag_2
+  - first:
+      213: 2251238956444272098
+    second: Medieval_PB_UndeadDragon_idle_diag_3
+  - first:
+      213: -3283395016970466810
+    second: Medieval_PB_UndeadDragon_idle_diag_4
+  - first:
+      213: 112203641383171353
+    second: Medieval_PB_UndeadDragon_idle_diag_5
+  - first:
+      213: -8312464583613010735
+    second: Medieval_PB_UndeadDragon_idle_diag_6
+  - first:
+      213: -4243737994446954993
+    second: Medieval_PB_UndeadDragon_idle_diag_7
+  - first:
+      213: -3766297258915876234
+    second: Medieval_PB_UndeadDragon_idle_diag_8
+  - first:
+      213: -8693855054276776141
+    second: Medieval_PB_UndeadDragon_idle_diag_9
+  - first:
+      213: 2981257473479416371
+    second: Medieval_PB_UndeadDragon_idle_diag_10
+  - first:
+      213: 2195837224991524394
+    second: Medieval_PB_UndeadDragon_idle_diag_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_UndeadDragon_idle_diag_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1585
+        width: 414
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b62864b4ef5b4e90800000000000000
+      internalID: -7040428156579731792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_UndeadDragon_idle_diag_1
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1602
+        width: 436
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea35623fbe5da8560800000000000000
+      internalID: 7316895753990198190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_UndeadDragon_idle_diag_2
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1614
+        width: 467
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819a9b05666c56f20800000000000000
+      internalID: 3415354035173697816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_UndeadDragon_idle_diag_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1072
+        width: 414
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5c16f37e10e3f10800000000000000
+      internalID: 2251238956444272098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_UndeadDragon_idle_diag_4
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1046
+        width: 448
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a0034d0a90f62d0800000000000000
+      internalID: -3283395016970466810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_UndeadDragon_idle_diag_5
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1029
+        width: 434
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915362b0e90ae8100800000000000000
+      internalID: 112203641383171353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_UndeadDragon_idle_diag_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572
+        width: 437
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc2bb5a08134ac80800000000000000
+      internalID: -8312464583613010735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_UndeadDragon_idle_diag_7
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 572
+        width: 453
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e192147c63b15c0800000000000000
+      internalID: -4243737994446954993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_UndeadDragon_idle_diag_8
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 571
+        width: 443
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672bac3099c6bbbc0800000000000000
+      internalID: -3766297258915876234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_UndeadDragon_idle_diag_9
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 35
+        width: 425
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f2911e3e8395780800000000000000
+      internalID: -8693855054276776141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_UndeadDragon_idle_diag_10
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 42
+        width: 447
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a18b270ed8f5920800000000000000
+      internalID: 2981257473479416371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_UndeadDragon_idle_diag_11
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 44
+        width: 479
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a260334725e297e10800000000000000
+      internalID: 2195837224991524394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

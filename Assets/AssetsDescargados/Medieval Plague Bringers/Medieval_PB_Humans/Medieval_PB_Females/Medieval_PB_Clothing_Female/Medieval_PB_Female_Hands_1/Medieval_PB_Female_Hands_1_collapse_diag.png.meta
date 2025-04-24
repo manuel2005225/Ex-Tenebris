@@ -1,0 +1,680 @@
+fileFormatVersion: 2
+guid: d5c4c044c63fb0149bb73f45d7fc67d3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7321984316663412236
+    second: Medieval_PB_Female_Hands_1_collapse_diag_0
+  - first:
+      213: -5224147100152713479
+    second: Medieval_PB_Female_Hands_1_collapse_diag_1
+  - first:
+      213: 1413864690434232559
+    second: Medieval_PB_Female_Hands_1_collapse_diag_2
+  - first:
+      213: -5570004224122165631
+    second: Medieval_PB_Female_Hands_1_collapse_diag_3
+  - first:
+      213: -8627580978163144182
+    second: Medieval_PB_Female_Hands_1_collapse_diag_4
+  - first:
+      213: 6367847609963094696
+    second: Medieval_PB_Female_Hands_1_collapse_diag_5
+  - first:
+      213: -8758421745183490530
+    second: Medieval_PB_Female_Hands_1_collapse_diag_6
+  - first:
+      213: -638685239181754784
+    second: Medieval_PB_Female_Hands_1_collapse_diag_7
+  - first:
+      213: -8338809931080013667
+    second: Medieval_PB_Female_Hands_1_collapse_diag_8
+  - first:
+      213: -690483148197162897
+    second: Medieval_PB_Female_Hands_1_collapse_diag_9
+  - first:
+      213: -432012304523219251
+    second: Medieval_PB_Female_Hands_1_collapse_diag_10
+  - first:
+      213: -6992117436006385742
+    second: Medieval_PB_Female_Hands_1_collapse_diag_11
+  - first:
+      213: 6715838784665798417
+    second: Medieval_PB_Female_Hands_1_collapse_diag_12
+  - first:
+      213: -7714721297087726234
+    second: Medieval_PB_Female_Hands_1_collapse_diag_13
+  - first:
+      213: -2104419714277555278
+    second: Medieval_PB_Female_Hands_1_collapse_diag_14
+  - first:
+      213: 216630615927665550
+    second: Medieval_PB_Female_Hands_1_collapse_diag_15
+  - first:
+      213: -6956340278446698936
+    second: Medieval_PB_Female_Hands_1_collapse_diag_16
+  - first:
+      213: 7998045356602864512
+    second: Medieval_PB_Female_Hands_1_collapse_diag_17
+  - first:
+      213: 6044396060988511055
+    second: Medieval_PB_Female_Hands_1_collapse_diag_18
+  - first:
+      213: 972516815140514038
+    second: Medieval_PB_Female_Hands_1_collapse_diag_19
+  - first:
+      213: 7669971405695678836
+    second: Medieval_PB_Female_Hands_1_collapse_diag_20
+  - first:
+      213: -4675900347291286770
+    second: Medieval_PB_Female_Hands_1_collapse_diag_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 444
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9cb4abe06136a90800000000000000
+      internalID: -7321984316663412236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 430
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fea20124e91087b0800000000000000
+      internalID: -5224147100152713479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 437
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0dcc9e17e0f9310800000000000000
+      internalID: 1413864690434232559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 417
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186e5c75bae53b2b0800000000000000
+      internalID: -5570004224122165631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_4
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 403
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a2badafcca44880800000000000000
+      internalID: -8627580978163144182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 302
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2aba7b9a32f5850800000000000000
+      internalID: 6367847609963094696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 317
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ef74da3d5d37680800000000000000
+      internalID: -8758421745183490530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_7
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 306
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e394ba82fe227f0800000000000000
+      internalID: -638685239181754784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 292
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98e9707c88964c80800000000000000
+      internalID: -8338809931080013667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 296
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60905c2c39ea66f0800000000000000
+      internalID: -690483148197162897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 277
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dceab42191f210af0800000000000000
+      internalID: -432012304523219251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 173
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7360fdc3207fe90800000000000000
+      internalID: -6992117436006385742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 189
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117cbc8eac3733d50800000000000000
+      internalID: 6715838784665798417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_13
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 178
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66df1f9caddcfe490800000000000000
+      internalID: -7714721297087726234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_14
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 164
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b348286b699bc2e0800000000000000
+      internalID: -2104419714277555278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_15
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 154
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83b7ddb560a10300800000000000000
+      internalID: 216630615927665550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_16
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 60
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e417e7f5d167f90800000000000000
+      internalID: -6956340278446698936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_17
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 46
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083b6c950e3cefe60800000000000000
+      internalID: 7998045356602864512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_18
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 51
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f439df0613202e350800000000000000
+      internalID: 6044396060988511055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_19
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 37
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f86b8804e21f7d00800000000000000
+      internalID: 972516815140514038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_20
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 36
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479f4e13b56317a60800000000000000
+      internalID: 7669971405695678836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_Female_Hands_1_collapse_diag_21
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 22
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03c39a786ddb1fb0800000000000000
+      internalID: -4675900347291286770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
