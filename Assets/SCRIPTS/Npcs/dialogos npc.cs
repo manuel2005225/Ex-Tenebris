@@ -256,7 +256,7 @@ public class NPCDialogueHandler : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = true;
-            NotificationManager.instance?.ShowNotification("Presiona E para hablar con " + npcName);
+            
         }
     }
 

@@ -47,30 +47,14 @@ public class ItemPickup : MonoBehaviour
             inventory.AddItem(item.itemID);
 
             // Mostrar notificación de recogida durante 2.5 segundos
-            if (NotificationManager.instance != null)
-            {
-                NotificationManager.instance.ShowNotification("Se ha recogido " + item.itemName + " del suelo", 2.5f);
-            }
+            
 
             Destroy(gameObject);
             Debug.Log("Item recogido: " + item.itemName);
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            playerInRange = true;
-
-            if (NotificationManager.instance != null && item != null)
-            {
-                NotificationManager.instance.ShowNotification("Presiona E para recoger " + item.itemName);
-            }
-
-            Debug.Log("Presiona E para recoger " + (item != null ? item.itemName : "Objeto"));
-        }
-    }
+    
 
     void OnTriggerExit2D(Collider2D other)
     {
