@@ -5,32 +5,38 @@ using TMPro;
 
 public class NPCDialogueHandler : MonoBehaviour
 {
+
+    [Header("Estado del Diálogo")]
+    public int DialogoCompletado = 0;
+
+    private int currentDialogueIndex = 0;
+    private int lastUsedLevel = -1;
+    private DialogueLevel currentLevel = null;
+
     [Header("NPC Configuración")]
     public string npcName = "NPC";
-    
+
     [Header("Objetos Requeridos")]
-    public InteractableObjectWithDependency[] linkedObjects; // Objetos que el NPC verificará
-    
-    [Header("Diálogos")]
-    [TextArea(3, 5)]
-    public string dialogueNoInteractions = "Parece que no has explorado mucho por aquí...";
-    
-    [TextArea(3, 5)]
-    public string dialogueOneInteraction = "Veo que has encontrado algo interesante. Sigue explorando.";
-    
-    [TextArea(3, 5)]
-    public string dialogueTwoInteractions = "Bastante bien, has descubierto algunas cosas. Pero hay más.";
-    
-    [TextArea(3, 5)]
-    public string dialogueAllInteractions = "¡Impresionante! Has descubierto todos los secretos que buscaba.";
-    
-    [Header("UI References")]
+    public InteractableObjectWithDependency[] linkedObjects;
+
+    [System.Serializable]
+    public class DialogueLevel
+    {
+        public int requiredInteractions;
+        [TextArea(3, 5)]
+        public List<string> dialogueOptions;
+    }
+
+    [Header("Diálogos por Nivel de Interacción")]
+    public List<DialogueLevel> dialogueLevels;
+
+    [Header("UI")]
     public GameObject dialoguePanel;
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI continueText;
     public int wordsPerPage = 30;
-    
+
     private bool playerInRange = false;
     private bool isShowingDialogue = false;
     private string[] dialoguePages;
@@ -38,7 +44,7 @@ public class NPCDialogueHandler : MonoBehaviour
     private float originalTimeScale;
     private float timeOpened = -1f;
     private float inputDelay = 0.2f;
-    
+
     void Start()
     {
         if (dialoguePanel != null)
@@ -46,98 +52,109 @@ public class NPCDialogueHandler : MonoBehaviour
             dialoguePanel.SetActive(false);
         }
     }
-    
+
     void Update()
+{
+    if (playerInRange && Input.GetKeyDown(KeyCode.E) && !isShowingDialogue)
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E) && !isShowingDialogue)
-        {
-            ShowNPCDialogue();
-        }
-        
-        if (isShowingDialogue && Time.unscaledTime - timeOpened > inputDelay && Input.GetKeyDown(KeyCode.Space))
-        {
-            NextPage();
-        }
+        ShowNPCDialogue();
     }
-    
+
+    if (isShowingDialogue && Time.unscaledTime - timeOpened > inputDelay && Input.GetKeyDown(KeyCode.E))
+    {
+        NextPage();
+    }
+}
+
     void ShowNPCDialogue()
-    {
-        // Determinar qué diálogo mostrar basado en las interacciones
-        string selectedDialogue = GetAppropriateDialogue();
-        
-        // Dividir el diálogo en páginas
-        SplitDialogueIntoPages(selectedDialogue);
-        
-        // Pausar el juego
-        originalTimeScale = Time.timeScale;
-        Time.timeScale = 0f;
-        
-        // Mostrar panel de diálogo
-        dialoguePanel.SetActive(true);
-        currentPage = 0;
-        isShowingDialogue = true;
-        
-        // Actualizar texto
-        UpdateDialogueText();
-        
-        
-    }
-    
+{
+    string selectedDialogue = GetAppropriateDialogue();
+
+    if (string.IsNullOrEmpty(selectedDialogue))
+        return; // No mostrar nada si no hay más diálogos por ahora
+
+    selectedDialogue = ApplyDialogueColors(selectedDialogue);
+    SplitDialogueIntoPages(selectedDialogue);
+
+    originalTimeScale = Time.timeScale;
+    Time.timeScale = 0f;
+
+    dialoguePanel.SetActive(true);
+    currentPage = 0;
+    isShowingDialogue = true;
+
+    UpdateDialogueText();
+}
+
     string GetAppropriateDialogue()
+{
+    int interactedCount = GetInteractedObjectsCount();
+    DialogueLevel newLevel = null;
+
+    foreach (var level in dialogueLevels)
     {
-        // Contar cuántos objetos han sido interactuados
-        int interactedCount = 0;
-        
-        if (linkedObjects != null && linkedObjects.Length > 0)
+        if (interactedCount >= level.requiredInteractions)
         {
-            foreach (var obj in linkedObjects)
-            {
-                if (obj != null && obj.hasBeenInteracted)
-                {
-                    interactedCount++;
-                }
-            }
+            newLevel = level;
         }
-        
-        // Seleccionar el diálogo apropiado basado en el conteo
-        if (linkedObjects == null || linkedObjects.Length == 0)
-        {
-            // Si no hay objetos vinculados, mostrar diálogo por defecto
-            return dialogueNoInteractions;
-        }
-        else if (interactedCount == 0)
-        {
-            return dialogueNoInteractions;
-        }
-        else if (interactedCount == 1 || (linkedObjects.Length == 2 && interactedCount == 1))
-        {
-            return dialogueOneInteraction;
-        }
-        else if (interactedCount == 2 || (linkedObjects.Length == 2 && interactedCount == 2))
-        {
-            return dialogueTwoInteractions;
-        }
-        else if (interactedCount >= 3 || interactedCount == linkedObjects.Length)
-        {
-            return dialogueAllInteractions;
-        }
-        
-        // Por defecto
-        return dialogueNoInteractions;
     }
-    
+
+    // Si ya mostramos todos los diálogos del nivel actual, no hacer nada más
+    if (newLevel == null || newLevel.dialogueOptions.Count == 0)
+        return "No hay diálogos disponibles.";
+
+    // Si estamos en un nuevo nivel, reiniciar el índice
+    if (newLevel.requiredInteractions > lastUsedLevel)
+    {
+        currentLevel = newLevel;
+        lastUsedLevel = newLevel.requiredInteractions;
+        currentDialogueIndex = 0;
+    }
+
+    // Si ya mostramos todo el diálogo de este nivel, no permitir interactuar
+    if (currentDialogueIndex >= currentLevel.dialogueOptions.Count)
+    {
+        return null; // Esto evitará mostrar el diálogo
+    }
+
+    return currentLevel.dialogueOptions[currentDialogueIndex];
+}
+
+    string ApplyDialogueColors(string rawDialogue)
+{
+    string[] lines = rawDialogue.Split('\n');
+
+    for (int i = 0; i < lines.Length; i++)
+    {
+        string line = lines[i].Trim();
+
+        if (line.StartsWith("*"))
+        {
+            line = line.Substring(1).Trim(); // quitar el * inicial
+            lines[i] = $"<color=#C2A400>{line}</color>"; // Amarillo oscuro
+        }
+        else
+        {
+            lines[i] = $"<color=#000000>{line}</color>"; // Negro (NPC)
+        }
+    }
+
+    return string.Join("\n", lines);
+}
+
+
     void SplitDialogueIntoPages(string fullDialogue)
     {
         string[] words = fullDialogue.Split(' ');
         List<string> pages = new List<string>();
         string currentPage = "";
         int wordCount = 0;
-        
+
         foreach (string word in words)
         {
             currentPage += word + " ";
             wordCount++;
-            
+
             if (wordCount >= wordsPerPage)
             {
                 pages.Add(currentPage.Trim());
@@ -145,88 +162,113 @@ public class NPCDialogueHandler : MonoBehaviour
                 wordCount = 0;
             }
         }
-        
+
         if (currentPage.Trim().Length > 0)
         {
             pages.Add(currentPage.Trim());
         }
-        
+
         if (pages.Count == 0)
         {
             pages.Add("");
         }
-        
+
         dialoguePages = pages.ToArray();
     }
-    
+
     void UpdateDialogueText()
+{
+    if (dialoguePages == null || dialoguePages.Length == 0)
+        return;
+
+    timeOpened = Time.unscaledTime;
+
+    string currentLine = dialoguePages[currentPage];
+
+    if (nameText != null)
     {
-        if (nameText != null)
+        // Detectar si es diálogo del jugador por el color amarillo oscuro
+        if (currentLine.StartsWith("<color=#C2A400>"))
+        {
+            nameText.text = "Gabriel Fortea";
+        }
+        else
         {
             nameText.text = npcName;
-            timeOpened = Time.unscaledTime;
-        }
-        
-        if (dialogueText != null)
-        {
-            dialogueText.text = dialoguePages[currentPage];
-        }
-        
-        if (continueText != null)
-        {
-            continueText.text = currentPage < dialoguePages.Length - 1
-                ? "Presiona ESPACIO para continuar..."
-                : "Presiona ESPACIO para cerrar";
         }
     }
-    
-    void NextPage()
+
+    if (dialogueText != null)
     {
-        currentPage++;
-        
-        if (currentPage >= dialoguePages.Length)
+        dialogueText.text = currentLine;
+    }
+
+    if (continueText != null)
+    {
+        continueText.text = currentPage < dialoguePages.Length - 1
+            ? "Presiona E para continuar..."
+            : "Presiona E para cerrar";
+    }
+}
+
+    void NextPage()
+{
+    currentPage++;
+
+    if (currentPage >= dialoguePages.Length)
+    {
+        // Avanzar al siguiente diálogo del nivel actual
+        currentDialogueIndex++;
+
+        // Si se terminó el nivel actual
+        if (currentLevel == null || currentDialogueIndex >= currentLevel.dialogueOptions.Count)
         {
+            // Si es el nivel 3 (interacciones requeridas == 3)
+            if (currentLevel != null && currentLevel.requiredInteractions == 3)
+            {
+                DialogoCompletado = 1;
+            }
+
             CloseDialogue();
             return;
         }
-        
-        UpdateDialogueText();
+
+        // Mostrar siguiente diálogo del nivel
+        string nextDialogue = ApplyDialogueColors(currentLevel.dialogueOptions[currentDialogueIndex]);
+        SplitDialogueIntoPages(nextDialogue);
+        currentPage = 0;
     }
-    
+
+    UpdateDialogueText();
+}
+
     void CloseDialogue()
-    {
-        dialoguePanel.SetActive(false);
-        Time.timeScale = originalTimeScale;
-        isShowingDialogue = false;
-    }
-    
+{
+    dialoguePanel.SetActive(false);
+    Time.timeScale = originalTimeScale;
+    isShowingDialogue = false;
+
+    currentDialogueIndex++; // Avanzar al siguiente diálogo solo al cerrar
+}
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             playerInRange = true;
-            if (NotificationManager.instance != null)
-            {
-                NotificationManager.instance.ShowNotification("Presiona E para hablar con " + npcName);
-            }
+            NotificationManager.instance?.ShowNotification("Presiona E para hablar con " + npcName);
         }
     }
-    
+
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
-
-            // Ocultar la notificación al salir del trigger
-            if (NotificationManager.instance != null)
-            {
-                NotificationManager.instance.HideNotification();
-            }
+            NotificationManager.instance?.HideNotification();
         }
     }
 
-    
     public void ForceCloseDialogue()
     {
         if (isShowingDialogue)
@@ -234,12 +276,10 @@ public class NPCDialogueHandler : MonoBehaviour
             CloseDialogue();
         }
     }
-    
-    // Para depuración: verificar cuántos objetos han sido interactuados
+
     public int GetInteractedObjectsCount()
     {
         int count = 0;
-        
         if (linkedObjects != null)
         {
             foreach (var obj in linkedObjects)
@@ -250,7 +290,6 @@ public class NPCDialogueHandler : MonoBehaviour
                 }
             }
         }
-        
         return count;
     }
 }
