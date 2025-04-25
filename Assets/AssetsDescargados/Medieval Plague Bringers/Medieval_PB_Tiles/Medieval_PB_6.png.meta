@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -117,11 +117,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 768
-        height: 768
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 2.270026, y: -3.007752}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,11 +134,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_6_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd1faba9ff81c14489b29b1a0a1bdda
+      internalID: 1720159975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_6_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a60fbc61cf6fae42839a319056801e5
+      internalID: -1705508023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_PB_6_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dd56786953e314f929fead42be7167
+      internalID: 1709001122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ee709218bab7d4c45a749efdd89825b7
     internalID: 0
     vertices: []
     indices: 
@@ -149,6 +215,9 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Medieval_PB_6_0: -1052088172248586566
+      Medieval_PB_6_1: 1720159975
+      Medieval_PB_6_2: -1705508023
+      Medieval_PB_6_3: 1709001122
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
