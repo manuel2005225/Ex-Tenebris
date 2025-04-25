@@ -1,9 +1,16 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
+using TMPro;
 
 public class EnemigoObservadorController : MonoBehaviour
 {
+    [TextArea(2, 4)]
+    public string mensajeConsejo = "Consejo genérico de muerte.";
+
+    [Header("Pantalla de Muerte")]
+    public TextMeshProUGUI textoConsejoUI;
+
     [Header("Condiciones de activación")]
     public GameObject[] objetosInactivos;
     public ControlDiaNoche verificadorDiaNoche;
@@ -18,11 +25,17 @@ public class EnemigoObservadorController : MonoBehaviour
     public Light2D luzRojaJugador;
     public Transform jugador;
 
+    [Header("UI")]
+    public GameObject MenuMuerte;
+    public GameObject MenuInventario;
+    public TextMeshProUGUI TextoAvisoJefe;
+
     [Header("Timers y comportamiento")]
     public float tiempoAntesDeVerificar = 3f;
     public float tiempoObservacion = 1f;
     public Vector2 intervaloObservacion = new Vector2(3f, 6f);
     public float velocidadOscurecer = 1f;
+    public float tiempoMovimientoPermitido = 0.4f;
 
     [HideInInspector]
     public bool enemigoActivo = false;
@@ -33,7 +46,6 @@ public class EnemigoObservadorController : MonoBehaviour
     {
         luzRojaJugador.intensity = 0;
         backgroundRenderer.color = backgroundNormal;
-
         StartCoroutine(LoopVerificacionActivacion());
     }
 
@@ -83,6 +95,16 @@ public class EnemigoObservadorController : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         enemigoVisual.SetActive(true);
+
+        // Mostrar aviso
+        if (TextoAvisoJefe != null)
+        {
+            TextoAvisoJefe.text = "Ellos posan su mirada sobre ti";
+            TextoAvisoJefe.gameObject.SetActive(true);
+            yield return new WaitForSeconds(2f);
+            TextoAvisoJefe.gameObject.SetActive(false);
+        }
+
         StartCoroutine(LoopObservacion());
     }
 
@@ -112,18 +134,37 @@ public class EnemigoObservadorController : MonoBehaviour
         }
 
         float tiempoObs = 0f;
+        float tiempoMoviendo = 0f;
+
         while (tiempoObs < tiempoObservacion)
         {
             if (Vector3.Distance(posicionInicial, jugador.position) > 0.05f)
             {
-                Debug.LogWarning("Jugador se movió... ¡Muerte!");
-                // Lógica de muerte aquí
+                tiempoMoviendo += Time.deltaTime;
+                if (tiempoMoviendo >= tiempoMovimientoPermitido)
+                {
+                    if (textoConsejoUI != null)
+{
+    textoConsejoUI.text = mensajeConsejo;
+}
+
+                    Debug.Log("El jugador se movió demasiado tiempo... muerte.");
+                    MenuMuerte.SetActive(true);
+                    Time.timeScale = 0f;
+                    MenuInventario.SetActive(false);
+                    yield break;
+                }
+            }
+            else
+            {
+                tiempoMoviendo = 0f; // se detuvo, reinicia contador
             }
 
             tiempoObs += Time.deltaTime;
             yield return null;
         }
 
+        // Fade out de luz
         t = 0;
         while (t < 1f)
         {

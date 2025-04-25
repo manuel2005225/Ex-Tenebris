@@ -1,7 +1,10 @@
 using UnityEngine;
+using TMPro;
 
 public class DeathTouch : MonoBehaviour
 {
+    [TextArea(2, 4)]
+    public string mensajeConsejo = "Consejo genérico de muerte.";
 
     private bool VerificacionAlumbrado;
     public EnemigoConLuz enemigoConLuz;
@@ -9,6 +12,8 @@ public class DeathTouch : MonoBehaviour
     
 
     public GameObject MenuMuerte;
+    [Header("Pantalla de Muerte")]
+public TextMeshProUGUI textoConsejoUI;
     
 
     // Update is called once per frame
@@ -22,11 +27,18 @@ public class DeathTouch : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(VerificacionAlumbrado == true){
+        
+
+        if(collision.CompareTag("Player") && VerificacionAlumbrado == true){
             Debug.Log("wahahaha");
             MenuMuerte.SetActive(true);
             Time.timeScale = 0f;
             MenuInventario.SetActive(false);
+            if (textoConsejoUI != null)
+        {
+        textoConsejoUI.text = mensajeConsejo;
+        }
+
 
             
         }
