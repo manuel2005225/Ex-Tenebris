@@ -48,7 +48,7 @@ public class InteractableObjectWithDependency : MonoBehaviour
         }
 
         // Solo aceptar input si pasó un tiempo desde que se abrió
-        if (isShowing && Time.unscaledTime - timeOpened > inputDelay && Input.GetKeyDown(KeyCode.Space))
+        if (isShowing && Time.unscaledTime - timeOpened > inputDelay && Input.GetKeyDown(KeyCode.E))
         {
             NextPage();
         }
@@ -151,8 +151,8 @@ public class InteractableObjectWithDependency : MonoBehaviour
         if (continueText != null)
         {
             continueText.text = currentPage < descriptionPages.Length - 1
-                ? "Presiona ESPACIO para continuar..."
-                : "Presiona ESPACIO para cerrar";
+                ? "Presiona E para continuar..."
+                : "Presiona E para cerrar";
         }
     }
 
