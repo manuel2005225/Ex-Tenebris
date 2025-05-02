@@ -1,4 +1,4 @@
-    using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -122,7 +122,7 @@ public class InventorySystem : MonoBehaviour
     // Mover el selector entre slots
     void MoveSelector(int horizontalMove, int verticalMove)
     {
-        int slotsPerRow = 6;
+        int slotsPerRow = 2;
         int newIndex = currentSlotIndex;
 
         newIndex += horizontalMove;
