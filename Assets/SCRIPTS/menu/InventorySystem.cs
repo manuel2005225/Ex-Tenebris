@@ -8,12 +8,15 @@ public class InventorySystem : MonoBehaviour
     // Panel principal del inventario
     public GameObject inventoryPanel;
 
-    // Arreglo de slots en el inventario
-    public GameObject[] slots;
+    // Arreglo de slots en el inventario (para objetos recogidos)
+    public GameObject[] itemSlots;
+    // Arreglo de slots para interactuar con NPCs
+    public GameObject[] npcSlots;
 
-    // Índice del slot seleccionado actualmente
+    // Slots activos actualmente (apunta a itemSlots o npcSlots)
+    private GameObject[] activeSlots;
+    // Índice del slot seleccionado actualmente dentro de activeSlots
     private int currentSlotIndex = 0;
-
     // Indicador visual del slot seleccionado
     public GameObject slotSelector;
 
@@ -28,20 +31,34 @@ public class InventorySystem : MonoBehaviour
     public Transform player;
 
     public Text descriptionText;  // Referencia al texto que muestra la descripción
+    public GameObject mapainve;   // Mini mapa que aparece solo con el inventario
 
-    public GameObject mapainve;  // Mini mapa que aparece solo con el inventario
+    // Control de sección activa: true = objetos, false = NPCs
+    private bool usingItemSlots = true;
 
     void Start()
     {
         // Ocultar el inventario al inicio
         inventoryPanel.SetActive(false);
 
-        // Configurar el selector en el primer slot
+        // Por defecto navegamos en los itemSlots
+        activeSlots = itemSlots;
         UpdateSelectorPosition();
     }
 
     void Update()
     {
+        // Alternar inventario objetos <-> NPCs con Tab
+        if (inventoryPanel.activeSelf && Input.GetKeyDown(KeyCode.Tab))
+        {
+            usingItemSlots = !usingItemSlots;
+            activeSlots = usingItemSlots ? itemSlots : npcSlots;
+            currentSlotIndex = 0;
+            UpdateSelectorPosition();
+            UpdateItemDescription();
+            Debug.Log("Modo inventario: " + (usingItemSlots ? "Objetos" : "Interacción NPC"));
+        }
+
         // Mostrar/ocultar inventario con la tecla I
         if (Input.GetKeyDown(KeyCode.I))
         {
@@ -51,7 +68,6 @@ public class InventorySystem : MonoBehaviour
         // Detener rotación del jugador si el juego está pausado
         if (!isPaused)
         {
-            // Aquí va la lógica normal de rotación del jugador
             player.Rotate(Vector3.up * 50f * Time.deltaTime); 
         }
                     
@@ -60,27 +76,17 @@ public class InventorySystem : MonoBehaviour
         {
             // Navegación entre slots con WASD
             if (Input.GetKeyDown(KeyCode.A))
-            {
                 MoveSelector(-1, 0);
-            }
             else if (Input.GetKeyDown(KeyCode.D))
-            {
                 MoveSelector(1, 0);
-            }
             else if (Input.GetKeyDown(KeyCode.W))
-            {
                 MoveSelector(0, -1);
-            }
             else if (Input.GetKeyDown(KeyCode.S))
-            {
                 MoveSelector(0, 1);
-            }
 
-            // Usar objeto con la tecla E
+            // Usar objeto o interacción con NPC con la tecla E
             if (Input.GetKeyDown(KeyCode.E))
-            {
                 UseCurrentItem();
-            }
         }
     }
 
@@ -93,24 +99,18 @@ public class InventorySystem : MonoBehaviour
         if (isPaused)
         {
             Time.timeScale = 0f;
-            Debug.Log("Juego pausado - Inventario abierto");
-
-        if (descriptionText != null)
-            descriptionText.text = "Selecciona un ítem para ver su descripción.";
-
-        if (mapainve != null)
-            mapainve.SetActive(true); // Activar el mapa
+            if (descriptionText != null)
+                descriptionText.text = "Selecciona un ítem para ver su descripción.";
+            if (mapainve != null)
+                mapainve.SetActive(true);
         }
         else
         {
             Time.timeScale = 1f;
-            Debug.Log("Juego reanudado - Inventario cerrado");
-
             if (descriptionText != null)
                 descriptionText.text = "";
-
             if (mapainve != null)
-              mapainve.SetActive(false); // Ocultar el mapa
+                mapainve.SetActive(false);
         }
     }
 
@@ -119,16 +119,16 @@ public class InventorySystem : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    // Mover el selector entre slots
+    // Mover el selector entre los activeSlots
     void MoveSelector(int horizontalMove, int verticalMove)
     {
-        int slotsPerRow = 2;
+        int slotsPerRow = 2; // ajusta según tu layout
         int newIndex = currentSlotIndex;
 
         newIndex += horizontalMove;
         newIndex += verticalMove * slotsPerRow;
 
-        if (newIndex >= 0 && newIndex < slots.Length)
+        if (newIndex >= 0 && newIndex < activeSlots.Length)
         {
             currentSlotIndex = newIndex;
             UpdateSelectorPosition();
@@ -139,40 +139,36 @@ public class InventorySystem : MonoBehaviour
     // Actualizar la posición visual del selector
     void UpdateSelectorPosition()
     {
-        slotSelector.transform.position = slots[currentSlotIndex].transform.position;
+        slotSelector.transform.position = activeSlots[currentSlotIndex].transform.position;
     }
 
-    // Añadir un objeto al inventario por su ID
+    // Añadir un objeto al inventario por su ID (solo en itemSlots)
     public void AddItem(int itemID)
     {
-        for (int i = 0; i < slots.Length; i++)
+        for (int i = 0; i < itemSlots.Length; i++)
         {
             if (!inventoryItems.ContainsKey(i))
             {
                 if (itemID >= 0 && itemID < itemPrefabs.Length)
                 {
-                    GameObject newItem = Instantiate(itemPrefabs[itemID], slots[i].transform);
+                    GameObject newItem = Instantiate(itemPrefabs[itemID], itemSlots[i].transform);
                     newItem.transform.localPosition = Vector3.zero;
                     newItem.transform.localScale = Vector3.one;
 
                     InventoryItem itemComponent = newItem.GetComponent<InventoryItem>();
                     if (itemComponent != null)
                     {
-                        Transform itemImageTransform = slots[i].transform.Find("ItemImage");
-                        if (itemImageTransform != null)
+                        Transform imgT = itemSlots[i].transform.Find("ItemImage");
+                        if (imgT != null)
                         {
-                            Image itemImage = itemImageTransform.GetComponent<Image>();
-                            if (itemImage != null)
-                            {
-                                itemImage.sprite = itemComponent.itemSprite;
-                                itemImage.enabled = true;
-                            }
+                            Image img = imgT.GetComponent<Image>();
+                            img.sprite = itemComponent.itemSprite;
+                            img.enabled = true;
                         }
                     }
 
                     inventoryItems[i] = newItem;
-
-                    Debug.Log("Objeto con ID " + itemID + " añadido al inventario en el slot " + (i + 1));
+                    Debug.Log("Añadido ID " + itemID + " en slot " + (i+1));
                     return;
                 }
                 else
@@ -182,49 +178,53 @@ public class InventorySystem : MonoBehaviour
                 }
             }
         }
-
-        Debug.Log("Inventario lleno. No se puede añadir el objeto.");
+        Debug.Log("Inventario lleno.");
     }
-   // Mostrar la descripción del ítem seleccionado
+
+    // Mostrar la descripción del ítem o interacción seleccionada
     void UpdateItemDescription()
     {
-        if (inventoryItems.ContainsKey(currentSlotIndex))
+        if (usingItemSlots)
         {
-            GameObject item = inventoryItems[currentSlotIndex];
-            InventoryItem itemComponent = item.GetComponent<InventoryItem>();
-
-            if (itemComponent != null)
+            if (inventoryItems.ContainsKey(currentSlotIndex))
             {
-                descriptionText.text = itemComponent.itemDescription;
-            }
-        }
-        else
-        {
-            descriptionText.text = "Selecciona un ítem para ver su descripción.";
-        }
-    }
-
-    // Usar el objeto seleccionado actualmente
-    void UseCurrentItem()
-    {
-        if (inventoryItems.ContainsKey(currentSlotIndex))
-        {
-            GameObject item = inventoryItems[currentSlotIndex];
-            InventoryItem itemComponent = item.GetComponent<InventoryItem>();
-
-            if (itemComponent != null)
-            {
-                itemComponent.UseItem();
-                // Ejemplo: RemoveItem(currentSlotIndex);
+                var item = inventoryItems[currentSlotIndex];
+                var comp = item.GetComponent<InventoryItem>();
+                if (comp != null)
+                    descriptionText.text = comp.itemDescription;
             }
             else
             {
-                Debug.Log("Se usó un objeto en el slot " + currentSlotIndex + " (sin componente InventoryItem)");
+                descriptionText.text = "Selecciona un ítem para ver su descripción.";
             }
         }
         else
         {
-            Debug.Log("No hay objeto en el slot seleccionado.");
+            // Aquí podrías mostrar la descripción de la acción NPC
+            descriptionText.text = "Selecciona acción para interactuar con el NPC.";
+        }
+    }
+
+    // Usar el objeto seleccionado o acción NPC
+    void UseCurrentItem()
+    {
+        if (usingItemSlots)
+        {
+            if (inventoryItems.ContainsKey(currentSlotIndex))
+            {
+                var item = inventoryItems[currentSlotIndex];
+                var comp = item.GetComponent<InventoryItem>();
+                if (comp != null) comp.UseItem();
+            }
+            else
+            {
+                Debug.Log("Slot vacío (objeto).");
+            }
+        }
+        else
+        {
+            Debug.Log("Interactuando con NPC en slot " + currentSlotIndex);
+            // Añade aquí la lógica de interacción correspondiente
         }
     }
 
@@ -235,8 +235,7 @@ public class InventorySystem : MonoBehaviour
         {
             Destroy(inventoryItems[slotIndex]);
             inventoryItems.Remove(slotIndex);
-
-            Debug.Log("Objeto eliminado del slot " + slotIndex);
+            Debug.Log("Eliminado slot " + slotIndex);
         }
     }
 }   
