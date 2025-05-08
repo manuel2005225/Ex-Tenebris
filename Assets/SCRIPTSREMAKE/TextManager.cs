@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System.Collections.Generic;
 
 public class TextManager : MonoBehaviour
 {
@@ -7,6 +8,10 @@ public class TextManager : MonoBehaviour
 
     public GameObject panelTexto;
     public TMP_Text texto;
+
+    private List<string> paginas = new List<string>();
+    private int indicePaginaActual = 0;
+    private bool estaMostrandoDialogo = false;
 
     private void Awake()
     {
@@ -16,17 +21,59 @@ public class TextManager : MonoBehaviour
         panelTexto.SetActive(false);
     }
 
+    private void Update()
+    {
+        if (estaMostrandoDialogo && Input.GetKeyDown(KeyCode.E))
+        {
+            AvanzarPagina();
+        }
+    }
+
+    /// <summary>
+    /// Muestra un solo mensaje sin paginación.
+    /// </summary>
     public void MostrarMensaje(string mensaje, float duracion = 2f)
     {
         StopAllCoroutines();
-        texto.text = mensaje;
         panelTexto.SetActive(true);
+        texto.text = mensaje;
+        estaMostrandoDialogo = false;
         Invoke(nameof(OcultarMensaje), duracion);
+    }
+
+    /// <summary>
+    /// Muestra un diálogo con varias páginas.
+    /// </summary>
+    public void MostrarDialogo(List<string> paginasDialogo)
+    {
+        if (paginasDialogo == null || paginasDialogo.Count == 0) return;
+
+        paginas = paginasDialogo;
+        indicePaginaActual = 0;
+        panelTexto.SetActive(true);
+        texto.text = paginas[indicePaginaActual];
+        estaMostrandoDialogo = true;
+    }
+
+    private void AvanzarPagina()
+    {
+        indicePaginaActual++;
+
+        if (indicePaginaActual >= paginas.Count)
+        {
+            OcultarMensaje();
+        }
+        else
+        {
+            texto.text = paginas[indicePaginaActual];
+        }
     }
 
     public void OcultarMensaje()
     {
         panelTexto.SetActive(false);
+        estaMostrandoDialogo = false;
+        paginas.Clear();
     }
 }
 
