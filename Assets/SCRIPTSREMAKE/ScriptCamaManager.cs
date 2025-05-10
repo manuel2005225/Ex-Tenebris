@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class ControlDiaNocheR : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class ControlDiaNocheR : MonoBehaviour
     [Header("Puntos de teletransporte")]
     public Transform posicionDia;
     public Transform posicionNoche;
+
+    public Light2D LuzGlobal;
 
     private void OnCollisionEnter2D(Collision2D other) 
     {
@@ -29,6 +32,9 @@ public class ControlDiaNocheR : MonoBehaviour
                 if (!ValorDiayNoche) DiaActual += 1;
 
                 nextToggleTime = Time.time + cooldown;
+
+                LuzGlobal.intensity = 0f;
+                TextManager.Instance.MostrarDialogoPausado("Presiona F para prender la linterna", 1f, 2f);
             }
             else
             {
