@@ -3,68 +3,82 @@ using UnityEngine;
 
 public class NPCDialogo : MonoBehaviour, IInteractuable
 {
-    [Header("Fases del NPC")]
-    public List<FaseDialogoSO> fases;
-    private int faseActual = 0;
+    [Header("Líneas del NPC (paginadas)")]
+    [TextArea(2, 4)]
+    public List<string> lineasNPC;
 
-    private NPCMovimiento movimiento;
+    [Header("Respuestas del jugador (opcional)")]
+    [TextArea(2, 4)]
+    public List<string> respuestasJugador;
 
-    void Start()
-    {
-        movimiento = GetComponent<NPCMovimiento>();
-    }
+    [Header("Interacción inicial especial")]
+    public bool primeraInteraccion = true;
+
+    [Header("Referencias para teletransporte")]
+    public Transform destinoJugador;
+    public Transform destinoNPC;
+    public Transform jugador;
+
+    public PantallaFade pantallaFade; // Opcional si tienes un sistema de fade
 
     public void Interactuar()
     {
-        if (faseActual >= fases.Count) return;
-
-        var fase = fases[faseActual];
-        if (fase.requiereCondicion && !CondicionCumplida(fase.idCondicion))
-            return;
-
-        List<string> paginas = new();
-        for (int i = 0; i < fase.lineas.Count; i++)
+        if (primeraInteraccion)
         {
-            string texto = fase.lineas[i];
-            if (i < fase.pistas.Count && fase.pistas[i])
-                texto = $"<color=red>{texto}</color>";
-
-            paginas.Add(texto);
-        }
-
-        TextManager.Instance.MostrarDialogo(paginas);
-
-    if (!string.IsNullOrEmpty(fase.nombreDestinoPostDialogo) && movimiento != null)
-    {
-        GameObject destinoGO = GameObject.Find(fase.nombreDestinoPostDialogo);
-
-        if (destinoGO != null)
-        {
-            movimiento.IrADestino(destinoGO.transform, fase.quedarseEnDestino);
+            primeraInteraccion = false;
+            IniciarPrimeraSecuencia();
         }
         else
         {
-            Debug.LogWarning($"[NPCDialogo] No se encontró el destino '{fase.nombreDestinoPostDialogo}' en la escena.");
+            IniciarDialogo();
         }
     }
 
+    private void IniciarPrimeraSecuencia()
+    {
+        TextManager.Instance.MostrarMensaje("Acompáñame al confesionario, hijo", 2f);
+        Invoke(nameof(TeletransportarAmbos), 2.1f);
     }
 
-    public void AvanzarFase()
+    private void TeletransportarAmbos()
     {
-        if (faseActual + 1 < fases.Count)
+        if (pantallaFade != null)
         {
-            faseActual++;
-            if (!fases[faseActual].quedarseEnDestino && movimiento != null)
-                movimiento.ReanudarPatrullaje();
+            pantallaFade.FadeIn(() =>
+            {
+                jugador.position = destinoJugador.position;
+                transform.position = destinoNPC.position;
+
+                IniciarDialogo();
+                pantallaFade.FadeOut();
+            });
+        }
+        else
+        {
+            jugador.position = destinoJugador.position;
+            transform.position = destinoNPC.position;
+
+            IniciarDialogo();
         }
     }
 
-    private bool CondicionCumplida(string id)
+    private void IniciarDialogo()
     {
-        return true;
+        List<string> dialogoCompleto = new List<string>();
+
+        int total = Mathf.Max(lineasNPC.Count, respuestasJugador.Count);
+
+        for (int i = 0; i < total; i++)
+        {
+            if (i < lineasNPC.Count)
+                dialogoCompleto.Add(lineasNPC[i]);
+
+            if (i < respuestasJugador.Count)
+                dialogoCompleto.Add(respuestasJugador[i]);
+        }
+
+        TextManager.Instance.MostrarDialogo(dialogoCompleto);
     }
 }
-
 
 
