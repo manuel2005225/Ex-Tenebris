@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
 
+    private bool puedeMoverse = true;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -13,15 +15,26 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (!puedeMoverse)
+        {
+            movement = Vector2.zero;
+            return;
+        }
+
         // Captura la entrada del teclado (WASD o flechas)
-        movement.x = Input.GetAxisRaw("Horizontal"); // A/D o Flechas izquierda/derecha
-        movement.y = Input.GetAxisRaw("Vertical");   // W/S o Flechas arriba/abajo
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
     }
 
     void FixedUpdate()
     {
-        // Mueve el Rigidbody2D
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
     }
+
+    public void BloquearMovimiento(bool estado)
+    {
+        puedeMoverse = !estado;
+    }
 }
+
 

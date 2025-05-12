@@ -1,11 +1,14 @@
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.Video;
 
 public class ControlDiaNocheR : MonoBehaviour
 {
     public bool ValorDiayNoche = true;
     public int DiaActual;
     public int Puede_Dormir = 0;
+
+    public PantallaFade pantallaFade;
 
     [Header("Cooldown en segundos para alternar día/noche")]
     public float cooldown = 10f;
@@ -17,7 +20,36 @@ public class ControlDiaNocheR : MonoBehaviour
 
     public Light2D LuzGlobal;
 
-    private void OnCollisionEnter2D(Collision2D other) 
+    public int ContadorNPCs = 0;
+
+    [Header("Reproducción de video")]
+    public VideoPlayer reproductorVideo;
+    public GameObject contenedorVideo;
+
+    private void Start()
+    {
+        if (reproductorVideo.targetTexture != null)
+        {
+            RenderTexture.active = reproductorVideo.targetTexture;
+            GL.Clear(true, true, Color.black);
+            RenderTexture.active = null;
+        }
+
+        contenedorVideo.SetActive(false);
+    }
+    private void Update()
+    {
+        if (ContadorNPCs == 3)
+        {
+            Puede_Dormir = 1;
+        }
+        else
+        {
+            Puede_Dormir = 0;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player") && Time.time >= nextToggleTime)
         {
@@ -33,14 +65,35 @@ public class ControlDiaNocheR : MonoBehaviour
 
                 nextToggleTime = Time.time + cooldown;
 
-                LuzGlobal.intensity = 0f;
-                TextManager.Instance.MostrarDialogoPausado("Presiona F para prender la linterna", 1f, 2f);
+                // FADE IN rápido y luego reproducir video
+                pantallaFade.duracion = 0.5f;
+                pantallaFade.FadeIn(() =>
+                {
+                    LuzGlobal.intensity = 0f;
+
+                    contenedorVideo.SetActive(true);
+                    reproductorVideo.Play();
+
+                    reproductorVideo.loopPointReached += OnVideoTerminado;
+                });
             }
             else
             {
-                // Usar TextManager para mostrar advertencia
                 TextManager.Instance.MostrarMensaje("No puedes dormir todavía.");
             }
         }
     }
+
+    private void OnVideoTerminado(VideoPlayer vp)
+    {
+        reproductorVideo.loopPointReached -= OnVideoTerminado;
+
+        contenedorVideo.SetActive(false);
+
+        pantallaFade.duracion = 0.5f;
+        pantallaFade.FadeOut();
+
+        TextManager.Instance.MostrarDialogoPausado("Presiona F para prender la linterna", 1f, 2f);
+    }
 }
+

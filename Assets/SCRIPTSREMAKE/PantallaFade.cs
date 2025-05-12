@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class PantallaFade : MonoBehaviour
@@ -8,41 +9,45 @@ public class PantallaFade : MonoBehaviour
 
     private void Start()
     {
-        // Asegurarse de que empieza invisible
         if (canvasGroup != null)
-            canvasGroup.alpha = 0f;
+            canvasGroup.alpha = 0f; // Inicia transparente
     }
 
-    /// <summary>
-    /// Hace un fade a negro (pantalla opaca) y luego ejecuta una acción (como teletransportar).
-    /// </summary>
-    public void FadeIn(Action alFinal)
+    public void FadeIn(Action alFinal = null)
     {
-        StartCoroutine(Fade(0f, 1f, alFinal));
+        Debug.Log(">>> Ejecutando FADE IN");
+        StartCoroutine(FadeCoroutine(0f, 1f, alFinal));
     }
 
-    /// <summary>
-    /// Hace un fade de negro a transparente.
-    /// </summary>
-    public void FadeOut()
+    public void FadeOut(Action alFinal = null)
     {
-        StartCoroutine(Fade(1f, 0f, null));
+        Debug.Log(">>> Ejecutando FADE OUT");
+        StartCoroutine(FadeCoroutine(1f, 0f, alFinal));
     }
 
-    private System.Collections.IEnumerator Fade(float desde, float hasta, Action alFinal)
+    private IEnumerator FadeCoroutine(float desde, float hasta, Action alFinal)
     {
+        if (canvasGroup == null)
+        {
+            Debug.LogError("CanvasGroup no asignado en PantallaFade");
+            yield break;
+        }
+
         float tiempo = 0f;
+        canvasGroup.blocksRaycasts = true; // Bloquea interacciones
 
         while (tiempo < duracion)
         {
             tiempo += Time.deltaTime;
-            float alphaActual = Mathf.Lerp(desde, hasta, tiempo / duracion);
-            canvasGroup.alpha = alphaActual;
+            float t = Mathf.Clamp01(tiempo / duracion);
+            canvasGroup.alpha = Mathf.Lerp(desde, hasta, t);
             yield return null;
         }
 
         canvasGroup.alpha = hasta;
+        canvasGroup.blocksRaycasts = hasta > 0f;
         alFinal?.Invoke();
     }
 }
+
 

@@ -13,6 +13,9 @@ public class TextManager : MonoBehaviour
     private List<string> paginas = new List<string>();
     private int indicePaginaActual = 0;
     private bool estaMostrandoDialogo = false;
+    private bool inputBloqueado = false;
+
+    private PlayerMovement jugador;
 
     private void Awake()
     {
@@ -20,11 +23,13 @@ public class TextManager : MonoBehaviour
         else Destroy(gameObject);
 
         panelTexto.SetActive(false);
+
+        jugador = FindObjectOfType<PlayerMovement>(); // busca el script de movimiento
     }
 
     private void Update()
     {
-        if (estaMostrandoDialogo && Input.GetKeyDown(KeyCode.E))
+        if (estaMostrandoDialogo && Input.GetKeyDown(KeyCode.E) && !inputBloqueado)
         {
             AvanzarPagina();
         }
@@ -36,9 +41,14 @@ public class TextManager : MonoBehaviour
     public void MostrarMensaje(string mensaje, float duracion = 2f)
     {
         StopAllCoroutines();
+
         panelTexto.SetActive(true);
         texto.text = mensaje;
         estaMostrandoDialogo = false;
+
+        BloquearInput(true);
+        jugador?.BloquearMovimiento(true); // 🚫 Bloqueo
+
         Invoke(nameof(OcultarMensaje), duracion);
     }
 
@@ -69,6 +79,9 @@ public class TextManager : MonoBehaviour
         panelTexto.SetActive(true);
         texto.text = paginas[indicePaginaActual];
         estaMostrandoDialogo = true;
+
+        BloquearInput(false); // Permitimos avanzar páginas
+        jugador?.BloquearMovimiento(true); // 🚫 Bloqueo mientras hay diálogo
     }
 
     private void AvanzarPagina()
@@ -90,6 +103,19 @@ public class TextManager : MonoBehaviour
         panelTexto.SetActive(false);
         estaMostrandoDialogo = false;
         paginas.Clear();
+
+        jugador?.BloquearMovimiento(false); // ✅ Desbloqueo
     }
+
+    public void BloquearInput(bool estado)
+    {
+        inputBloqueado = estado;
+    }
+
+    public bool EstaMostrando()
+{
+    return estaMostrandoDialogo;
+}
+
 }
 
