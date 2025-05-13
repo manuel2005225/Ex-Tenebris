@@ -94,6 +94,13 @@ public class ControlDiaNocheR : MonoBehaviour
         pantallaFade.FadeOut();
 
         TextManager.Instance.MostrarDialogoPausado("Presiona F para prender la linterna", 1f, 2f);
+
+        if (reproductorVideo.targetTexture != null)
+        {
+            RenderTexture.active = reproductorVideo.targetTexture;
+            GL.Clear(true, true, Color.black);
+            RenderTexture.active = null;
+        }
     }
 }
 
