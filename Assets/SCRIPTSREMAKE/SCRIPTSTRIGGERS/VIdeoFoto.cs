@@ -40,6 +40,8 @@ public class VIdeoFoto : MonoBehaviour, IInteractuable
             reproductorVideo.loopPointReached += OnVideoTerminado;
 
             reproductorVideo.Play();
+            Debug.Log("Clip asignado: " + (clipHermanaClara != null ? clipHermanaClara.name : "NULO"));
+
             Debug.Log("🎥 Video comenzando correctamente");
         });
     }
@@ -61,6 +63,7 @@ public class VIdeoFoto : MonoBehaviour, IInteractuable
         pantallaFade.FadeOut();
 
         TextManager.Instance.BloquearInput(false);
+        Bloqueo.SetActive(false);
     }
 
     private void LimpiarRenderTexture()
