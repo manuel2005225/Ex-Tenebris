@@ -28,25 +28,14 @@ public class ControlDiaNocheR : MonoBehaviour
 
     private void Start()
     {
-        if (reproductorVideo.targetTexture != null)
-        {
-            RenderTexture.active = reproductorVideo.targetTexture;
-            GL.Clear(true, true, Color.black);
-            RenderTexture.active = null;
-        }
-
+        LimpiarRenderTexture();
         contenedorVideo.SetActive(false);
+        reproductorVideo.gameObject.SetActive(false); // Lo mantenemos inactivo hasta que se use
     }
+
     private void Update()
     {
-        if (ContadorNPCs == 3)
-        {
-            Puede_Dormir = 1;
-        }
-        else
-        {
-            Puede_Dormir = 0;
-        }
+        Puede_Dormir = (ContadorNPCs == 3) ? 1 : 0;
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -65,16 +54,25 @@ public class ControlDiaNocheR : MonoBehaviour
 
                 nextToggleTime = Time.time + cooldown;
 
-                // FADE IN rápido y luego reproducir video
                 pantallaFade.duracion = 0.5f;
+
                 pantallaFade.FadeIn(() =>
                 {
                     LuzGlobal.intensity = 0f;
 
-                    contenedorVideo.SetActive(true);
-                    reproductorVideo.Play();
+                    // 🔒 Limpieza previa
+                    LimpiarRenderTexture();
 
+                    // Activar el reproductor y contenedor
+                    reproductorVideo.gameObject.SetActive(true);
+                    contenedorVideo.SetActive(true);
+
+                    // Prevenir múltiples registros
+                    reproductorVideo.loopPointReached -= OnVideoTerminado;
                     reproductorVideo.loopPointReached += OnVideoTerminado;
+
+                    reproductorVideo.Stop(); // por seguridad
+                    reproductorVideo.Play();
                 });
             }
             else
@@ -87,14 +85,21 @@ public class ControlDiaNocheR : MonoBehaviour
     private void OnVideoTerminado(VideoPlayer vp)
     {
         reproductorVideo.loopPointReached -= OnVideoTerminado;
-
-        contenedorVideo.SetActive(false);
+        reproductorVideo.Stop();
 
         pantallaFade.duracion = 0.5f;
         pantallaFade.FadeOut();
 
-        TextManager.Instance.MostrarDialogoPausado("Presiona F para prender la linterna", 1f, 2f);
+        contenedorVideo.SetActive(false);
+        reproductorVideo.gameObject.SetActive(false);
 
+        LimpiarRenderTexture();
+
+        TextManager.Instance.MostrarDialogoPausado("Presiona F para prender la linterna", 1f, 2f);
+    }
+
+    private void LimpiarRenderTexture()
+    {
         if (reproductorVideo.targetTexture != null)
         {
             RenderTexture.active = reproductorVideo.targetTexture;
@@ -103,4 +108,5 @@ public class ControlDiaNocheR : MonoBehaviour
         }
     }
 }
+
 

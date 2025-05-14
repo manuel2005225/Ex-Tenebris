@@ -1,55 +1,70 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.Video;
 
 public class VIdeoFoto : MonoBehaviour, IInteractuable
 {
-    public GameObject contenedorVideo;
-    public PantallaFade pantallaFade;
-    public VideoPlayer reproductorVideo;
+    [Header("Componentes")]
+    public GameObject contenedorVideo;         // El canvas o visual que contiene el RawImage
+    public PantallaFade pantallaFade;          // Tu sistema de fade in/out
+    public VideoPlayer reproductorVideo;       // El componente VideoPlayer
+    public GameObject Bloqueo;
+
+    [Header("Configuración del clip")]
+    public VideoClip clipHermanaClara;         // Asigna el video desde el inspector
 
     public void Interactuar()
     {
-        // Implement the interaction logic here
         TextManager.Instance.BloquearInput(true);
         TextManager.Instance.MostrarMensaje("<color=#e0aa3e>La Hermana clara...</color>", 2f);
-        
-        StartCoroutine(ActivarEnUnosSegundos(2f));
+
         pantallaFade.duracion = 0.5f;
-        pantallaFade.FadeIn(() =>
-                {
-                    
-
-                    contenedorVideo.SetActive(true);
-                    reproductorVideo.Play();   
-                    Debug.Log("Video Reproduciendose");
-
-                    
-                });
-        
+        StartCoroutine(EsperarYReproducirVideo(2f));
     }
 
-    private IEnumerator ActivarEnUnosSegundos(float delay)
+    private IEnumerator EsperarYReproducirVideo(float delay)
     {
         yield return new WaitForSeconds(delay);
-        contenedorVideo.SetActive(true);
-        reproductorVideo.loopPointReached += OnVideoTerminado;
-        Debug.Log("Video cargando wahahha");
+
+        pantallaFade.FadeIn(() =>
+        {
+            // 🔒 Limpieza previa
+            LimpiarRenderTexture();
+
+            // Asignar el clip
+            reproductorVideo.clip = clipHermanaClara;
+
+            // Activar y preparar
+            reproductorVideo.gameObject.SetActive(true);
+            contenedorVideo.SetActive(true);
+            reproductorVideo.loopPointReached += OnVideoTerminado;
+
+            reproductorVideo.Play();
+            Debug.Log("🎥 Video comenzando correctamente");
+        });
     }
 
     private void OnVideoTerminado(VideoPlayer vp)
     {
-        reproductorVideo.loopPointReached -= OnVideoTerminado;
+        Debug.Log("🛑 Video Terminado");
 
+        reproductorVideo.loopPointReached -= OnVideoTerminado;
+        reproductorVideo.Stop();
+
+        // 🔒 Limpieza post reproducción
+        LimpiarRenderTexture();
+
+        reproductorVideo.gameObject.SetActive(false);
         contenedorVideo.SetActive(false);
 
         pantallaFade.duracion = 0.5f;
         pantallaFade.FadeOut();
 
         TextManager.Instance.BloquearInput(false);
-        Debug.Log("Video Terminado");
+    }
 
+    private void LimpiarRenderTexture()
+    {
         if (reproductorVideo.targetTexture != null)
         {
             RenderTexture.active = reproductorVideo.targetTexture;
@@ -58,5 +73,7 @@ public class VIdeoFoto : MonoBehaviour, IInteractuable
         }
     }
 }
-   
+
+
+
 
