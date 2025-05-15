@@ -26,11 +26,20 @@ public class ControlDiaNocheR : MonoBehaviour
     public VideoPlayer reproductorVideo;
     public GameObject contenedorVideo;
 
+  [Header("Sonido de la noche")]
+    public AudioSource sonidoNoche;
+
+
     private void Start()
     {
         LimpiarRenderTexture();
         contenedorVideo.SetActive(false);
         reproductorVideo.gameObject.SetActive(false); // Lo mantenemos inactivo hasta que se use
+
+        if (ValorDiayNoche)
+            sonidoNoche.Stop();
+        else
+            sonidoNoche.Play();
     }
 
     private void Update()
@@ -51,6 +60,18 @@ public class ControlDiaNocheR : MonoBehaviour
                 // Alternar estado día/noche
                 ValorDiayNoche = !ValorDiayNoche;
                 if (!ValorDiayNoche) DiaActual += 1;
+
+                // Controlar el audio de noche
+                if (!ValorDiayNoche)
+                {
+                    sonidoNoche.Play();
+                    LuzGlobal.intensity = 0f; // Ejemplo de oscuridad
+                }
+                else
+                {
+                    sonidoNoche.Stop();
+                    LuzGlobal.intensity = 1f; // Ejemplo de luz día (ajusta según tu necesidad)
+                }
 
                 nextToggleTime = Time.time + cooldown;
 
