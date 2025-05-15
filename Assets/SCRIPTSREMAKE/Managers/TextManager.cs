@@ -13,9 +13,12 @@ public class TextManager : MonoBehaviour
     private List<string> paginas = new List<string>();
     private int indicePaginaActual = 0;
     private bool estaMostrandoDialogo = false;
+    private bool mostrandoMensajeSimple = false;
     private bool inputBloqueado = false;
 
     private PlayerMovement jugador;
+
+    private Queue<(string mensaje, float duracion)> colaMensajesSimples = new Queue<(string mensaje, float duracion)>();
 
     private void Awake()
     {
@@ -23,8 +26,7 @@ public class TextManager : MonoBehaviour
         else Destroy(gameObject);
 
         panelTexto.SetActive(false);
-
-        jugador = FindObjectOfType<PlayerMovement>(); // busca el script de movimiento
+        jugador = FindObjectOfType<PlayerMovement>();
     }
 
     private void Update()
@@ -35,44 +37,51 @@ public class TextManager : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Muestra un solo mensaje sin paginación.
-    /// </summary>
     public void MostrarMensaje(string mensaje, float duracion = 2f)
     {
-        StopAllCoroutines();
-
-        panelTexto.SetActive(true);
-        texto.text = mensaje;
-        estaMostrandoDialogo = false;
-
-        BloquearInput(true);
-        jugador?.BloquearMovimiento(true); // 🚫 Bloqueo
-
-        Invoke(nameof(OcultarMensaje), duracion);
+        colaMensajesSimples.Enqueue((mensaje, duracion));
+        TryMostrarMensajes();
     }
 
-    /// <summary>
-    /// Muestra un mensaje luego de una pausa (como uno corto, pero retrasado).
-    /// </summary>
-    public void MostrarDialogoPausado(string mensaje, float retraso, float duracion = 2f)
+    private void TryMostrarMensajes()
     {
-        StopAllCoroutines();
-        StartCoroutine(MostrarConRetraso(mensaje, retraso, duracion));
+        if (!estaMostrandoDialogo && !mostrandoMensajeSimple && colaMensajesSimples.Count > 0)
+        {
+            StartCoroutine(ProximoMensajeSimple());
+        }
     }
 
-    private IEnumerator MostrarConRetraso(string mensaje, float retraso, float duracion)
+    private IEnumerator ProximoMensajeSimple()
     {
-        yield return new WaitForSeconds(retraso);
-        MostrarMensaje(mensaje, duracion);
+        mostrandoMensajeSimple = true;
+
+        while (colaMensajesSimples.Count > 0)
+        {
+            var (msg, dur) = colaMensajesSimples.Dequeue();
+
+            panelTexto.SetActive(true);
+            texto.text = msg;
+
+            BloquearInput(true);
+            jugador?.BloquearMovimiento(true);
+
+            yield return new WaitForSeconds(dur);
+
+            panelTexto.SetActive(false);
+
+            BloquearInput(false);
+            jugador?.BloquearMovimiento(false);
+        }
+
+        mostrandoMensajeSimple = false;
     }
 
-    /// <summary>
-    /// Muestra un diálogo con varias páginas.
-    /// </summary>
     public void MostrarDialogo(List<string> paginasDialogo)
     {
         if (paginasDialogo == null || paginasDialogo.Count == 0) return;
+
+        // Limpiamos cola de mensajes simples si queremos evitar solapamientos
+        // colaMensajesSimples.Clear(); // opcional
 
         paginas = paginasDialogo;
         indicePaginaActual = 0;
@@ -80,8 +89,8 @@ public class TextManager : MonoBehaviour
         texto.text = paginas[indicePaginaActual];
         estaMostrandoDialogo = true;
 
-        BloquearInput(false); // Permitimos avanzar páginas
-        jugador?.BloquearMovimiento(true); // 🚫 Bloqueo mientras hay diálogo
+        BloquearInput(false);
+        jugador?.BloquearMovimiento(true);
     }
 
     private void AvanzarPagina()
@@ -104,7 +113,21 @@ public class TextManager : MonoBehaviour
         estaMostrandoDialogo = false;
         paginas.Clear();
 
-        jugador?.BloquearMovimiento(false); // ✅ Desbloqueo
+        jugador?.BloquearMovimiento(false);
+
+        // Al terminar diálogo, revisa si hay mensajes pendientes
+        TryMostrarMensajes();
+    }
+
+    public void MostrarDialogoPausado(string mensaje, float retraso, float duracion = 2f)
+    {
+        StartCoroutine(MostrarConRetraso(mensaje, retraso, duracion));
+    }
+
+    private IEnumerator MostrarConRetraso(string mensaje, float retraso, float duracion)
+    {
+        yield return new WaitForSeconds(retraso);
+        MostrarMensaje(mensaje, duracion);
     }
 
     public void BloquearInput(bool estado)
@@ -113,9 +136,10 @@ public class TextManager : MonoBehaviour
     }
 
     public bool EstaMostrando()
-{
-    return estaMostrandoDialogo;
+    {
+        return estaMostrandoDialogo || mostrandoMensajeSimple;
+    }
 }
 
-}
+
 

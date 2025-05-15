@@ -1,26 +1,51 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.Video;
 
-public class VIdeoFoto : MonoBehaviour, IInteractuable
+public class InteraccionCuadro : MonoBehaviour, IInteractuable
 {
     [Header("Componentes")]
-    public GameObject contenedorVideo;         // El canvas o visual que contiene el RawImage
-    public PantallaFade pantallaFade;          // Tu sistema de fade in/out
-    public VideoPlayer reproductorVideo;       // El componente VideoPlayer
+    public GameObject contenedorVideo;         // Guardado para referencia futura
+    // public PantallaFade pantallaFade;       // Guardado para referencia futura
+    // public VideoPlayer reproductorVideo;    // Guardado para referencia futura
     public GameObject Bloqueo;
 
     [Header("Configuración del clip")]
-    public VideoClip clipHermanaClara;         // Asigna el video desde el inspector
+    // public VideoClip clipHermanaClara;       // Guardado para referencia futura
+
+    [Header("Trigger a activar al terminar el diálogo")]
+    public GameObject triggerAlFinalDialogo;     // El trigger que se activará
 
     public void Interactuar()
     {
         TextManager.Instance.BloquearInput(true);
         TextManager.Instance.MostrarMensaje("<color=#e0aa3e>La Hermana clara...</color>", 2f);
-
-        pantallaFade.duracion = 0.5f;
-        StartCoroutine(EsperarYReproducirVideo(2f));
+        Bloqueo.SetActive(false);
+        // Inicia la coroutine que espera el diálogo y activa el trigger
+        StartCoroutine(EsperarYActivarTrigger(2f));
     }
+
+    private IEnumerator EsperarYActivarTrigger(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        // Aquí activas el trigger (por ejemplo habilitar un collider o enviar evento)
+        if (triggerAlFinalDialogo != null)
+        {
+            triggerAlFinalDialogo.SetActive(true);
+            Debug.Log("Trigger activado tras el diálogo.");
+        }
+        else
+        {
+            Debug.LogWarning("No se asignó ningún trigger para activar.");
+        }
+
+        // Desbloquea el input tras activar trigger
+        TextManager.Instance.BloquearInput(false);
+        Bloqueo.SetActive(false);
+    }
+
+    /*
+    // Código original de reproducción de video para futura adaptación
 
     private IEnumerator EsperarYReproducirVideo(float delay)
     {
@@ -28,20 +53,15 @@ public class VIdeoFoto : MonoBehaviour, IInteractuable
 
         pantallaFade.FadeIn(() =>
         {
-            // 🔒 Limpieza previa
             LimpiarRenderTexture();
 
-            // Asignar el clip
             reproductorVideo.clip = clipHermanaClara;
-
-            // Activar y preparar
             reproductorVideo.gameObject.SetActive(true);
             contenedorVideo.SetActive(true);
             reproductorVideo.loopPointReached += OnVideoTerminado;
 
             reproductorVideo.Play();
             Debug.Log("Clip asignado: " + (clipHermanaClara != null ? clipHermanaClara.name : "NULO"));
-
             Debug.Log("🎥 Video comenzando correctamente");
         });
     }
@@ -53,13 +73,11 @@ public class VIdeoFoto : MonoBehaviour, IInteractuable
         reproductorVideo.loopPointReached -= OnVideoTerminado;
         reproductorVideo.Stop();
 
-        // 🔒 Limpieza post reproducción
         LimpiarRenderTexture();
 
         reproductorVideo.gameObject.SetActive(false);
         contenedorVideo.SetActive(false);
 
-        pantallaFade.duracion = 0.5f;
         pantallaFade.FadeOut();
 
         TextManager.Instance.BloquearInput(false);
@@ -75,7 +93,9 @@ public class VIdeoFoto : MonoBehaviour, IInteractuable
             RenderTexture.active = null;
         }
     }
+    */
 }
+
 
 
 
