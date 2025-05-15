@@ -26,20 +26,20 @@ public class ControlDiaNocheR : MonoBehaviour
     public VideoPlayer reproductorVideo;
     public GameObject contenedorVideo;
 
-  [Header("Sonido de la noche")]
-    public AudioSource sonidoNoche;
-
+    [Header("Audio Theme Manager")]
+    public AudioThemeManager audioThemeManager;
 
     private void Start()
     {
         LimpiarRenderTexture();
         contenedorVideo.SetActive(false);
-        reproductorVideo.gameObject.SetActive(false); // Lo mantenemos inactivo hasta que se use
+        reproductorVideo.gameObject.SetActive(false);
 
-        if (ValorDiayNoche)
-            sonidoNoche.Stop();
-        else
-            sonidoNoche.Play();
+        // Inicializar audio acorde al estado actual de día/noche
+        if (audioThemeManager != null)
+        {
+            audioThemeManager.CambiarTema(ValorDiayNoche);
+        }
     }
 
     private void Update()
@@ -61,16 +61,10 @@ public class ControlDiaNocheR : MonoBehaviour
                 ValorDiayNoche = !ValorDiayNoche;
                 if (!ValorDiayNoche) DiaActual += 1;
 
-                // Controlar el audio de noche
-                if (!ValorDiayNoche)
+                // Actualizar audio vía AudioThemeManager
+                if (audioThemeManager != null)
                 {
-                    sonidoNoche.Play();
-                    LuzGlobal.intensity = 0f; // Ejemplo de oscuridad
-                }
-                else
-                {
-                    sonidoNoche.Stop();
-                    LuzGlobal.intensity = 1f; // Ejemplo de luz día (ajusta según tu necesidad)
+                    audioThemeManager.CambiarTema(ValorDiayNoche);
                 }
 
                 nextToggleTime = Time.time + cooldown;
@@ -79,20 +73,18 @@ public class ControlDiaNocheR : MonoBehaviour
 
                 pantallaFade.FadeIn(() =>
                 {
-                    LuzGlobal.intensity = 0f;
+                    Debug.Log("Cambiando a " + (ValorDiayNoche ? "día" : "noche"));
+                    LuzGlobal.intensity = ValorDiayNoche ? 1f : 0f;
 
-                    // 🔒 Limpieza previa
                     LimpiarRenderTexture();
 
-                    // Activar el reproductor y contenedor
                     reproductorVideo.gameObject.SetActive(true);
                     contenedorVideo.SetActive(true);
 
-                    // Prevenir múltiples registros
                     reproductorVideo.loopPointReached -= OnVideoTerminado;
                     reproductorVideo.loopPointReached += OnVideoTerminado;
 
-                    reproductorVideo.Stop(); // por seguridad
+                    reproductorVideo.Stop();
                     reproductorVideo.Play();
                 });
             }
@@ -129,5 +121,6 @@ public class ControlDiaNocheR : MonoBehaviour
         }
     }
 }
+
 
 

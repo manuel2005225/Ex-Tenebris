@@ -42,6 +42,7 @@ public class InteraccionCuadro : MonoBehaviour, IInteractuable
         // Desbloquea el input tras activar trigger
         TextManager.Instance.BloquearInput(false);
         Bloqueo.SetActive(false);
+        Destroy(gameObject); // Destruye el objeto actual
     }
 
     /*
