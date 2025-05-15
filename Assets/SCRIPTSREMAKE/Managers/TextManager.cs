@@ -62,7 +62,7 @@ public class TextManager : MonoBehaviour
             panelTexto.SetActive(true);
             texto.text = msg;
 
-            BloquearInput(true);
+            
             jugador?.BloquearMovimiento(true);
 
             yield return new WaitForSeconds(dur);
@@ -90,7 +90,7 @@ public class TextManager : MonoBehaviour
         estaMostrandoDialogo = true;
 
         BloquearInput(false);
-        jugador?.BloquearMovimiento(true);
+        jugador?.BloquearMovimiento(false);
     }
 
     private void AvanzarPagina()
