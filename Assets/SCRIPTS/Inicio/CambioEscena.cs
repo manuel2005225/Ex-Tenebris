@@ -10,7 +10,7 @@ public class CambioEscena : MonoBehaviour
 
     public void IrAJuego()
     {
-        StartCoroutine(FadeOutAndLoadScene("Iglesia"));
+        StartCoroutine(FadeOutAndLoadScene("EscenaNuevoEntorno"));
     }
 
     IEnumerator FadeOutAndLoadScene(string sceneName)
