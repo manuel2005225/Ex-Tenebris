@@ -11,6 +11,7 @@ public class AudioThemeManager : MonoBehaviour
 
     private void Start()
     {
+        audioDia.Play();
         // Inicializar reproducción acorde al estado
         ActualizarAudio();
     }
