@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class NPCDialogo : MonoBehaviour, IInteractuable
 {
+
+    void Awake()
+        {
+        if (spriteRenderer == null)
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
     [Header("Líneas del Padre (inicia el diálogo)")]
     [TextArea(2, 4)]
     public List<string> lineasPadre;
