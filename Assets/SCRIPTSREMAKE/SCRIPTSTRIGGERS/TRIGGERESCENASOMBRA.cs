@@ -4,57 +4,83 @@ using UnityEngine.Video;
 public class TriggerReproducirVideo : MonoBehaviour
 {
     [Header("Componentes")]
-    public GameObject contenedorVideo;         // Canvas o visual que contiene el RawImage
-    public PantallaFade pantallaFade;          // Sistema de fade in/out
-    public VideoPlayer reproductorVideo;       // Componente VideoPlayer
-    
+    public GameObject contenedorVideo;
+    public PantallaFade pantallaFade;
+    public VideoPlayer reproductorVideo;
 
     [Header("Configuración del clip")]
-    public VideoClip clipVideo;                 // Clip a reproducir
+    public VideoClip clipVideo;
+
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip sonidoAntesDelFade;
 
     private bool videoReproduciendose = false;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (videoReproduciendose) return;       // Evita reactivaciones múltiples
+        Debug.Log("[Trigger] OnTriggerEnter2D");
+
+        if (videoReproduciendose) return;
+
         if (other.CompareTag("Player"))
         {
-            Destroy(gameObject); // Destruye el trigger al entrar
+            Debug.Log("[Trigger] Jugador entró al trigger");
             videoReproduciendose = true;
-         // Asegúrate de que el contenedor esté activado al inicio
 
             TextManager.Instance.BloquearInput(true);
-            StartCoroutine(PrepararYReproducirVideo());
+            var jugador = other.GetComponent<PlayerMovement>();
+            jugador?.BloquearMovimiento(true);
+
+            float delay = 0f;
+
+            if (sonidoAntesDelFade != null && audioSource != null)
+            {
+                Debug.Log("[Trigger] Reproduciendo sonido de entrada");
+                audioSource.PlayOneShot(sonidoAntesDelFade);
+                delay = sonidoAntesDelFade.length;
+            }
+
+            Debug.Log($"[Trigger] Esperando {delay + 0.1f} segundos antes de iniciar FadeIn");
+            Invoke(nameof(IniciarFadeYVideo), delay + 0.1f);
         }
     }
 
-    private System.Collections.IEnumerator PrepararYReproducirVideo()
-{
-    // Inicia el fade in y continúa todo dentro del callback
-    pantallaFade.duracion = 0.5f;
-    pantallaFade.FadeIn(() =>
+    private void IniciarFadeYVideo()
     {
-        LimpiarRenderTexture();
+        Debug.Log("[Fade] Iniciando FadeIn");
 
-        reproductorVideo.clip = clipVideo;
-        reproductorVideo.gameObject.SetActive(true);
-        contenedorVideo.SetActive(true);
+        pantallaFade.duracion = 0.5f;
 
-        reproductorVideo.loopPointReached -= OnVideoTerminado;
-        reproductorVideo.loopPointReached += OnVideoTerminado;
+        pantallaFade.FadeIn(() =>
+        {
+            Debug.Log("[Fade] Callback de FadeIn alcanzado");
 
-        reproductorVideo.Stop();
-        reproductorVideo.Play();
+            LimpiarRenderTexture();
 
-        Debug.Log("🎥 Video comenzando correctamente: " + (clipVideo != null ? clipVideo.name : "NULO"));
-    });
+            if (clipVideo == null)
+            {
+                Debug.LogError("[Video] No hay clip de video asignado.");
+                return;
+            }
 
-    yield break; // No esperamos nada más aquí
-}
+            reproductorVideo.clip = clipVideo;
+            reproductorVideo.gameObject.SetActive(true);
+            contenedorVideo.SetActive(true);
+
+            reproductorVideo.loopPointReached -= OnVideoTerminado;
+            reproductorVideo.loopPointReached += OnVideoTerminado;
+
+            reproductorVideo.Stop();
+            reproductorVideo.Play();
+
+            Debug.Log("[Video] Reproducción del video iniciada");
+        });
+    }
 
     private void OnVideoTerminado(VideoPlayer vp)
     {
-        Debug.Log("🛑 Video Terminado");
+        Debug.Log("[Video] Video finalizado");
 
         reproductorVideo.loopPointReached -= OnVideoTerminado;
         reproductorVideo.Stop();
@@ -69,11 +95,20 @@ public class TriggerReproducirVideo : MonoBehaviour
 
         TextManager.Instance.BloquearInput(false);
 
+        GameObject jugador = GameObject.FindGameObjectWithTag("Player");
+        jugador?.GetComponent<PlayerMovement>()?.BloquearMovimiento(false);
+
         videoReproduciendose = false;
+
+        Debug.Log("[Video] Movimiento y control desbloqueados");
+
+        Destroy(gameObject); // ✅ ¡Ahora sí lo destruimos al final, cuando todo ha terminado!
     }
 
     private void LimpiarRenderTexture()
     {
+        Debug.Log("[RenderTexture] Limpiando RenderTexture");
+
         if (reproductorVideo.targetTexture != null)
         {
             RenderTexture.active = reproductorVideo.targetTexture;
@@ -82,5 +117,10 @@ public class TriggerReproducirVideo : MonoBehaviour
         }
     }
 }
+
+
+
+
+
 
 

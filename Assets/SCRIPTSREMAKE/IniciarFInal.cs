@@ -7,6 +7,8 @@ public class IniciarFinal : MonoBehaviour
     public AudioSource audioSourceExterno;      // AudioSource que está en otro objeto
     public AudioClip audioFinal;                 // Clip a reproducir
 
+
+    public PlayerMovement jugador;
     public GameObject LucesFinal;
     public GameObject FinalTemporal;
     public GameObject bloqueoLaberinto; // Referencia al objeto que se va a activar
@@ -19,6 +21,7 @@ public class IniciarFinal : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Player"))
         {
+            jugador.speed = 5f;
             transform.position = new Vector3(122323f, 0f, 0f);
             StartCoroutine(MostrarDialogos());
             InicioEscape();
