@@ -8,7 +8,7 @@ public class IniciarFinal : MonoBehaviour
     public AudioClip audioFinal;                 // Clip a reproducir
 
     public GameObject LucesFinal;
-
+    public GameObject FinalTemporal;
     public GameObject bloqueoLaberinto; // Referencia al objeto que se va a activar
     public bool enemigoActivado = false;
 
@@ -22,6 +22,7 @@ public class IniciarFinal : MonoBehaviour
             transform.position = new Vector3(122323f, 0f, 0f);
             StartCoroutine(MostrarDialogos());
             InicioEscape();
+            FinalTemporal.SetActive(true);
         }
     }
 
