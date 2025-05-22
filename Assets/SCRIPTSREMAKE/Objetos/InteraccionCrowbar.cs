@@ -3,8 +3,10 @@ using UnityEngine;
 public class InteraccionCrowbar : MonoBehaviour, IInteractuable
 {
     public GameObject pared;
+    public bool ultimoobjeto = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public void Interactuar(){
+    public void Interactuar()
+    {
 
         TextManager.Instance.BloquearInput(true);
         TextManager.Instance.MostrarMensaje("<color=#e0aa3e>(Una palanca....)</color>", 2f);
@@ -12,5 +14,6 @@ public class InteraccionCrowbar : MonoBehaviour, IInteractuable
 
         Destroy(gameObject);
         pared.SetActive(false);
+        ultimoobjeto = true;
     }
 }

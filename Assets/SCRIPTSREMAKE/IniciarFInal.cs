@@ -7,8 +7,16 @@ public class IniciarFinal : MonoBehaviour
     public AudioSource audioSourceExterno;      // AudioSource que está en otro objeto
     public AudioClip audioFinal;                 // Clip a reproducir
 
+    public GameObject LucesFinal;
+
+    public GameObject bloqueoLaberinto; // Referencia al objeto que se va a activar
+    public bool enemigoActivado = false;
+
     void OnTriggerEnter2D(Collider2D collision)
     {
+        
+        enemigoActivado = true;
+        transform.position = new Vector3(122323f, 0f, 0f);
         if (collision.gameObject.CompareTag("Player"))
         {
             StartCoroutine(MostrarDialogos());
@@ -18,7 +26,7 @@ public class IniciarFinal : MonoBehaviour
     private IEnumerator MostrarDialogos()
     {
         TextManager.Instance.BloquearInput(false);
-        
+
         yield return MostrarMensajeYEsperar("<color=#D3D3D3>(Sientes repulsion al entrar a la habitacion, algo profano habita aqui)</color>", 4f);
         yield return MostrarMensajeYEsperar("<color=#D3D3D3>(Una mezcla de emociones te invade, mientras tu cuerpo solo te pide huir)</color>", 4f);
         yield return MostrarMensajeYEsperar("<color=#DC143C>(No hay fe en este lugar...)</color>", 2f);
@@ -50,9 +58,16 @@ public class IniciarFinal : MonoBehaviour
         {
             Debug.LogWarning("AudioSource externo o clip de audio no asignados.");
         }
-        gameObject.SetActive(false); 
-         // Desactiva este script para evitar reactivaciones
+        gameObject.SetActive(false);
+        // Desactiva este script para evitar reactivaciones
         Debug.Log("Objeto activado y audio reproducido después de los diálogos.");
+    }
+
+
+    private void InicioEscape()
+    {
+        bloqueoLaberinto.SetActive(false);
+        LucesFinal.SetActive(true);
     }
 }
 

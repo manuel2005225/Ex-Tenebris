@@ -26,6 +26,10 @@ public class NPCDialogo : MonoBehaviour, IInteractuable
     [Header("Sistema de sueño y día/noche")]
     public ControlDiaNocheR controlDiaNoche;
 
+    [Header("Sprite especial para cambio")]
+    public Sprite spriteCambio; // Asigna el sprite solo en el NPC que lo necesita
+    public SpriteRenderer spriteRenderer; // Asigna el SpriteRenderer del NPC
+
     private bool bloqueadoTemporalmente = false;
 
     public void Interactuar()
@@ -60,6 +64,10 @@ public class NPCDialogo : MonoBehaviour, IInteractuable
             {
                 jugador.position = destinoJugador.position;
                 transform.position = destinoNPC.position;
+
+                // Cambia el sprite SOLO si hay uno de referencia asignado
+                if (spriteCambio != null && spriteRenderer != null)
+                    spriteRenderer.sprite = spriteCambio;
 
                 pantallaFade.FadeOut();
 
