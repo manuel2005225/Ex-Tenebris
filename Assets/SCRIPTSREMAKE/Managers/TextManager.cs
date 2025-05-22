@@ -90,7 +90,7 @@ public class TextManager : MonoBehaviour
         estaMostrandoDialogo = true;
 
         BloquearInput(false);
-        jugador?.BloquearMovimiento(false);
+        jugador?.BloquearMovimiento(true);
     }
 
     private void AvanzarPagina()

@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class PlayerInteractor : MonoBehaviour
 {
@@ -10,22 +11,32 @@ public class PlayerInteractor : MonoBehaviour
 
     private Vector2 direccion = Vector2.right; // Dirección lógica del raycast (predeterminada)
 
+    private List<IInteractuable> interactuablesCercanos = new List<IInteractuable>();
+    public KeyCode teclaInteraccion = KeyCode.E;
+
     void Update()
     {
         ActualizarDireccion();
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(teclaInteraccion) && interactuablesCercanos.Count > 0)
         {
-            RaycastHit2D hit = Physics2D.Raycast(puntoRaycast.position, direccion, distancia, capaInteractuables);
+            IInteractuable masCercano = null;
+            float distanciaMin = float.MaxValue;
+            Vector3 posJugador = transform.position;
 
-            if (hit.collider != null)
+            foreach (var interactuable in interactuablesCercanos)
             {
-                IInteractuable interactuable = hit.collider.GetComponent<IInteractuable>();
-                if (interactuable != null)
+                if (interactuable == null) continue;
+                float dist = Vector3.Distance(posJugador, ((MonoBehaviour)interactuable).transform.position);
+                if (dist < distanciaMin)
                 {
-                    interactuable.Interactuar();
+                    distanciaMin = dist;
+                    masCercano = interactuable;
                 }
             }
+
+            if (masCercano != null)
+                masCercano.Interactuar();
         }
     }
 
@@ -51,6 +62,20 @@ public class PlayerInteractor : MonoBehaviour
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawLine(puntoRaycast.position, puntoRaycast.position + (Vector3)direccion * distancia);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        var interactuable = other.GetComponent<IInteractuable>();
+        if (interactuable != null && !interactuablesCercanos.Contains(interactuable))
+            interactuablesCercanos.Add(interactuable);
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        var interactuable = other.GetComponent<IInteractuable>();
+        if (interactuable != null)
+            interactuablesCercanos.Remove(interactuable);
     }
 }
 
