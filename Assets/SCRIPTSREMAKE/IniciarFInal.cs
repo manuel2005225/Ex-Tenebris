@@ -16,10 +16,12 @@ public class IniciarFinal : MonoBehaviour
     {
         
         enemigoActivado = true;
-        transform.position = new Vector3(122323f, 0f, 0f);
+
         if (collision.gameObject.CompareTag("Player"))
         {
+            transform.position = new Vector3(122323f, 0f, 0f);
             StartCoroutine(MostrarDialogos());
+            InicioEscape();
         }
     }
 
@@ -64,7 +66,7 @@ public class IniciarFinal : MonoBehaviour
     }
 
 
-    private void InicioEscape()
+        private void InicioEscape()
     {
         bloqueoLaberinto.SetActive(false);
         LucesFinal.SetActive(true);

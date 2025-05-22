@@ -11,9 +11,9 @@ public class InteraccionCrowbar : MonoBehaviour, IInteractuable
         TextManager.Instance.BloquearInput(true);
         TextManager.Instance.MostrarMensaje("<color=#e0aa3e>(Una palanca....)</color>", 2f);
         TextManager.Instance.MostrarMensaje("<color=#e0aa3e>(Parece oxidada)</color>", 2f);
-
-        Destroy(gameObject);
-        pared.SetActive(false);
         ultimoobjeto = true;
+        pared.SetActive(false);
+        Destroy(gameObject);
+        
     }
 }

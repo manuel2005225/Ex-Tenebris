@@ -13,6 +13,7 @@ public class Scir : MonoBehaviour
     public ActivadorObjeto ActivadorObjeto;
     public IniciarFinal IniciarFinal;
 
+    public bool IntCrowbar;
     private int AvanzadorObjetivos = 0;
 
     private int ContNPCS = 0;
@@ -21,12 +22,13 @@ public class Scir : MonoBehaviour
     void Update()
     {
         ContNPCS = Cama.ContadorNPCs;
+        IntCrowbar = InteraccionCrowbar.ultimoobjeto;
 
         switch (AvanzadorObjetivos)
         {
             case 0:
-                 TextoObjetivo.text = "Habla con los pecadores";
-            
+                TextoObjetivo.text = "Habla con los pecadores";
+
                 // Código para el objetivo 0
                 if (ContNPCS == 3)
                 {
@@ -44,37 +46,37 @@ public class Scir : MonoBehaviour
                 if (Cama.ValorDiayNoche == false)
                 {
                     AvanzadorObjetivos = 2;
-                    
+
                 }
-                
+
                 break;
             case 2:
-            TextoObjetivo.text = "Investiga alrededor";
+                TextoObjetivo.text = "Investiga alrededor";
 
-                if (InteraccionCrowbar.ultimoobjeto == true)
+                if (IntCrowbar == true)
                 {
-                    
-                    AvanzadorObjetivos = 2;
+
+                    AvanzadorObjetivos = 3;
                 }
-                
-                    
-                    
-                
+
+
+
+
                 // Código para el objetivo 2
                 break;
             case 3:
-                    TextoObjetivo.color = new Color(1f, 0f, 0f);
-                    TextoObjetivo.text = "Entra.";
+                TextoObjetivo.color = new Color(1f, 0f, 0f);
+                TextoObjetivo.text = "Entra.";
 
-                    if(ActivadorObjeto.ActivadoBloqueo == true)
-                    {
-                        AvanzadorObjetivos = 4;
-                    }
+                if (ActivadorObjeto.ActivadoBloqueo == true)
+                {
+                    AvanzadorObjetivos = 4;
+                }
 
 
                 break;
             case 4:
-                
+
                 TextoObjetivo.text = "Explora el laberinto";
                 // Código para el objetivo 3
                 if (IniciarFinal.enemigoActivado == true)
@@ -85,7 +87,7 @@ public class Scir : MonoBehaviour
             case 5:
                 TextoObjetivo.text = "Escapa del laberinto";
                 // Código para el objetivo 4
-                
+
 
                 break;
             default:
