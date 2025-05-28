@@ -42,6 +42,7 @@ public class TextoTrigger : MonoBehaviour
                 TextManager.Instance.MostrarMensaje(textoTrigger);
             }
         }
+        gameObject.SetActive(false);
     }
 
     // Este método es llamado cuando el video termina
