@@ -15,10 +15,12 @@ public class TextManager : MonoBehaviour
     private bool estaMostrandoDialogo = false;
     private bool mostrandoMensajeSimple = false;
     private bool inputBloqueado = false;
+    private bool mostrandoMensajeAvanzable = false;
 
     private PlayerMovement jugador;
 
     private Queue<(string mensaje, float duracion)> colaMensajesSimples = new Queue<(string mensaje, float duracion)>();
+    private System.Action onMensajeAvanzado;
 
     private void Awake()
     {
@@ -34,6 +36,10 @@ public class TextManager : MonoBehaviour
         if (estaMostrandoDialogo && Input.GetKeyDown(KeyCode.E) && !inputBloqueado)
         {
             AvanzarPagina();
+        }
+        else if (mostrandoMensajeAvanzable && Input.GetKeyDown(KeyCode.E) && !inputBloqueado)
+        {
+            OcultarMensajeAvanzable();
         }
     }
 
@@ -138,6 +144,33 @@ public class TextManager : MonoBehaviour
     public bool EstaMostrando()
     {
         return estaMostrandoDialogo || mostrandoMensajeSimple;
+    }
+
+    /// <summary>
+    /// Muestra un mensaje corto que se puede avanzar con la tecla E.
+    /// </summary>
+    public void MostrarMensajeAvanzable(string mensaje, System.Action onAvanzar = null)
+    {
+        if (mostrandoMensajeAvanzable) return;
+
+        panelTexto.SetActive(true);
+        texto.text = mensaje;
+        mostrandoMensajeAvanzable = true;
+        onMensajeAvanzado = onAvanzar;
+        BloquearInput(false);
+        jugador?.BloquearMovimiento(true);
+    }
+
+    private void OcultarMensajeAvanzable()
+    {
+        panelTexto.SetActive(false);
+        mostrandoMensajeAvanzable = false;
+        jugador?.BloquearMovimiento(false);
+        onMensajeAvanzado?.Invoke();
+        onMensajeAvanzado = null;
+
+        // Si hay mensajes simples en cola, los muestra después
+        TryMostrarMensajes();
     }
 }
 
