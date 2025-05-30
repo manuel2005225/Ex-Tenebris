@@ -18,32 +18,26 @@ public class InteraccionCuadro : MonoBehaviour, IInteractuable
     public void Interactuar()
     {
         TextManager.Instance.BloquearInput(true);
-        TextManager.Instance.MostrarMensaje("<color=#e0aa3e>La Hermana clara...</color>", 2f);
-        Bloqueo.SetActive(false);
-        // Inicia la coroutine que espera el diálogo y activa el trigger
-        StartCoroutine(EsperarYActivarTrigger(2f));
+        TextManager.Instance.MostrarMensajeAvanzable("<color=#e0aa3e>La Hermana clara...</color>", () =>
+        {
+            // Esto se ejecuta cuando el jugador cierra el mensaje con E o B
+            if (triggerAlFinalDialogo != null)
+            {
+                triggerAlFinalDialogo.SetActive(true);
+                Debug.Log("Trigger activado tras el diálogo.");
+            }
+            else
+            {
+                Debug.LogWarning("No se asignó ningún trigger para activar.");
+            }
+
+            TextManager.Instance.BloquearInput(false);
+            Bloqueo.SetActive(false);
+            Destroy(gameObject); // Destruye el objeto actual
+        });
     }
 
-    private IEnumerator EsperarYActivarTrigger(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-
-        // Aquí activas el trigger (por ejemplo habilitar un collider o enviar evento)
-        if (triggerAlFinalDialogo != null)
-        {
-            triggerAlFinalDialogo.SetActive(true);
-            Debug.Log("Trigger activado tras el diálogo.");
-        }
-        else
-        {
-            Debug.LogWarning("No se asignó ningún trigger para activar.");
-        }
-
-        // Desbloquea el input tras activar trigger
-        TextManager.Instance.BloquearInput(false);
-        Bloqueo.SetActive(false);
-        Destroy(gameObject); // Destruye el objeto actual
-    }
+    
 
     /*
     // Código original de reproducción de video para futura adaptación
