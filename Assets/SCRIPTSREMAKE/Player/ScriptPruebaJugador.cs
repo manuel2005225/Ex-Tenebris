@@ -24,7 +24,7 @@ public class ControlObjetivos : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.JoystickButton3)) // Botón I o botón B del joystick
         {
             if (corutinaActual != null)
                 StopCoroutine(corutinaActual);

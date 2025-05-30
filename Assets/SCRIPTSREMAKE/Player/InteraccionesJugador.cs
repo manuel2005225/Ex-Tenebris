@@ -18,7 +18,9 @@ public class PlayerInteractor : MonoBehaviour
     {
         ActualizarDireccion();
 
-        if (Input.GetKeyDown(teclaInteraccion) && interactuablesCercanos.Count > 0)
+        bool interactuar = Input.GetKeyDown(teclaInteraccion) || Input.GetKeyDown(KeyCode.JoystickButton1);
+
+        if (interactuar && interactuablesCercanos.Count > 0)
         {
             IInteractuable masCercano = null;
             float distanciaMin = float.MaxValue;

@@ -17,7 +17,7 @@ public class LINTERNACONTROLLER : MonoBehaviour
     {
 
         //Activador y desactivador de la linterna wahahaha
-        if(Input.GetKeyDown(KeyCode.F))
+        if(Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.JoystickButton0)) // F o botón Y del joystick
         {
 
             LinternaUsar();

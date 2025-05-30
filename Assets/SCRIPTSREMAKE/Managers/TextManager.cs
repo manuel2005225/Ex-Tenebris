@@ -33,11 +33,13 @@ public class TextManager : MonoBehaviour
 
     private void Update()
     {
-        if (estaMostrandoDialogo && Input.GetKeyDown(KeyCode.E) && !inputBloqueado)
+        bool avanzar = (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.JoystickButton1)) && !inputBloqueado;
+
+        if (estaMostrandoDialogo && avanzar)
         {
             AvanzarPagina();
         }
-        else if (mostrandoMensajeAvanzable && Input.GetKeyDown(KeyCode.E) && !inputBloqueado)
+        else if (mostrandoMensajeAvanzable && avanzar)
         {
             OcultarMensajeAvanzable();
         }

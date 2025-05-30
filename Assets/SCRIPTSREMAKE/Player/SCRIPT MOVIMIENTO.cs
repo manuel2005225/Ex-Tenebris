@@ -27,14 +27,12 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        // Detectar el movimiento horizontal y vertical con teclas
-        float horizontal = 0f;
-        float vertical = 0f;
+        // --- NUEVO: Soporte para joystick y teclado ---
+        float horizontal = Input.GetAxisRaw("Horizontal"); // Soporta teclado y joystick
+        float vertical = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKey(KeyCode.D)) horizontal = 1f; // Mover a la derecha
-        if (Input.GetKey(KeyCode.A)) horizontal = -1f; // Mover a la izquierda
-        if (Input.GetKey(KeyCode.W)) vertical = 1f; // Mover hacia arriba
-        if (Input.GetKey(KeyCode.S)) vertical = -1f; // Mover hacia abajo
+        // Si quieres priorizar teclado sobre joystick, puedes dejar el bloque de teclas aquí
+        // y solo usar Input.GetAxisRaw si no hay input de teclado.
 
         movement = new Vector2(horizontal, vertical);
 
