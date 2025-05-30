@@ -164,7 +164,7 @@ MonoBehaviour:
   m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_DeselectOnBackgroundClick: 1
+  m_DeselectOnBackgroundClick: 0
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
   m_ScrollDeltaPerTick: 6
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 1963744425}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &301242066
@@ -391,9 +391,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Para absolver los pecados, de la gente, primero debes indagar sobre ellos,
-    buscar pistas que te lleven a descubrir los pecados que han sucecido alrededor,
-    y que te permitan hablar con los habitantes
+  m_text: Inicias a escuchar las confesiones de los pueblerinos, donde puedes aprender
+    un poco mas sobre los pecados que ellos han cometido y absolverlos de la manera
+    eclesistica
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2795bb215750d0b4798ce68e5d07c39e, type: 2}
   m_sharedMaterial: {fileID: -327474466121876346, guid: 2795bb215750d0b4798ce68e5d07c39e, type: 2}
@@ -817,8 +817,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 631, y: 198}
-  m_SizeDelta: {x: -1305.7831, y: -515.3231}
+  m_AnchoredPosition: {x: 631, y: 126.73395}
+  m_SizeDelta: {x: -1305.7831, y: -372.791}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1160503527
 MonoBehaviour:
@@ -1053,11 +1053,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Si logras indagar lo suficiente, iniciaras a cargar con el peso de los
-    pecados de los habitantes, donde despues del dia e ir a dormir, tendras que afrontar
-    la manifestacion  \"Mental\" de ellos, donde cada uno tendra algo que te impedira
-    obtenerlo.\n\nAun si fracasas encontra de estos impedimentos, notaras que todo
-    es parte de un sue\xF1o, y comenzaras como si nisiquiera hubiera pasado un dia"
+  m_text: Entre pecado y pecado que escuchas, hay algunos menores que son bastante
+    comunes, el problema viene de aquellos que son tan fuertes que inician a atormentarte,
+    y hacerte sentir que te equivocaste al tan siquiera intentar ayudar a las personas
+    a absolver sus pecados
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2795bb215750d0b4798ce68e5d07c39e, type: 2}
   m_sharedMaterial: {fileID: -327474466121876346, guid: 2795bb215750d0b4798ce68e5d07c39e, type: 2}
@@ -1136,6 +1135,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427037354}
   m_CullTransparentMesh: 1
+--- !u!1 &1574342316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1574342318}
+  - component: {fileID: 1574342317}
+  m_Layer: 0
+  m_Name: UIController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1574342317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574342316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20810bbfdf4aade4a99785711597fc44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstButton: {fileID: 1963744425}
+--- !u!4 &1574342318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574342316}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 973.48663, y: 473.63196, z: -15.848474}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1593354344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,7 +1242,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.6528301, g: 0.6294268, b: 0.6294268, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -1318,7 +1362,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -190.69238, y: 243.72314}
+  m_AnchoredPosition: {x: -190.69238, y: 298}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1799552069
@@ -1341,10 +1385,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Habilidades\n\nE - Interactuar\nF - Ciclar Linterna\n\t\t-La linterna
-    tiene un limite\n\t\tde aceite.\n\n\t\t-Hay 2. La Enfocada que permite\n\t\texplorar
-    mas facil pero gastar mas\n\t\taceite y la de Area que consume\n\t\tmenos pero
-    solo alumbra\n\t\talrededor tuyo\nI- Inventario"
+  m_text: 'CONTROLES BASICOS
+
+
+    E o Boton B- Con este boton interactuas con algunos
+    objetos interactuables o con los NPCs. Actualmente solo los objetos importantes
+    y uno especifico de utilidad son interactuables. Los NPCs son interactuables,
+    Tambien avanzas ciertos dialogos con este boton.
+
+
+    I o Boton Y- Con este
+    boton abres un menu de "Guia" Actualizable, que te describe brevemente la tarea
+    que debes realizar
+
+
+    F o Boton A- Con este boton prendes y apagas la linterna,
+    solamente es util en el entorno nocturno.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2795bb215750d0b4798ce68e5d07c39e, type: 2}
   m_sharedMaterial: {fileID: -327474466121876346, guid: 2795bb215750d0b4798ce68e5d07c39e, type: 2}
@@ -1954,7 +2010,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.6528301, g: 0.6294268, b: 0.6294268, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -2108,3 +2164,4 @@ SceneRoots:
   - {fileID: 1897438262}
   - {fileID: 1852959581}
   - {fileID: 301242066}
+  - {fileID: 1574342318}

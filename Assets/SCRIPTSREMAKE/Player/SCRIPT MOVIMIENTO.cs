@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private bool estaBloqueado = false;
     private Animator animator;
 
-    private float lastMoveDir = 0f; // Valor por defecto (idle)
+    private float lastMoveDir = 1f; // Valor inicial por defecto (abajo)
 
     private void Start()
     {
@@ -20,41 +20,42 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (!puedeMoverse)
+        float horizontal = 0f;
+        float vertical = 0f;
+
+        // Captura de input solo si puede moverse
+        if (puedeMoverse)
         {
-            movement = Vector2.zero;
-            animator.SetFloat("Move_Dir", 0f);
-            return;
+            horizontal = Input.GetAxisRaw("Horizontal");
+            vertical = Input.GetAxisRaw("Vertical");
         }
-
-        // --- NUEVO: Soporte para joystick y teclado ---
-        float horizontal = Input.GetAxisRaw("Horizontal"); // Soporta teclado y joystick
-        float vertical = Input.GetAxisRaw("Vertical");
-
-        // Si quieres priorizar teclado sobre joystick, puedes dejar el bloque de teclas aquí
-        // y solo usar Input.GetAxisRaw si no hay input de teclado.
 
         movement = new Vector2(horizontal, vertical);
 
-        // Normalizamos el vector si la magnitud es mayor que 1 (para las diagonales)
+        // Normaliza diagonales para que no sean más rápidas
         if (movement.magnitude > 1f)
             movement.Normalize();
 
-        // Detectar si el movimiento es diagonal y actualizar la animación
-        if (movement.magnitude < 0.1f)
+        // Histéresis para evitar rebotes de idle
+        bool estaRealmenteMoviendose = movement.magnitude > 0.05f;
+
+        if (!estaRealmenteMoviendose)
         {
-            animator.SetFloat("Move_Dir", 0f); // Parado
+            animator.SetBool("IsMoving", false);
+            animator.SetFloat("Move_Dir", 0f); // Esto evita que el Blend Tree de caminar reaccione
             animator.SetFloat("Direction_Idle", lastMoveDir);
         }
         else
         {
-            // Calculamos la dirección de movimiento en función de los ejes X y Y
             float moveDir = GetMoveDirection(movement);
+            animator.SetBool("IsMoving", true);
             animator.SetFloat("Move_Dir", moveDir);
             animator.SetFloat("Direction_Idle", moveDir);
-
             lastMoveDir = moveDir;
         }
+
+        // Debug para verificar valores en tiempo real
+        Debug.Log($"[Animator] IsMoving: {animator.GetBool("IsMoving")} | Move_Dir: {animator.GetFloat("Move_Dir"):F1} | Direction_Idle: {animator.GetFloat("Direction_Idle"):F1} | Input: ({movement.x}, {movement.y}) | Mag: {movement.magnitude:F2}");
     }
 
     void FixedUpdate()
@@ -64,7 +65,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void BloquearMovimiento(bool estado)
     {
-        if (estaBloqueado == estado) return; // evita llamadas repetidas
+        if (estaBloqueado == estado) return;
         estaBloqueado = estado;
         puedeMoverse = !estado;
     }
@@ -73,7 +74,6 @@ public class PlayerMovement : MonoBehaviour
     {
         float x = dir.x;
         float y = dir.y;
-
         float threshold = 0.1f;
 
         bool up = y > threshold;
@@ -81,7 +81,6 @@ public class PlayerMovement : MonoBehaviour
         bool right = x > threshold;
         bool left = x < -threshold;
 
-        // Asignar valores específicos para las diagonales y direcciones cardinales
         if (up)
         {
             if (right) return 7f;  // Arriba derecha
@@ -98,7 +97,10 @@ public class PlayerMovement : MonoBehaviour
         {
             if (right) return 3f;  // Derecha
             if (left) return 4f;   // Izquierda
-            return 0f;             // Parado
+            return lastMoveDir;   // Mantener dirección anterior si no hay input
         }
     }
 }
+
+
+

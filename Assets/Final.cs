@@ -10,7 +10,7 @@ public class TriggerVictoria : MonoBehaviour
     {
         if (yaActivado) return;
 
-        if (other.CompareTag("Player")) // Asegúrate de que el jugador tenga el tag "Player"
+        if (other.CompareTag("Player"))
         {
             yaActivado = true;
 
@@ -18,11 +18,12 @@ public class TriggerVictoria : MonoBehaviour
             var jugador = other.GetComponent<PlayerMovement>();
             jugador?.BloquearMovimiento(true);
 
-            // Hacer el fade y luego mostrar mensaje
-            pantallaFade.FadeIn(() =>
-            {
-                TextManager.Instance.MostrarMensaje("¡Has ganado!", 3f);
-            });
+            // Mostrar mensaje antes del fade
+            TextManager.Instance.MostrarMensajeAvanzable("<color=#FFD700>¡Fin del juego!</color>");
+
+            // Hacer el fade después de un pequeño retraso si quieres (opcional)
+            pantallaFade.duracion = 2f;
+            pantallaFade.FadeIn(() => { });
         }
     }
 }

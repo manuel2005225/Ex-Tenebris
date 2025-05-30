@@ -29,6 +29,8 @@ public class ControlDiaNocheR : MonoBehaviour
     [Header("Audio Theme Manager")]
     public AudioThemeManager audioThemeManager;
 
+    private GameObject jugadorParaTP; // Guarda el jugador para teletransportar después
+
     private void Start()
     {
         LimpiarRenderTexture();
@@ -53,9 +55,8 @@ public class ControlDiaNocheR : MonoBehaviour
         {
             if (Puede_Dormir == 1)
             {
-                // Teletransportar al jugador
-                Transform destino = ValorDiayNoche ? posicionNoche : posicionDia;
-                other.transform.position = destino.position;
+                // Guarda el jugador para teletransportar después
+                jugadorParaTP = other.gameObject;
 
                 // Alternar estado día/noche
                 ValorDiayNoche = !ValorDiayNoche;
@@ -107,6 +108,14 @@ public class ControlDiaNocheR : MonoBehaviour
         reproductorVideo.gameObject.SetActive(false);
 
         LimpiarRenderTexture();
+
+        // Teletransportar al jugador después del video
+        if (jugadorParaTP != null)
+        {
+            Transform destino = ValorDiayNoche ? posicionNoche : posicionDia;
+            jugadorParaTP.transform.position = destino.position;
+            jugadorParaTP = null;
+        }
 
         TextManager.Instance.MostrarDialogoPausado("Presiona F o el Boton A  para prender la linterna", 1f, 2f);
     }
