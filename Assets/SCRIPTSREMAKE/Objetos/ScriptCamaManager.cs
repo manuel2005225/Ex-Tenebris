@@ -108,7 +108,7 @@ public class ControlDiaNocheR : MonoBehaviour
 
         LimpiarRenderTexture();
 
-        TextManager.Instance.MostrarDialogoPausado("Presiona F o el Boton Apara prender la linterna", 1f, 2f);
+        TextManager.Instance.MostrarDialogoPausado("Presiona F o el Boton A para prender la linterna", 1f, 2f);
     }
 
     private void LimpiarRenderTexture()
