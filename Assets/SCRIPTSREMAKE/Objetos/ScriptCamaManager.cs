@@ -29,7 +29,7 @@ public class ControlDiaNocheR : MonoBehaviour
     [Header("Audio Theme Manager")]
     public AudioThemeManager audioThemeManager;
 
-    private GameObject jugadorParaTP; // Guarda el jugador para teletransportar después
+    public GameObject jugadorParaTP; // Guarda el jugador para teletransportar después
 
     private void Start()
     {
@@ -74,6 +74,13 @@ public class ControlDiaNocheR : MonoBehaviour
 
                 pantallaFade.FadeIn(() =>
                 {
+                    // Teletransportar SIEMPRE a posicionNoche
+                    if (jugadorParaTP != null && posicionNoche != null)
+                    {
+                        jugadorParaTP.transform.position = posicionNoche.position;
+                        jugadorParaTP = null;
+                    }
+
                     Debug.Log("Cambiando a " + (ValorDiayNoche ? "día" : "noche"));
                     LuzGlobal.intensity = ValorDiayNoche ? 1f : 0f;
 

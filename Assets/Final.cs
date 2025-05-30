@@ -3,7 +3,7 @@ using UnityEngine;
 public class TriggerVictoria : MonoBehaviour
 {
     public PantallaFade pantallaFade;
-
+    public GameObject enemigo;
     private bool yaActivado = false;
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -13,7 +13,7 @@ public class TriggerVictoria : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             yaActivado = true;
-
+            Destroy(enemigo);
             // Congela al jugador
             var jugador = other.GetComponent<PlayerMovement>();
             jugador?.BloquearMovimiento(true);
@@ -24,6 +24,7 @@ public class TriggerVictoria : MonoBehaviour
             // Hacer el fade después de un pequeño retraso si quieres (opcional)
             pantallaFade.duracion = 2f;
             pantallaFade.FadeIn(() => { });
+            
         }
     }
 }
