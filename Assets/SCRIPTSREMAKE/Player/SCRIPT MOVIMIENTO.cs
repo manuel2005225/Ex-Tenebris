@@ -75,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
         float y = dir.y;
 
         // Umbral para detectar movimiento
-        float threshold = 0.3f;
+        float threshold = 0.1f;
 
         // Condiciones para las direcciones
         bool up = y > threshold;
